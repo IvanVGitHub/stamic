@@ -1,0 +1,369 @@
+
+@import "elements/fonts";
+@import "elements/ui";
+@import "elements/index";
+
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+html {
+    max-width: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    //overflow-x: hidden;
+    //overflow-y: overlay;
+    //scrollbar-gutter: stable;
+}
+body{
+    position: relative;
+    @include scrollable(5px);
+    @extend .text-responsive-16;
+    font-family: $defaultFont;
+    //font-family: $defaultFont2;
+    max-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    //overflow-x: hidden;
+}
+.main{
+    color: $defaultTextColor;
+    background-color: $bg;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+}
+
+.content-light{
+    background-color:white;
+    color: $lightText;
+}
+
+.bg-default{
+    color:white !important;
+    background: $bg !important;
+}
+
+.opacity-05{
+    opacity: 0.05 !important;
+}
+.opacity-10{
+    opacity: 0.1 !important;
+}
+.opacity-20{
+    opacity: 0.2 !important;
+}
+.opacity-50{
+    opacity: 0.5 !important;
+}
+.opacity-75{
+    opacity: 0.75 !important;
+}
+.opacity-100{
+    opacity: 1 !important;
+}
+
+
+@for $i from 0 through 40{
+    .p-px-#{$i*5}{
+        padding: $i * 5px !important;
+    }
+    .pl-px-#{$i*5}{
+        padding-left: $i * 5px !important;
+    }
+    .pr-px-#{$i*5}{
+        padding-right: $i * 5px !important;
+    }
+    .pb-px-#{$i*5}{
+        padding-bottom: $i * 5px !important;
+    }
+    .pt-px-#{$i*5}{
+        padding-top: $i * 5px !important;
+    }
+    .px-px-#{$i*5}{
+        padding-left: $i * 5px !important;
+        padding-right: $i * 5px !important;
+    }
+    .py-px-#{$i*5}{
+        padding-top: $i * 5px !important;
+        padding-bottom: $i * 5px !important;
+    }
+
+    .m-px-#{$i*5}{
+        margin: $i * 5px !important;
+    }
+    .ml-px-#{$i*5}{
+        margin-left: $i * 5px !important;
+    }
+    .mr-px-#{$i*5}{
+        margin-right: $i * 5px !important;
+    }
+    .mb-px-#{$i*5}{
+        margin-bottom: $i * 5px !important;
+    }
+    .mt-px-#{$i*5}{
+        margin-top: $i * 5px !important;
+    }
+    .mx-px-#{$i*5}{
+        margin-left: $i * 5px !important;
+        margin-right: $i * 5px !important;
+    }
+    .my-px-#{$i*5}{
+        margin-top: $i * 5px;
+        margin-bottom: $i * 5px !important;
+    }
+
+    .p-px-md-#{$i*5}{
+        @include md {
+            padding: $i * 5px !important;
+        }
+    }
+    .pl-px-md-#{$i*5}{
+        @include md {
+            padding-left: $i * 5px !important;
+        }
+    }
+    .pr-px-md-#{$i*5}{
+        @include md {
+            padding-right: $i * 5px !important;
+        }
+    }
+    .pb-px-md-#{$i*5}{
+        @include md {
+            padding-bottom: $i * 5px !important;
+        }
+    }
+    .pt-px-md-#{$i*5}{
+        @include md {
+            padding-top: $i * 5px !important;
+        }
+    }
+    .px-px-md-#{$i*5}{
+        @include md {
+            padding-left: $i * 5px !important;
+            padding-right: $i * 5px !important;
+        }
+    }
+    .py-px-md-#{$i*5}{
+        @include md {
+            padding-top: $i * 5px !important;
+            padding-bottom: $i * 5px !important;
+        }
+    }
+
+    .m-px-md-#{$i*5}{
+        @include md {
+            margin: $i * 5px !important;
+        }
+    }
+    .ml-px-md-#{$i*5}{
+        @include md {
+            margin-left: $i * 5px !important;
+        }
+    }
+    .mr-px-md-#{$i*5}{
+        @include md {
+            margin-right: $i * 5px !important;
+        }
+    }
+    .mb-px-md-#{$i*5}{
+        @include md {
+            margin-bottom: $i * 5px !important;
+        }
+    }
+    .mt-px-md-#{$i*5}{
+        @include md {
+            margin-top: $i * 5px !important;
+        }
+    }
+    .mx-px-md-#{$i*5}{
+        @include md {
+            margin-left: $i * 5px !important;
+            margin-right: $i * 5px !important;
+        }
+    }
+    .my-px-md-#{$i*5}{
+        @include md {
+            margin-top: $i * 5px !important;
+            margin-bottom: $i * 5px !important;
+        }
+    }
+}
+.w-md-auto{
+    @include md {
+        width: auto !important;
+    }
+}
+.w-md-100{
+    @include md {
+        width: 100% !important;
+    }
+}
+
+@for $i from 5 through 72{
+    .text-size-#{$i}{
+        font-size: $i * 1px !important;
+    }
+    @include xs {
+        .text-size-xs-#{$i} {
+            font-size: $i * 1px !important;
+        }
+    }
+    @include sm {
+        .text-size-sm-#{$i} {
+            font-size: $i * 1px !important;
+        }
+    }
+    @include md {
+        .text-size-md-#{$i} {
+            font-size: $i * 1px !important;
+        }
+    }
+    @include lg {
+        .text-size-lg-#{$i} {
+            font-size: $i * 1px !important;
+        }
+    }
+    @include xl {
+        .text-size-xl-#{$i} {
+            font-size: $i * 1px !important;
+        }
+    }
+    @include xxl {
+        .text-size-xxl-#{$i} {
+            font-size: $i * 1px !important;
+        }
+    }
+}
+.no-scrollbar{
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+.font-bold{
+    font-weight: bold;
+}
+.font-normal{
+    font-weight: normal;
+}
+.font-medium{
+    font-weight: 500;
+}
+
+.text-underline-dotted{
+    text-decoration: underline dotted;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.cursor-default{
+    cursor: default;
+}
+
+.text-big-bullet{
+    border: rgb(180, 180, 180) solid 4px;
+    border-radius: 999px;
+    width:80px;
+    height: 8px;
+    display: block;
+}
+.text-big-bullet-white{
+    @extend .text-big-bullet;
+    border-color: white;
+}
+.text-responsive-16{
+    font-size: 16px;
+    @include l-md{
+        font-size: 14px !important;
+    }
+}
+.text-responsive-18{
+    font-size: 18px;
+    @include l-md{
+        font-size: 16px !important;
+    }
+}
+.text-responsive-22{
+    font-size: 22px;
+    @include l-md{
+        font-size: 18px !important;
+    }
+}
+.text-responsive-28{
+    font-size: 28px;
+    @include l-md{
+        font-size: 20px !important;
+    }
+}
+.text-responsive-32{
+    font-size: 32px;
+    @include l-lg{
+        font-size: 26px !important;
+    }
+    @include l-md{
+        font-size: 22px !important;
+    }
+}
+.text-responsive-36{
+    font-size: 36px;
+    @include l-lg{
+        font-size: 28px !important;
+    }
+    @include l-md{
+        font-size: 24px !important;
+    }
+}
+.text-responsive-42{
+    font-size: 42px;
+    @include l-lg{
+        font-size: 34px !important;
+    }
+    @include l-md{
+        font-size: 26px !important;
+    }
+}
+.text-responsive-48{
+    font-size: 48px;
+    @include l-lg{
+        font-size: 40px !important;
+    }
+    @include l-md{
+        font-size: 30px !important;
+    }
+}
+
+
+.anim-enter-opacity{
+    @include animated-enter($directionX:'none',$directionY:'none',$intensityX:0,$intensityY:0);
+}
+@for $i from 1 through 10{
+    .anim-enter-start-#{$i}{
+        @include animated-enter($directionX:'left',$directionY:'none',$intensityX:$i,$intensityY:0);
+    }
+    .anim-enter-end-#{$i}{
+        @include animated-enter($directionX:'right',$directionY:'none',$intensityX:$i,$intensityY:0);
+    }
+    .anim-enter-top-#{$i}{
+        @include animated-enter($directionX:'none',$directionY:'top',$intensityY:$i,$intensityX:0);
+    }
+    .anim-enter-bottom-#{$i}{
+        @include animated-enter($directionX:'none',$directionY:'bottom',$intensityY:$i,$intensityX:0);
+    }
+    @for $j from 1 through 10{
+        .anim-enter-start-#{$i}-bottom-#{$j}{
+            @include animated-enter($directionX:'left',$directionY:'bottom',$intensityX:$i,$intensityY:$j);
+        }
+        .anim-enter-end-#{$i}-bottom-#{$j}{
+            @include animated-enter($directionX:'right',$directionY:'bottom',$intensityX:$i,$intensityY:$j);
+        }
+        .anim-enter-start-#{$i}-top-#{$j}{
+            @include animated-enter($directionX:'left',$directionY:'top',$intensityX:$i,$intensityY:$j);
+        }
+        .anim-enter-end-#{$i}-top-#{$j}{
+            @include animated-enter($directionX:'right',$directionY:'top',$intensityX:$i,$intensityY:$j);
+        }
+    }
+}
+

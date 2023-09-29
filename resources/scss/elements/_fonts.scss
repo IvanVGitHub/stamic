@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    src: local("Bebas Neue Pro"),
+    url("/webfonts/BebasNeuePro-Middle.woff") format("woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    font-style: italic;
+    src: local("Bebas Neue Pro"),
+    url("/webfonts/BebasNeuePro-MiddleItalic.woff") format("woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    src: local("Bebas Neue Pro"),
+    url("/webfonts/BebasNeuePro-Regular.woff") format("woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    font-style: italic;
+    src: local("Bebas Neue Pro"),
+    url("/webfonts/BebasNeuePro-Italic.woff") format("woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    src: local("Bebas Neue Pro"),
+    url("/webfonts/BebasNeuePro-Bold.woff") format("woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    font-style: italic;
+    src: local("Bebas Neue Pro"),
+    url("/webfonts/BebasNeuePro-BoldItalic.woff") format("woff");
+    font-weight: 700;
+}
+
+.font-bebas{
+    font-family: "Bebas Neue", "Jost", sans-serif !important;
+}
+.font-roboto{
+    font-family: "Roboto", "Jost", "Arial", sans-serif !important;
+}
+
+.font-light{ font-weight: 300 !important; }
+.font-regular{ font-weight: 400 !important; }
+.font-medium{ font-weight: 500 !important; }
+.font-bold{ font-weight: 700 !important; }

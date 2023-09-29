@@ -1,0 +1,41 @@
+$contentWidth: 1380px;
+$defaultFont: "Roboto","Manrope", "Arial" , "Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",sans-serif;
+$defaultLogoFont: "Bebas Neue", sans-serif;
+
+$defaultFontSize: 16px;
+$defaultUIFont: "Roboto", "Arial", "Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",sans-serif;
+$defaultUIFont2: "Bebas Neue",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+$defaultUIFontSize: 14px;
+$defaultTransition: all 0.15s ease-in;
+$longTransition: all 0.35s ease-in-out;
+$veryLongTransition: all 0.8s ease-in-out;
+
+
+$defaultTextColor: #222222;
+$bg:white;
+
+
+$lightText:#232A34;
+$admText:#232A34;
+
+$headerBg:#163e8a;
+$headerTextColor:white;
+$sideMenuBg: rgba($bg,0.8);
+$sideMenuTextColor:$defaultTextColor;
+
+$sideMenuLinkColor:$defaultTextColor;
+$sideMenuLinkHoverColor:$defaultTextColor;
+$sideMenuLinkActiveColor:$defaultTextColor;
+
+$ui-color:#2A2D32;
+$ui-hover-color: #464b54;
+$ui-active-color: #59616e;
+
+$ui-red-color: #c91919;
+$ui-red-hover-color: #931010;
+$ui-red-active-color: #690c0c;
+
+
+$headerHeightPC: 60px;
+$headerHeightMobile: 40px;
