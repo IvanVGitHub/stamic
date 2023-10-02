@@ -275,7 +275,7 @@
             text-decoration: underline;
         }
         .services-card-image{
-            background-color:white;
+            background-color:$bg;
             &.design{
                 background-image: url("/img/index/icons/designB.png");
             }

@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('header-title')
+    Наши формы
 @endsection
 
 @section('content')

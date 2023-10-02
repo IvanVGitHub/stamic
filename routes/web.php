@@ -15,7 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('main');
+Route::get('/uslugi', function () {
+    return view('components.pages.landings.uslugi');
+})->name('uslugi');
+Route::get('/tehnologii', function () {
+    return view('components.pages.landings.tehnologii');
+})->name('tehnologii');
+Route::get('/proekty', function () {
+    return view('components.pages.landings.proekty');
+})->name('proekty');
+Route::get('/kontakty', function () {
+    return view('components.pages.landings.kontakty');
+})->name('kontakty');
 
 Route::middleware([
     'auth:sanctum',
