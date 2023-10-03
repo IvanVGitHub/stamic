@@ -361,14 +361,37 @@ body{
 }
 
 .section-title{
-    @extend .font-bebas;
-    @extend .text-responsive-48;
-    text-transform: uppercase;
+    font: 300 30px "Roboto";
+    color: #CCC9C4;
     text-align: center;
     margin-bottom: 40px;
     line-height: 120%;
     @include l-lg{
         margin-bottom: 20px;
-        font-weight: bold;
     }
+}
+
+.header-navigation{
+    &:hover{
+        color: #FFFFFF;
+    }
+    color: #CCC9C4;
+    font: 300 16px "Roboto";
+    text-decoration: none;
+}
+
+.header-navigation-phone{
+    text-decoration: none;
+    font: 300 20px "Rubik";
+    color: #CCCCCC;
+}
+
+.header-logo-text{
+    font: 300 18px "Roboto";
+    color: #CCC9C4;
+}
+
+.header-logo-img{
+    font: 300 18px "Roboto";
+    color: #CCC9C4;
 }

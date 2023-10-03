@@ -7,18 +7,15 @@
             }
         }
         .dropdown-item{
-            color: #e0e0e0;
             transition: $defaultTransition;
             font-size: 14px;
         }
         .dropdown-item:hover{
             background: rgba(white, 0.3);
-            color: white;
+            color: #FFFFFF;
         }
         .dropdown-menu{
             background-color: rgba($bg, 0.85);
-            //backdrop-filter: blur(5px);
-            color: white;
             min-width: 100%;
             left:50%;
             transform: translateY(2px) translateX(-50%);
