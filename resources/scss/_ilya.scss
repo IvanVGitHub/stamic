@@ -1,22 +1,78 @@
 .foot-txt{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    line-height: 110%;
+    font-weight: 300;
     color: #CCC9C4;
+}
+.footer-block{
+    padding: 0 20px;
+    //margin: 0 20px;
+    position: relative;
+    &.with-line{
+        &:after{
+            display: block;
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 2px;
+            height: 50%;
+            background-color: #F5AF5F;
+        }
+    }
 }
 
 .foot-title{
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     color: #CCC9C4;
 }
 
 .foot-hr-line{
-    margin: 32px 0;
+    margin-top: 32px;
+    margin-bottom: 13px;
     padding: 0;
     height: 0;
     max-width: 62px;
     border: none;
     border-bottom: 4px solid #575754;
 }
+
+.footer-logo{
+    width: 178px;
+    height: 34px;
+}
+
+.footer-linko{
+    font-family: "Helvetica Light", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #CCC9C4;
+    display: flex;
+    text-decoration: none;
+    margin: 1px 0 11px 0;
+    &:hover{
+        text-decoration: none;
+    }
+
+}
+
+.hr-weight{
+    //border-top: 2px solid #F5AF5F;
+    position: absolute;
+    height: 144px;
+    width: 2px;
+    background-color: #F5AF5F;
+}
+
+.text-orange{
+    color: #F5AF5F !important;
+}
+
+.text-small{
+    font-size: 14px;
+    font-weight: 300;
+}
+

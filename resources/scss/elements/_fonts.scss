@@ -41,6 +41,20 @@
     url("/webfonts/BebasNeuePro-BoldItalic.woff") format("woff");
     font-weight: 700;
 }
+@font-face {
+    font-family: "Helvetica Light";
+    font-style: normal;
+    src:
+        url("/webfonts/helvetica-light.woff") format("woff"),
+        url("/webfonts/helvetica_light.otf") format("opentype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Helvetica";
+    font-style: normal;
+    src: url("/webfonts/helvetica.woff") format("woff");
+    font-weight: 400;
+}
 
 .font-bebas{
     font-family: "Bebas Neue", "Jost", sans-serif !important;
