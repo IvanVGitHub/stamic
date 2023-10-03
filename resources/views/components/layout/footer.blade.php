@@ -10,6 +10,12 @@
         <a href="" class="footer-link">Прототипы</a>
 {{--        <a href="{{route('service.contacts')}}" class="footer-link">Контакты</a>--}}
     </div>
+    <div class="col-md-5">
+        <div>qwd</div>
+        <div>qwd</div>
+        <div>qwd</div>
+        <div>qwd</div>
+    </div>
     <div class="text-center text-muted px-3">
         Лучшая реклама любой работы - её качество.
     </div>
