@@ -10,6 +10,11 @@
                     Компания <b>Стамик</b> - это разработка и производство пресс-форм,
                     прототипов, мастер моделей. Для литья и вакуумной формовки.
                 </div>
+                <div>
+                    <a href="">
+                        <img src="{{asset('img/telegram.png')}}" class="messenger messenger-hr-weight">
+                    </a>
+                </div>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-2">
                 <div class="footer-block">
@@ -71,6 +76,7 @@
                         <a href="" class="footer-linko">Контакты</a>
                     </div>
                 </div>
+                <img src="{{asset('img/tipo-logo.png')}}" class="d-flex justify-content-end">
 
             </div>
         </div>
