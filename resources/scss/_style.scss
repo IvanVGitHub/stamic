@@ -480,30 +480,40 @@ body{
 .index-block2{
     display: flex;
     width: 100%;
-    padding-left: 50px;
+    padding-left: 125px;
+    .index-block-title{
+        line-height: 0.8em;
+    }
 }
 
 .index-block2-list{
     display: inline-flex;
     background-color: #424242;
-    padding: 59px 185px 59px 43px;
+    padding: 56px 180px 40px 8px;
     box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.2);
-    min-width: 410px;
+    min-width: 387px;
     ul{
         font: 300 18px "Roboto";
         color: #E8E6E6;
         li{
             list-style-type: none;
         }
+        line-height: 1.34em;
     }
 }
+
 .index-block2-content{
-    transform: translateX(-100px);
+    transform: translateX(-190px);
 }
+
 .index-block2-text{
+    @extend .index-block-text;
     display: block;
     background-color: #FFFFFF;
     color: #000000;
+    padding: 20px 100px 40px 50px;
+    margin-top: 52px;
+    min-width: 915px;
 }
 
 .tab{
