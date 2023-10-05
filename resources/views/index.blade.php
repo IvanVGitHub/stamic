@@ -5,7 +5,7 @@
 
 @section('content')
     <x-index.section id="start" header="">
-        <div class="text-center " id="">
+        <div class="text-center">
             <div class="index-block1-title pb-3">
                 Формы для литья
             </div>
@@ -131,6 +131,19 @@
                     <div class="index-img-right" id="index-img-right">
                         <img src="{{asset('img/form3.webp')}}" alt="">
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="index-block4 my-px-150">
+            <div class="index-block-title">
+                О нас
+            </div>
+            <div class="index-block4-text">
+                С 2009 года и по сей день, мы занимаемся 3д моделированием и изготовлением форм. Более 500 форм для мыла и шоколада.
+                <br>
+                Более 100 форм для литья. Десятки форм для блистеров и корексов, прототипов и матриц.
+                <div class="index-block4-subtext d-flex justify-content-end align-items-end pt-px-40 pr-px-25">
+                    Мы делаем формы. Пресс-формы.
                 </div>
             </div>
         </div>
