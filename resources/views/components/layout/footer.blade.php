@@ -5,7 +5,7 @@
     <div class="container-xl">
         <div class="row g-4 d-flex">
             <div class="col-md-6 col-lg-4 col-xl-2">
-                <img src="{{asset('img/logo.webp')}}" class="d-flex footer-logo mb-3 justify-content-center">
+                <img src="{{asset('img/logo-light.webp')}}" class="d-flex footer-logo mb-3 justify-content-center">
                 <div class="foot-txt pl-px-10 mb-2">
                     Компания <b>Стамик</b> - это разработка и производство пресс-форм,
                     прототипов, мастер моделей. Для литья и вакуумной формовки.
