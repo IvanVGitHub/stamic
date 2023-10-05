@@ -6,10 +6,10 @@
 @section('content')
     <x-index.section id="start" header="">
         <div class="text-center">
-            <div class="index-block1-title pb-3">
+            <div class="index-block-title pb-3">
                 Формы для литья
             </div>
-            <div class="index-block1-subtitle">
+            <div class="index-block-subtitle">
                 Лучшая реклама любой работы - её качество!
             </div>
         </div>
@@ -118,11 +118,6 @@
                 </div>
                 <div class="index-block3-group-img">
                     <div class="index-img-left" id="index-img-left">
-{{--                        <svg preserveAspectRatio="xMidYMid meet" data-bbox="15.305 10.052 123 123" xmlns="http://www.w3.org/2000/svg" viewBox="15.305 10.052 123 123" role="presentation" aria-hidden="true">--}}
-{{--                            <g>--}}
-{{--                                <path d="M138.305 10.052v123h-123v-123h123z"></path>--}}
-{{--                            </g>--}}
-{{--                        </svg>--}}
                         <img src="{{asset('img/form1.webp')}}" alt="">
                     </div>
                     <div class="index-img-center" id="index-img-center">
