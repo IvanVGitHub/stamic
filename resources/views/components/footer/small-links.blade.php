@@ -1,4 +1,4 @@
-<div class="mt-md-5 mt-2 align-items-center d-flex" style="padding-left: 13px;">
+<div class="mt-md-5 mt-2 align-items-center d-flex" >
     <a href="">
         <img src="{{asset('img/telegram.png')}}" class="messenger" style="margin-right: 10px">
     </a>
