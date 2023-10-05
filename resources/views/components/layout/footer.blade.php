@@ -4,17 +4,20 @@
 {{--    </a>--}}
     <div class="container-xl">
         <div class="row g-4 d-flex">
-            <div class="col-md-6 col-lg-4 col-xl-2">
-                <img src="{{asset('img/logo.webp')}}" class="d-flex footer-logo mb-3 justify-content-center">
-                <div class="foot-txt pl-px-10 mb-2">
+            <div class="col-md-6 col-lg-4 col-xl-2 ">
+                <div class="w-100 d-flex justify-content-center justify-content-md-start">
+                    <img src="{{asset('img/logo-light.png')}}" class="footer-logo mb-3">
+                </div>
+
+                <div class="foot-txt pl-px-10 mb-2 text-center text-md-start">
                     Компания <b>Стамик</b> - это разработка и производство пресс-форм,
                     прототипов, мастер моделей. Для литья и вакуумной формовки.
                 </div>
-                <div>
-                    <a href="">
-                        <img src="{{asset('img/telegram.png')}}" class="messenger messenger-hr-weight">
-                    </a>
+
+                <div class="d-none d-md-block" >
+                    <x-footer.small-links />
                 </div>
+
             </div>
             <div class="col-md-6 col-lg-4 col-xl-2">
                 <div class="footer-block">
@@ -61,6 +64,10 @@
                         <a href="" class="footer-linko"><span class="text-orange">+7 952 018 33 46</span></a>
                         <div href="" class="footer-linko"><span class="text-small">с 9.00-18.00 Пн-Пт</span></div>
                         <a href="" class="footer-linko"><span class="text-orange">info@stamic.ru</span></a>
+                    </div>
+
+                    <div class="d-block d-md-none" >
+                        <x-footer.small-links />
                     </div>
                 </div>
             </div>

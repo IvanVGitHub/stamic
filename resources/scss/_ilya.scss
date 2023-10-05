@@ -9,18 +9,21 @@
     padding: 0 20px;
     //margin: 0 20px;
     position: relative;
-    &.with-line{
-        &:after{
-            display: block;
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 2px;
-            height: 50%;
-            background-color: #F5AF5F;
+    @include md{
+        &.with-line{
+            &:after{
+                display: block;
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 2px;
+                height: 50%;
+                background-color: #F5AF5F;
+            }
         }
     }
+
 }
 
 .foot-title{
@@ -42,7 +45,7 @@
 
 .footer-logo{
     width: 178px;
-    height: 34px;
+    height: 26px;
 }
 
 .footer-linko{
@@ -77,8 +80,8 @@
 }
 
 .messenger{
-    max-width: 26px;
-    max-height: 26px;
+    max-width: 19px;
+    max-height: 19px;
 }
 
 .messenger-hr-weight{
@@ -87,4 +90,33 @@
     width: 2px;
     background-color: #F5AF5F;
 }
+
+
+.messenger-hr-weight{
+    padding: 0 1px;
+    //margin: 0 20px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    &.with-line{
+        &:after{
+            display: block;
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 1px;
+            height: 50%;
+            background-color: #F5AF5F;
+        }
+    }
+}
+
+
+.stamik-tg-inst-text{
+    font-family: "Rubik-Regular", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #A0A09F;
+}
+
 
