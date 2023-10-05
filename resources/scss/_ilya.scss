@@ -26,27 +26,60 @@
 
 }
 
-.foot-title{
-    font-family: "Roboto", sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    color: #CCC9C4;
+.footer-logo{
+    width: 178px;
+    height: 26px;
+}
+
+.basement-stam{
+    margin-top: 0;
+    margin-bottom: 13px;
+    padding: 0;
+    height: 1px;
+    width: 100%;
+    border: none;
+    background-color: #575754;
 }
 
 .foot-hr-line{
     margin-top: 32px;
     margin-bottom: 13px;
     padding: 0;
-    height: 0;
-    max-width: 62px;
+    height: 4px;
+    width: 62px;
     border: none;
-    border-bottom: 4px solid #575754;
+    background-color: #575754;
+    @include l-md{
+        &.foot-hr-right-low{
+            justify-content: end;
+            margin-top: 5px;
+        }
+        &.foot-hr-low{
+            margin-top: 5px;
+        }
+        &.foot-hr-center{
+            justify-content: center;
+            margin-top: 5px;
+        }
+    }
+
 }
 
-.footer-logo{
-    width: 178px;
-    height: 26px;
+
+.foot-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #CCC9C4;
+    @include l-md{
+        &.foot-align-right{
+            text-align: end;
+            justify-content: flex-end;
+        }
+    }
+
 }
+
 
 .footer-linko{
     font-family: "Helvetica Light", sans-serif;
@@ -56,6 +89,12 @@
     display: flex;
     text-decoration: none;
     margin: 1px 0 11px 0;
+    @include l-md{
+        &.small-align-right{
+            text-align: end;
+            justify-content: flex-end;
+        }
+    }
     &:hover{
         text-decoration: none;
     }
@@ -122,3 +161,22 @@
 .wrapper-footer{
     @include wrapper($width: 1200px);
 }
+
+.basement-stam-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    line-height: 110%;
+    font-weight: 300;
+    color: #CCC9C4;
+    &.basement-stam-text-big{
+        font-size: 15px;
+    }
+}
+
+//.basement-stam-text-big{
+//    font-family: "Roboto", sans-serif;
+//    font-size: 15px;
+//    line-height: 110%;
+//    font-weight: 300;
+//    color: #CCC9C4;
+//}
