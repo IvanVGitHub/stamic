@@ -67,13 +67,16 @@
                 </div>
             </div>
         </div>
-        <div class="pl-px-115">
+        <div class="pl-px-115 my-5">
             <div class="index-block-title">
                 Примеры проектов
             </div>
             <div class="index-block3">
                 <div class="index-block3-list">
-                    <div class="index-block3-list-item">
+                    <div class="index-block3-list-item"
+                         onmouseenter="$('#index-img-left').addClass('index-block3-z-4')"
+                         onmouseleave="$('#index-img-left').removeClass('index-block3-z-4')"
+                    >
                         3Д
                         <div class="svg-arrow">
                             <svg preserveAspectRatio="none" data-bbox="19.5 47.5 161 105.001" viewBox="19.5 47.5 161 105.001" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true">
@@ -83,7 +86,10 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="index-block3-list-item">
+                    <div class="index-block3-list-item"
+                         onmouseenter="$('#index-img-center').addClass('index-block3-z-4')"
+                         onmouseleave="$('#index-img-center').removeClass('index-block3-z-4')"
+                    >
                         МДФ
                         <div class="svg-arrow">
                             <svg preserveAspectRatio="none" data-bbox="19.5 47.5 161 105.001" viewBox="19.5 47.5 161 105.001" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true">
@@ -93,7 +99,10 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="index-block3-list-item">
+                    <div class="index-block3-list-item"
+                         onmouseenter="$('#index-img-right').addClass('index-block3-z-4')"
+                         onmouseleave="$('#index-img-right').removeClass('index-block3-z-4')"
+                    >
                         Д16Т
                         <div class="svg-arrow">
                             <svg preserveAspectRatio="none" data-bbox="19.5 47.5 161 105.001" viewBox="19.5 47.5 161 105.001" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true">
@@ -108,13 +117,18 @@
                     </div>
                 </div>
                 <div class="index-block3-group-img">
-                    <div class="index-img-left">
+                    <div class="index-img-left" id="index-img-left">
+{{--                        <svg preserveAspectRatio="xMidYMid meet" data-bbox="15.305 10.052 123 123" xmlns="http://www.w3.org/2000/svg" viewBox="15.305 10.052 123 123" role="presentation" aria-hidden="true">--}}
+{{--                            <g>--}}
+{{--                                <path d="M138.305 10.052v123h-123v-123h123z"></path>--}}
+{{--                            </g>--}}
+{{--                        </svg>--}}
                         <img src="{{asset('img/form1.webp')}}" alt="">
                     </div>
-                    <div class="index-img-center">
+                    <div class="index-img-center" id="index-img-center">
                         <img src="{{asset('img/form2.webp')}}" alt="">
                     </div>
-                    <div class="index-img-right">
+                    <div class="index-img-right" id="index-img-right">
                         <img src="{{asset('img/form3.webp')}}" alt="">
                     </div>
                 </div>
