@@ -28,12 +28,12 @@
                 </div>
 
                 <div class="d-flex justify-content-center">
-                    <img src="{{asset('img/1-teh.png')}}" class="img1-teh">
+                    <img src="{{asset('img/1-teh.png')}}" class="img1-teh" style="width: 1053px; height: 425px;">
                 </div>
 
-                <div class="d-flex" >
+                <div class="row d-flex" >
 
-                    <div class="teh-text-oliva" style="margin-top: 20px; ">
+                    <div class="teh-text-oliva col-6" style="margin-top: 20px; ">
                         Мы различаем два вида моделирования.<br>
                         <b>3Д скульптор и 3Д проектирование.</b><br>
                         <b>Скульптурное</b> моделирование подходит для моделирования<br>
@@ -43,16 +43,21 @@
                         упаковки.
                     </div>
 
-
-                        <img src="{{asset('img/2(1)-teh.png')}}" class="">
-
-
-
-                        <img src="{{asset('img/2(2)-teh.png')}}" class="">
+                        <div class="col-6 d-flex">
+                            <div class="d-flex ">
+                                <img src="{{asset('img/2(1)-teh.png')}}" class="img1-teh" style="width: 155px; height: 207px;">
+                            </div>
 
 
+                            <div class="d-flex">
+                            <img src="{{asset('img/2(2)-teh.png')}}" class="img1-teh" style="width: 155px; height: 207px;">
+                            </div>
 
-                        <img src="{{asset('img/2(3)-teh.png')}}" class="">
+                            <div class="d-flex">
+                            <img src="{{asset('img/2(3)-teh.png')}}" class="img1-teh" style="width: 155px; height: 207px;">
+                            </div>
+                        </div>
+
 
                 </div>
 
