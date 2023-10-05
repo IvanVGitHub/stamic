@@ -423,18 +423,6 @@ body{
     border-top: 1px solid silver;
 }
 
-.index-block1-title{
-    color: #FFFFFF;
-    font: 400 54px "Roboto";
-
-}
-
-.index-block1-subtitle{
-    color: #A9A9A9;
-    font: 400 19px "Roboto";
-    letter-spacing: 0.3em;
-}
-
 .index-block-title{
     font: 700 36px "Montserrat";
     color: #F5AF5F;
@@ -445,16 +433,25 @@ body{
     grid-template-columns: 1fr 1fr;
     background-color: #FFFFFF;
     max-width: 1121px;
+    .index-block1-img{
+        filter: grayscale(100%) brightness(130%);
+    }
+    .index-block1-title{
+        color: #FFFFFF;
+        font: 400 54px "Roboto";
+
+    }
+    .index-block1-subtitle{
+        color: #A9A9A9;
+        font: 400 19px "Roboto";
+        letter-spacing: 0.3em;
+    }
 }
 
 .index-block-text{
     font: 300 21px "Roboto";
     padding: 19px 100px 39px 51px;
     line-height: 1.4em;
-}
-
-.index-block1-img{
-    filter: grayscale(100%) brightness(130%);
 }
 
 .wrapper{
@@ -470,7 +467,7 @@ body{
     color: #FFFFFF;
     width: 135px;
     height: 42px;
-    border: 1px solid;
+    border: 0;
     transition-duration: 0.5s;
     &:hover{
         background-color: #323232;
@@ -484,38 +481,107 @@ body{
     .index-block-title{
         line-height: 0.8em;
     }
-}
-
-.index-block2-list{
-    display: inline-flex;
-    background-color: #424242;
-    padding: 56px 180px 40px 8px;
-    box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.2);
-    min-width: 387px;
-    ul{
-        font: 300 18px "Roboto";
-        color: #E8E6E6;
-        li{
-            list-style-type: none;
+    .index-block2-list{
+        display: inline-flex;
+        background-color: #424242;
+        padding: 56px 180px 40px 8px;
+        box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.2);
+        min-width: 387px;
+        ul{
+            font: 300 18px "Roboto";
+            color: #E8E6E6;
+            li{
+                list-style-type: none;
+            }
+            line-height: 1.34em;
         }
-        line-height: 1.34em;
     }
-}
-
-.index-block2-content{
-    transform: translateX(-190px);
-}
-
-.index-block2-text{
-    @extend .index-block-text;
-    display: block;
-    background-color: #FFFFFF;
-    color: #000000;
-    padding: 20px 100px 40px 50px;
-    margin-top: 52px;
-    min-width: 915px;
+    .index-block2-content{
+        transform: translateX(-190px);
+        .index-block2-text{
+            @extend .index-block-text;
+            display: block;
+            background-color: #FFFFFF;
+            color: #000000;
+            padding: 20px 100px 40px 50px;
+            margin-top: 52px;
+            min-width: 915px;
+        }
+    }
 }
 
 .tab{
     text-indent: 35px;
+}
+
+.index-block3{
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    .index-block3-list{
+        font: 700 35px "Roboto";
+        color: #FFFFFF;
+        min-width: 175px;
+        line-height: 2em;
+        .index-block3-list-item{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            transition: color 0.15s ease-in-out;
+            .svg-arrow{
+                display: flex;
+                justify-content: flex-end;
+                rotate: 90deg;
+                svg{
+                    fill: #F5AF5F;
+                    width: 48px;
+                    height: 40px;
+                    opacity: 0;
+                    transition: opacity 0.15s ease-in-out;
+                }
+            }
+            &:hover{
+                color: #F5AF5F;
+                cursor: pointer;
+                svg{
+                    display: block;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .index-block3-group-img{
+        display: flex;
+        .index-img-left{
+            position: relative;
+            width: 434px;
+            height: 434px;
+            z-index: 1;
+            &:hover{
+                z-index: 4;
+            }
+        }
+        .index-img-center{
+            position: relative;
+            width: 408px;
+            height: 408px;
+            right: 105px;
+            z-index: 2;
+            &:hover{
+                z-index: 4;
+            }
+        }
+        .index-img-right{
+            position: relative;
+            width: 393px;
+            height: 393px;
+            right: 265px;
+            bottom: 2px;
+            z-index: 1;
+            &:hover{
+                z-index: 4;
+            }
+        }
+    }
 }
