@@ -55,6 +55,18 @@
     src: url("/webfonts/helvetica.woff") format("woff");
     font-weight: 400;
 }
+@font-face {
+    font-family: "Rubik-Regular";
+    font-style: normal;
+    src: url("/webfonts/Rubik-Regular.ttf") format("ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "proximanova regular";
+    font-style: normal;
+    src: url("/webfonts/proximanova_regular.ttf") format("ttf");
+    font-weight: 400;
+}
 
 .font-bebas{
     font-family: "Bebas Neue", "Jost", sans-serif !important;
