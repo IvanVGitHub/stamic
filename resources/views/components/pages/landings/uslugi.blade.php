@@ -21,7 +21,7 @@
     <div class="tech-bg-white w-100 pt-8">
         <div class="tech-wrapper-white">
             <div class="title-first-letter pt-px-100">
-                Формы для вакуумной формовки
+                Формы для вакуумной формовки!!!!!!!!!!!!!!!!!!
             </div>
 
             <div class="row">
