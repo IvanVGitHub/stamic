@@ -2,6 +2,16 @@
 @import "elements/ui";
 @import "elements/index";
 
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('/webfonts/ProximaNova-Regular.eot');
+    src: url('/webfonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/webfonts/ProximaNova-Regular.woff') format('woff'),
+    url('/webfonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *,*:before, *:after{
     box-sizing: border-box;
 }
@@ -11,8 +21,6 @@ html{
     width: 100%;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    //overflow-y: overlay;
-    //scrollbar-gutter: stable;
 }
 
 body{
@@ -20,7 +28,6 @@ body{
     @include scrollable(5px);
     @extend .text-responsive-16;
     font-family: $defaultFont;
-    //font-family: $defaultFont2;
     max-width: 100%;
     width: 100%;
     min-height: 100vh;
@@ -419,7 +426,7 @@ body{
 }
 
 .header-hr{
-    margin-top: 60px;
+    margin: 60px 0;
     border-top: 1px solid silver;
 }
 
@@ -668,4 +675,14 @@ body{
         font: 300 20px "Roboto";
         color: #CCCCCC;
     }
+}
+
+.wide-block-description{
+    font-family: 'Proxima Nova Regular', serif;
+    font-size: 18px;
+    color: #414141;
+    line-height: 1.4em;
+    width: 100%;
+    display: block;
+    background-color: #E2E2D7;
 }
