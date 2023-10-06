@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <x-index.section id="start" header="">
+    <div class="container">
         <div class="text-center">
             <div class="index-block-title pb-3">
                 Формы для литья
@@ -142,7 +142,7 @@
                 </div>
             </div>
         </div>
-    </x-index.section>
+    </div>
 @endsection
 
 @section('meta-description')
