@@ -25,7 +25,7 @@
             </div>
 
             <div class="row">
-                <div class="col img-with-stripe">
+                <div class="col img-with-stripe p-0" text="ДЮРАЛЬ Д16Т * PS и PET">
                     <img src="{{asset('img/box.webp')}}" class="" alt="">
                 </div>
 
