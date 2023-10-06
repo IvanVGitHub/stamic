@@ -111,7 +111,7 @@
         <div class="flex-md-row d-md-none" style="padding-top: 60px; ">
             <div class=" ">
                 <div class="w-100 d-flex justify-content-center justify-content-md-start" style="margin-bottom: 22px;">
-                    <img src="{{asset('img/logo-light.png')}}" class="footer-logo">
+                    <img src="{{asset('img/logo-light.webp')}}" class="footer-logo">
                 </div>
                 <div style="margin-bottom: 22px;">
                     <div class="foot-txt mb-2 text-center" >

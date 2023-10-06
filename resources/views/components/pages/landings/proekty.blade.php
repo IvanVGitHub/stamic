@@ -5,11 +5,8 @@
 @endsection
 
 @section('content')
-    <x-index.section id="start" header="">
-        <div class="" id="">
-
-        </div>
-    </x-index.section>
+    <div class="">
+    </div>
 @endsection
 
 @section('meta-description')

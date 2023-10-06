@@ -12,6 +12,27 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('/webfonts/ProximaNova-Bold.eot');
+    src: url('/webfonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/webfonts/ProximaNova-Bold.woff') format('woff'),
+    url('/webfonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Impact Regular';
+    src: url('/webfonts/Impact.eot');
+    src: url('/webfonts/Impact.eot?#iefix') format('embedded-opentype'),
+    url('/webfonts/Impact.woff') format('woff'),
+    url('/webfonts/Impact.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 *,*:before, *:after{
     box-sizing: border-box;
 }
@@ -428,16 +449,16 @@ body{
     border-top: 1px solid silver;
 }
 
-.index-block-title{
+/*.index-block-title{
     font: 700 36px "Montserrat";
     color: #F5AF5F;
-}
+}*/
 
 .index-block-title{
     color: #FFFFFF;
     font: 400 54px "Roboto";
-
 }
+
 .index-block-subtitle{
     color: #A9A9A9;
     font: 400 19px "Roboto";
@@ -687,4 +708,32 @@ body{
 
 .uslugi-wrapper{
     max-width: 1468px;
+}
+
+.img-with-stripe{
+    &:after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        bottom: 100px;
+        left: 0;
+        z-index: 5;
+        background:rgba(#999997, 0.5);
+    }
+}
+
+.list-with-title{
+    font-family: 'Proxima Nova Regular', serif;
+    h3{
+        color: #414141;
+        margin: 0;
+        text-align: center;
+        font-size: 22px;
+    }
+    li{
+        font-family: 'Proxima Nova Bold', serif;
+        font-size: 16px;
+        color: #575754;
+    }
 }
