@@ -1,12 +1,9 @@
 <footer class="footer">
-{{--    <a href="" class="d-flex justify-content-center mb-px-20">--}}
-{{--        <img src="{{asset('img/logo.png')}}" width="50" alt="">--}}
-{{--    </a>--}}
     <div class="wrapper-footer">
         <div class="flex-column flex-md-row flex-wrap justify-content-between d-none d-md-flex" style="padding-top: 80px">
             <div class=" " style="margin-right: 65px;">
                 <div class="w-100 d-flex justify-content-center justify-content-md-start">
-                    <img src="{{asset('img/logo-light.png')}}" class="footer-logo mb-3">
+                    <img src="{{asset('img/logo-light.webp')}}" class="footer-logo mb-3">
                 </div>
                 <div style="max-width: 172px; ">
                     <div class="foot-txt mb-2 text-center text-md-start">
@@ -216,9 +213,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
-
 </footer>
