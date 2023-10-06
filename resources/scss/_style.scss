@@ -711,15 +711,18 @@ body{
 }
 
 .img-with-stripe{
+    position: relative;
     &:after{
-        content: '';
+        content: attr(text);
+        vertical-align: center;
+        text-align: center;
         position: absolute;
         width: 100%;
-        height: 100px;
-        bottom: 100px;
+        height: 70px;
+        bottom: 55px;
         left: 0;
         z-index: 5;
-        background:rgba(#999997, 0.5);
+        background:rgba(white, 0.8);
     }
 }
 
