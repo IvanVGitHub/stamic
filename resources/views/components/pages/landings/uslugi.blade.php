@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-{{--    <x-index.section id="start" header="">--}}
+    <x-index.section id="start" header="">
         <div class="teh-back-oliva w-100 py-4">
             <div class="oliva-teh-wrapper">
                 <div class="wide-block-description">
@@ -21,7 +21,8 @@
                 </div>
             </div>
         </div>
-{{--    </x-index.section>--}}
+        <div></div>
+    </x-index.section>
 @endsection
 
 @section('meta-description')
