@@ -1,6 +1,6 @@
 <div class="header-content">
-    <div class="wrapper">
-        <div class="d-flex justify-content-between p-2">
+    <div class="header-wrapper">
+        <div class="d-flex justify-content-between">
             <div class="d-inline-block">
                 <a href="{{route('main')}}" class="header-logo text-center">
                     <img src="{{asset('img/logo-light.webp')}}"
@@ -46,7 +46,7 @@
                         Контакты
                     </a>
                     <a href="{{route('kontakty')}}" class="header-navigation-phone">
-                        <div class="d-flex flex-column gap-2">
+                        <div class="d-flex flex-column gap-3">
                             <div>
                                 +7 950 912 05 91
                             </div>
