@@ -59,12 +59,12 @@ body{
 }
 
 .content-light{
-    background-color:white;
+    background-color: #FFFFFF;
     color: $lightText;
 }
 
 .bg-default{
-    color:white !important;
+    color: #FFFFFF !important;
     background: $bg !important;
 }
 
@@ -294,7 +294,7 @@ body{
 }
 .text-big-bullet-white{
     @extend .text-big-bullet;
-    border-color: white;
+    border-color: #FFFFFF;
 }
 .text-responsive-16{
     font-size: 16px;
@@ -726,31 +726,88 @@ body{
 
 .img-with-stripe{
     position: relative;
+    img{
+        width: 100%;
+        height: 587px;
+    }
     &:after{
         content: attr(text);
         vertical-align: center;
         text-align: center;
         position: absolute;
         width: 100%;
-        height: 70px;
-        bottom: 55px;
+        height: 65px;
+        bottom: 80px;
         left: 0;
         z-index: 5;
-        background:rgba(white, 0.8);
+        background:rgba(#FFFFFF, 0.8);
     }
 }
 
-.list-with-title{
-    font-family: 'Proxima Nova Regular', serif;
-    h3{
-        color: #414141;
-        margin: 0;
-        text-align: center;
-        font-size: 22px;
+.grid-block-3{
+    .central-block{
+        display:flex;
+        flex-direction:column;
+        width:100%
     }
-    li{
-        font-family: 'Proxima Nova Bold', serif;
+    .list-with-title{
+        height: 100%;
+        font-family: 'Proxima Nova Regular', serif;
+        h3{
+            color: #414141;
+            margin: 0;
+            text-align: center;
+            font-size: 22px;
+        }
+        ul{
+            line-height: 2em;
+        }
+        li{
+            font-family: 'Proxima Nova Bold', serif;
+            font-size: 18px;
+            color: #575754;
+        }
+        .text-under-list{
+            color: #414141;
+            font-size: 18px;
+        }
+    }
+    .bottom-text{
+        width: 100%;
         font-size: 16px;
-        color: #575754;
+        bottom: 0;
+    }
+    .text-under-img{
+        font-family: 'Proxima Nova Regular', serif;
+        font-size: 16px;
+        color: #858581;
+        text-align: center;
+    }
+}
+
+.uslugi-gray-wide-block{
+    .title{
+        font-family: 'Proxima Nova Regular', serif;
+        font-size: 16px;
+        color: #3B3939;
+        text-align: center;
+    }
+    .left-block{
+        background-color: #414141;
+        padding: 30px 25px;
+        min-width: 256px;
+        li{
+            font-family: 'Proxima Nova Regular', serif;
+            font-size: 15px;
+            color: #FFFFFF;
+        }
+    }
+    .right-block{
+        font-family: 'Proxima Nova Regular', serif;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 5px 20px;
+        background-color: #858581;
+        vertical-align: center;
     }
 }

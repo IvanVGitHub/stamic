@@ -12,27 +12,6 @@
             </div>
             <div class="d-inline-block">
                 <div class="d-flex header-navigation align-items-start">
-                    {{--                <div class="dropdown wm-dropdown">
-                                        <a href="{{route('uslugi')}}" class="header-navigation dropdown-toggle" aria-expanded="false">Формы</a>
-                                        <ul class="dropdown-menu wm-header-dropdown">
-                                            <li><a class="dropdown-item" href="">Вакуум</a></li>
-                                            <li><a class="dropdown-item" href="">Литье</a></li>
-                                            <li><a class="dropdown-item" href="">Силикон</a></li>
-                                            <li><a class="dropdown-item" href="">Матрицы</a></li>
-                                            <li><a class="dropdown-item" href="">Прототипы</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="dropdown wm-dropdown">
-                                        <a href="{{route('tehnologii')}}" class="header-navigation dropdown-toggle" aria-expanded="false">Технологии</a>
-                                        <ul class="dropdown-menu wm-header-dropdown">
-                                            <li><a class="dropdown-item" href="">3D моделирование</a></li>
-                                            <li><a class="dropdown-item" href="">3D печать</a></li>
-                                            <li><a class="dropdown-item" href="">3D сканирование</a></li>
-                                            <li><a class="dropdown-item" href="">Фрезеровка</a></li>
-                                            <li><a class="dropdown-item" href="">Литье под давлением</a></li>
-                                            <li><a class="dropdown-item" href="">Вакуумная формовка</a></li>
-                                        </ul>
-                                    </div>--}}
                     <a href="{{route('uslugi')}}" class="header-navigation-link">
                         Формы
                     </a>
