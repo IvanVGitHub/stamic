@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div class="tech-bg-oliva w-100 py-4">
+    <div class="tech-bg-oliva w-100 py-px-25">
         <div class="wrapper-oliva">
             <div class="wide-block-description">
                 Для изготовления деталей и товаров нужны Формы. Будь это вакуумная формовка формочки для мыла или силиконовая форма для выпечки.
@@ -18,26 +18,29 @@
             </div>
         </div>
     </div>
-    <div class="tech-bg-white w-100 pt-8">
+    <div class="tech-bg-white w-100">
         <div class="tech-wrapper-white">
             <div class="title-first-letter pt-px-90">
                 Формы для вакуумной формовки
             </div>
 
-            <div class="grid-block-3 gap-x-2 pt-5">
-                <div class="img-with-stripe p-0" text="ДЮРАЛЬ Д16Т * PS и PET">
+            <div class="uslugi-grid-block-3 gap-x-2 pt-px-50">
+                <div class="img-with-stripe p-0">
                     <img src="{{asset('img/box.webp')}}" alt="">
+                    <div class="text-on-img">
+                        <div class="text">ДЮРАЛЬ&nbsp<strong>Д16Т</strong>&nbsp&nbsp<div class="orange-ball"></div>&nbsp&nbsp<div class="bold">PS и PET</div></div>
+                    </div>
                     <div class="text-under-img">
                         упаковка из PET
                     </div>
                 </div>
 
-                <div class="central-block pb-3">
+                <div class="central-block pb-px-15">
                     <div class="flex-grow-1 list-with-title">
                         <h3 class="text-center">
                             Что формуют
                         </h3>
-                        <div class="d-flex justify-content-between p-3">
+                        <div class="d-flex justify-content-between p-px-15">
                             <ul>
                                 <li>Корпуса</li>
                                 <li>Авто тюнинг</li>
@@ -66,8 +69,15 @@
                     </div>
                 </div>
 
-                <div class="img-with-stripe p-0" text="МДФ * ABS">
+                <div class="img-with-stripe p-0">
                     <img src="{{asset('img/armor.webp')}}" alt="">
+                    <div class="text-on-img">
+                        <div class="text">
+                            МДФ
+                            &nbsp&nbsp<div class="orange-ball"></div>&nbsp&nbsp
+                            <div class="bold">ABS</div>
+                        </div>
+                    </div>
                     <div class="text-under-img">
                         щитки из ABS
                     </div>
@@ -124,12 +134,11 @@
                             годами.
                         </div>
                     </div>
-                    <ul>
-                        <li>Корпуса</li>
-                        <li>Авто тюнинг</li>
-                        <li>Детали роботов</li>
-                        <li>Бытовые вещи</li>
-                        <li>Игрушки</li>
+                    <ul class="m-0">
+                        <li>Быстро.</li>
+                        <li>Качественно</li>
+                        <li>Ремонтопригодность</li>
+                        <li>Низкая стоимость</li>
                     </ul>
                 </div>
                 <div class="img-width-text pl-px-30">
@@ -137,10 +146,60 @@
                         <img src="{{asset('img/form with orange detail.webp')}}" alt="">
                     </div>
                     <div class="text-top">
-                        ДЮРАЛЬ <strong>Д16Т</strong>
+                        ДЮРАЛЬ&nbsp&nbsp
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="vertical-triangle"></div>
+                            <div class="orange-ball"></div>
+                        </div>
+                        &nbsp&nbsp<strong>Д16Т</strong>
                     </div>
                     <div class="text-bottom pt-px-40">
                         Дюраль Д16Т наиболее "выгодный" Вам вариант материала для формы. Дюраль отлично зарекомендовала себя в соотношении цена-качество. У нее большая теплопроводность, долговечность, твердость. Поэтому мы всегда рекомендуем Нашим Заказчикам выбирать именно ее .
+                    </div>
+                </div>
+            </div>
+            <div class="uslugi-text-img-block-2 mt-px-185">
+                <div class="title-first-letter">
+                    Формы для силикона
+                </div>
+                <div class="wide-gray-block d-flex justify-content-between mt-px-20">
+                    <div class="d-flex h-100 gap-4">
+                        <img src="{{asset('img/graphic form1.webp')}}" alt="">
+                        <div class="d-flex flex-column justify-content-between">
+                            <div>Пуансон</div>
+                            <div>Матрица</div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 pr-px-80">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="vertical-triangle"></div>
+                            <div class="orange-ball"></div>
+                        </div>
+                        <div class="right-block">
+                            Материал форм
+                            <br>
+                            ДЮРАЛЬ <strong>Д16Т</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-block-3 pt-px-20">
+                    <div class="left-block">
+                        Силиконовые резины прессуют под действием температуры. Определенное количество резины закладывается в нижнюю часть формы. Затем сильно ( пресс) прижимаеют верхней частью. Разогретая резина равномерно заполняет все полости и застывает. Так делают, например, кондитерские силиконовые формы для выпечки.
+                    </div>
+                    <div class="central-block">
+                        <img src="{{asset('img/silicone form.webp')}}" alt="">
+                        <div class="text p-px-10">
+                            силиконовая форма для выпечки
+                        </div>
+                    </div>
+                    <div class="right-block">
+                        <strong>Для чего формы</strong>
+                        <ul>
+                            <li>Формы для выпечки, мыла, шоколада.</li>
+                            <li>рыболовные приманки,</li>
+                            <li>браслеты,</li>
+                            <li>подставки и много другое..</li>
+                        </ul>
                     </div>
                 </div>
             </div>
