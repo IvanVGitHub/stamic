@@ -28,7 +28,7 @@
                 <div class="img-with-stripe p-0">
                     <img src="{{asset('img/box.webp')}}" alt="">
                     <div class="text-on-img">
-                        <div class="text">ДЮРАЛЬ&nbsp<strong>Д16Т</strong>&nbsp&nbsp<div class="orange-ball"></div>&nbsp&nbsp<div class="bold">PS и PET</div></div>
+                        <div class="text-on-img-text">ДЮРАЛЬ&nbsp<strong>Д16Т</strong>&nbsp&nbsp<div class="orange-ball"></div>&nbsp&nbsp<div class="bold">PS и PET</div></div>
                     </div>
                     <div class="text-under-img">
                         упаковка из PET
@@ -72,7 +72,7 @@
                 <div class="img-with-stripe p-0">
                     <img src="{{asset('img/armor.webp')}}" alt="">
                     <div class="text-on-img">
-                        <div class="text">
+                        <div class="text-on-img-text">
                             МДФ
                             &nbsp&nbsp<div class="orange-ball"></div>&nbsp&nbsp
                             <div class="bold">ABS</div>
@@ -89,7 +89,7 @@
                     Для качественной вакуумной формовки пластика, нужно соблюдать несколько условий
                 </div>
                 <div class="d-flex">
-                    <div class="left-block">
+                    <div class="wide-block-left-block">
                         <ul class="m-0">
                             <li>наличие уклонов</li>
                             <li>вытяжные отверстия</li>
@@ -97,7 +97,7 @@
                             <li>отсутствие поднутрений</li>
                         </ul>
                     </div>
-                    <div class="right-block">
+                    <div class="wide-block-right-block">
                         Уклоны необходимы для легкого съема отформованного пластика с формы.
                         <br>
                         Поднутрения (отрицательные углы) будут препятствовать этому. Пластик вытягивается по разному в
@@ -183,23 +183,57 @@
                     </div>
                 </div>
                 <div class="grid-block-3 pt-px-20">
-                    <div class="left-block">
+                    <div class="block-2-left-block">
                         Силиконовые резины прессуют под действием температуры. Определенное количество резины закладывается в нижнюю часть формы. Затем сильно ( пресс) прижимаеют верхней частью. Разогретая резина равномерно заполняет все полости и застывает. Так делают, например, кондитерские силиконовые формы для выпечки.
                     </div>
-                    <div class="central-block">
-                        <img src="{{asset('img/silicone form.webp')}}" alt="">
-                        <div class="text p-px-10">
-                            силиконовая форма для выпечки
+                    <div class="block-2-central-block">
+                        <div class="block-2-central-block-content">
+                            <img src="{{asset('img/silicone form.webp')}}" alt="">
+                            <div class="block-2-central-block-text p-px-10">
+                                силиконовая форма для выпечки
+                            </div>
                         </div>
                     </div>
-                    <div class="right-block">
-                        <strong>Для чего формы</strong>
-                        <ul>
+                    <div class="block-2-right-block pt-px-70">
+                        <strong class="pl-px-30">Для чего формы</strong>
+                        <ul class="pt-px-20">
                             <li>Формы для выпечки, мыла, шоколада.</li>
                             <li>рыболовные приманки,</li>
                             <li>браслеты,</li>
                             <li>подставки и много другое..</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="uslugi-text-img-block-3 mt-px-175">
+                <div class="title-first-letter">
+                    Матрицы
+                </div>
+                <div class="d-flex pt-px-35">
+                    <div>
+                        <img src="{{asset('img/form mdf.webp')}}" alt="">
+                        <div class="block-3-central-block-text">
+                            матрица спинки автокресла
+                        </div>
+                    </div>
+                    <div class="pl-px-150">
+                        <div class="block3-title">
+                            Для чего делают матрицу
+                        </div>
+                        <div class="block3-text pt-px-15">
+                            Матрица нужна чтобы получить " скорлупу", чаще всего из стеклопластика. Скорлупа может служить как формой для вакуумной формовки, так и бампером или крылом автомобиля.
+                            <br>
+                            Если планируемая скорлупа сложной формы, с поднутрениями, матрицы могут быть разборные, из нескольких частей. Вынуть изделие не составит труда, просто разобрав матрицу.
+                            <br>
+                            Вручную изготовить сложный элемент кузова автомобиля очень не просто. Еще и соблюдая все размеры. Сделав матрицу на станке с ЧПУ по компьютерной модели, вы точно будете уверены, что получите предсказуемый результат.
+                            <br>
+                            Матрицы мы изготавливаем из МДФ и покрываем их защитными составами.
+                        </div>
+                        <div class="block3-subtext d-flex gap-3 mt-px-20">
+                            <div class="orange-ball"></div>
+                            <div>Материал формы</div>
+                            <div>МДФ</div>
+                        </div>
                     </div>
                 </div>
             </div>
