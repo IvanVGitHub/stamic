@@ -865,6 +865,12 @@ body{
     }
 }
 
+.central-block-text{
+    font-size: 16px;
+    color: #858581;
+    text-align: center;
+}
+
 .orange-ball{
     background-color: #F5AF5F;
     border-radius: 50%;
@@ -949,21 +955,39 @@ body{
         color: #858581;
         text-align: center;
     }
-    .block3-title{
+    .block-3-title{
         font-family: 'Proxima Nova Bold', serif;
         font-size: 24px;
         color: #575754;
     }
-    .block3-text{
+    .block-3-text{
         font-size: 18px;
         color: #414141;
         line-height: 1.4em;
     }
-    .block3-subtext{
+    .block-3-subtext{
         font-size: 22px;
         color: #FFFFFF;
         align-items: center;
         background-color: #414141;
         padding: 12px 50px;
+    }
+}
+
+.uslugi-text-img-block-4{
+    .block-4-grid-block-3{
+        @extend .grid-block-3;
+    }
+    .block-4-triangle-left{
+        width: 0;
+        height: 0;
+        border-top: 170px solid #000;
+        border-left: 170px solid transparent;
+    }
+    .block-4-triangle-right{
+        width: 0;
+        height: 0;
+        border-top: 170px solid #000;
+        border-right: 170px solid transparent;
     }
 }

@@ -217,10 +217,10 @@
                         </div>
                     </div>
                     <div class="pl-px-150">
-                        <div class="block3-title">
+                        <div class="block-3-title">
                             Для чего делают матрицу
                         </div>
-                        <div class="block3-text pt-px-15">
+                        <div class="block-3-text pt-px-15">
                             Матрица нужна чтобы получить " скорлупу", чаще всего из стеклопластика. Скорлупа может служить как формой для вакуумной формовки, так и бампером или крылом автомобиля.
                             <br>
                             Если планируемая скорлупа сложной формы, с поднутрениями, матрицы могут быть разборные, из нескольких частей. Вынуть изделие не составит труда, просто разобрав матрицу.
@@ -229,10 +229,37 @@
                             <br>
                             Матрицы мы изготавливаем из МДФ и покрываем их защитными составами.
                         </div>
-                        <div class="block3-subtext d-flex gap-3 mt-px-20">
+                        <div class="block-3-subtext d-flex gap-3 mt-px-20">
                             <div class="orange-ball"></div>
                             <div>Материал формы</div>
                             <div>МДФ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uslugi-text-img-block-4 mt-px-175">
+                <div class="title-first-letter">
+                    Прототипы
+                </div>
+                <div class="block-4-grid-block-3">
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="{{asset('img/pistol grip.webp')}}" alt="">
+                            <div class="block-4-central-block-text">
+                                пистолетная рукоятка
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="{{asset('img/monolasts.webp')}}" alt="">
+                            <div class="block-4-central-block-text">
+                                прототип моноласты в масштабе 1:1
+                            </div>
                         </div>
                     </div>
                 </div>
