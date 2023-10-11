@@ -865,7 +865,7 @@ body{
     }
 }
 
-.central-block-text{
+.text-under-img{
     font-size: 16px;
     color: #858581;
     text-align: center;
@@ -890,7 +890,8 @@ body{
 }
 
 .uslugi-text-img-block-2{
-    .grid-block-3{
+    .uslugi-text-img-block-2-grid-block-3{
+        @extend .grid-block-3;
         overflow-x: unset;
         gap: 0;
         grid-template-columns: 25% 45% 30%;
@@ -929,11 +930,6 @@ body{
             img{
                 max-width: 750px;
             }
-            .block-2-central-block-text{
-                font-size: 16px;
-                color: #858581;
-                text-align: center;
-            }
         }
     }
     .block-2-right-block{
@@ -950,11 +946,6 @@ body{
 
 .uslugi-text-img-block-3{
     font-family: 'Proxima Nova Regular', serif;
-    .block-3-central-block-text{
-        font-size: 16px;
-        color: #858581;
-        text-align: center;
-    }
     .block-3-title{
         font-family: 'Proxima Nova Bold', serif;
         font-size: 24px;
@@ -974,20 +965,84 @@ body{
     }
 }
 
+$triangleBlockHeight: 413px;
+$triangleBlockVerticalOffset: -45px;
+$triangleBlockWidth: 235px;
 .uslugi-text-img-block-4{
-    .block-4-grid-block-3{
-        @extend .grid-block-3;
+    .block-4-img-left{
+        position: relative;
     }
-    .block-4-triangle-left{
-        width: 0;
-        height: 0;
-        border-top: 170px solid #000;
-        border-left: 170px solid transparent;
+    .block-4-img-right{
+        position: relative;
     }
-    .block-4-triangle-right{
-        width: 0;
+    .block-triangle-container{
+        top: $triangleBlockVerticalOffset;
+        position: absolute;
+        overflow: hidden;
+        transition: all 2s ease-in-out;
         height: 0;
-        border-top: 170px solid #000;
-        border-right: 170px solid transparent;
+        width: $triangleBlockWidth;
+        &.btc-show{
+            height: $triangleBlockHeight;
+        }
+        &.left{
+            text-align: end;
+            right: 0;
+            .block-4-triangle{
+                clip-path: polygon(0 0, 100% 0, 100% 100%);
+            }
+        }
+        &.right{
+            top:calc($triangleBlockHeight + $triangleBlockVerticalOffset);
+            .block-4-triangle{
+                transform: translateY(-$triangleBlockHeight);
+            }
+
+            &.btc-show{
+                top: $triangleBlockVerticalOffset;
+                height: $triangleBlockHeight;
+                .block-4-triangle{
+                    transform: translateY(0);
+                }
+            }
+            left: 0;
+            .block-4-triangle{
+                clip-path: polygon(0 0, 100% 0, 0 100%);
+            }
+        }
+    }
+    .block-4-triangle{
+        transition: all 2s ease-in-out;
+        padding: 10px;
+        background: #414141;
+        color: white;
+        height: $triangleBlockHeight;
+        width: $triangleBlockWidth;
+    }
+    .block-4-grid-block-3-left-text{
+        font-family: 'Proxima Nova Regular', serif;
+        font-size: 18px;
+        color: #414141;
+        line-height: 1.4em;
+        padding: 10px 10px 10px 295px;
+        max-width: 650px;
+        width: 100%;
+        @include l-xl{
+            padding-left: 0;
+            max-width: 320px;
+        }
+    }
+    .block-4-grid-block-3-left-title{
+        font-family: 'Proxima Nova Regular', serif;
+        font-size: 22px;
+        color: #FFFFFF;
+        background-color: #858581;
+        padding: 28px 70px 28px 295px;
+        max-width: 650px;
+        width: 100%;
+        @include l-xl{
+            padding-left: 0;
+            max-width: 320px;
+        }
     }
 }
