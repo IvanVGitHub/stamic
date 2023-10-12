@@ -982,6 +982,15 @@ $triangleBlockWidth: 235px;
         transition: all 2s ease-in-out;
         height: 0;
         width: $triangleBlockWidth;
+        .block-4-triangle{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: 'Proxima Nova Regular', serif;
+            font-size: 21px;
+            color: #FFFFFF;
+            padding: 65px 30px 190px 30px;
+        }
         &.btc-show{
             height: $triangleBlockHeight;
         }
@@ -997,7 +1006,6 @@ $triangleBlockWidth: 235px;
             .block-4-triangle{
                 transform: translateY(-$triangleBlockHeight);
             }
-
             &.btc-show{
                 top: $triangleBlockVerticalOffset;
                 height: $triangleBlockHeight;
@@ -1045,4 +1053,83 @@ $triangleBlockWidth: 235px;
             max-width: 320px;
         }
     }
+}
+
+.uslugi-wide-description-work{
+    font: 300 24px "Roboto";
+    color: #FFFFFF;
+    width: 100%;
+    display: block;
+    background-color: #858581;
+    padding: 10px;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+}
+
+$pentagonal-arrow: 40px;
+.uslugi-example-of-work-sequence{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    .uslugi-example-of-work-sequence-item{
+        img{
+            height: 235px;
+        }
+        .uslugi-example-of-work-sequence-item-under{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 5px;
+            min-height: calc($pentagonal-arrow + 5px); //$pentagonal-arrow + padding-top
+            .uslugi-example-of-work-sequence-item-under-text{
+                font-family: 'Proxima Nova Bold', serif;
+                font-size: 16px;
+                color: #414141;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.pentagonal-arrow{
+    justify-content: end;
+    background-color: #414141;
+    width: 50px;
+    height: $pentagonal-arrow;
+    clip-path: polygon(0% 0%, 60% 0%, 100% 50%, 60% 100%, 0% 100%);
+}
+
+.uslugi-contact-form-block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #3A393B;
+    .uslugi-contact-form-block-form{
+        max-width: 510px;
+        max-height: 550px;
+        margin: 20px auto !important;
+        .uslugi-contact-form-block-form-title{
+            font: 700 20px "Roboto";
+            color: #858581;
+        }
+    }
+    .uslugi-contact-form-block-under{
+        display: flex;
+        justify-content: center;
+        font-family: 'Proxima Nova Regular', serif;
+        font-size: 15px;
+        color: #CCC9C4;
+        line-height: 0.9em;
+        max-width: 990px;
+    }
+}
+
+.contact-form-block-hr{
+    margin-top: 35px;
+    margin-bottom: 60px;
+    border-top: 1px solid silver;
 }

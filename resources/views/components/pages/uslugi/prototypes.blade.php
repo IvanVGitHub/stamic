@@ -1,4 +1,4 @@
-<div class="uslugi-text-img-block-4 mt-px-180">
+<div class="uslugi-text-img-block-4 pt-px-180">
     <div class="title-first-letter tech-wrapper-white">
         Прототипы
     </div>
@@ -19,7 +19,14 @@
                     <img class="object-fit-cover w-100" height="500" src="{{asset('img/pistol grip.webp')}}" alt="">
                     <div class="block-triangle-container left" id="triangle-left">
                         <div class="block-4-triangle">
-                            левый
+                            <div>
+                                3D печать
+                            </div>
+                            <div>
+                                ABS
+                                <br>
+                                PLA
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -32,7 +39,14 @@
                     <img class="object-fit-cover w-100" height="500" src="{{asset('img/monolasts.webp')}}" alt="">
                     <div class="block-triangle-container right" id="triangle-right">
                         <div class="block-4-triangle">
-                            правый
+                            <div>
+                                Фрезеровка
+                            </div>
+                            <div>
+                                Пластик
+                                <br>
+                                МДФ
+                            </div>
                         </div>
                     </div>
                 </div>
