@@ -4,22 +4,67 @@
             <div class="uslugi-contact-form-block-form-title">
                 Узнайте стоимость
             </div>
-            <form class="" action="asset{{'index.php'}}">
-                <input type="text" id="fname" name="fname" value="Имя">
-                <input type="text" id="lname" name="lname" value="Фамилия">
-                <input type="text" id="email" name="lname" value="Эл. почта">
-                <input type="text" id="phone" name="lname" value="Телефон">
-                <select id="cars" name="variables">
-                    <option value disabled selected>Выберите вариант</option>
-                    <option value="redesign">Редизайн сайта</option>
-                    <option value="copywriting">Копирайтинг</option>
-                    <option value="translate">Перевод контента</option>
-                    <option value="illustration">Иллюстрации</option>
-                </select>
-                <textarea name="message" style="width:510px; height:126px;">Комментарии</textarea>
+            <form class="row g-4 pt-px-35" action="asset{{'index.php'}}">
+                <div class="col-md-6">
+                    <input class="default-form-input"
+                           type="text"
+                           id="fname"
+                           name="fname"
+                           placeholder="Имя"
+                           maxlength="100"
+                           aria-required="false">
+                </div>
+                <div class="col-md-6">
+                    <input class="default-form-input"
+                           type="text"
+                           id="lname"
+                           name="lname"
+                           placeholder="Фамилия"
+                           maxlength="100"
+                           aria-required="false">
+                </div>
+                <div class="col-md-6">
+                    <input class="default-form-input"
+                           type="text"
+                           id="email"
+                           name="email"
+                           placeholder="Эл. почта"
+                           maxlength="250"
+                           aria-required="true">
+                </div>
+                <div class="col-md-6">
+                    <input class="default-form-input"
+                           type="text"
+                           id="phone"
+                           name="phone"
+                           placeholder="Телефон"
+                           maxlength="50"
+                           aria-required="false">
+                </div>
+                <div class="col-12">
+                    <select class="default-form-input" id="cars" name="variables">
+                        <option hidden placeholder="Выберите вариант" selected>Выберите вариант</option>
+                        <option value="redesign">Редизайн сайта</option>
+                        <option value="copywriting">Копирайтинг</option>
+                        <option value="translate">Перевод контента</option>
+                        <option value="illustration">Иллюстрации</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <textarea class="default-form-input" name="message" style="width:510px; height:126px;" placeholder="Комментарии" aria-required="false"></textarea>
+                </div>
+                <div class="col-12">
+                    <button class="w-100 default-form-btn" type="submit">Запросить цену</button>
+                </div>
+
+
+
+
+
+
                 <br>
                 <br>
-                <input type="submit" value="Submit">
+
             </form>
         </div>
         <div class="uslugi-contact-form-block-under">

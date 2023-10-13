@@ -1133,3 +1133,27 @@ $pentagonal-arrow: 40px;
     margin-bottom: 60px;
     border-top: 1px solid silver;
 }
+
+.default-form-input{
+    width: 100%;
+    padding: 14px 12px;
+    background-color: #57575426; //прозрачность 15% - это параметр 26
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    &::placeholder {
+        color: #DBDBDB;
+    }
+    &:hover{
+        background-color: #FFFFFF;
+        color: #F5AF5F;
+    }
+    &:focus{
+        background-color: #FAFFBD;
+    }
+    &:invalid{
+        background-color: #B45AD426; //прозрачность 15% - это параметр 26
+        border: 1px solid #FF4040;
+    }
+}
