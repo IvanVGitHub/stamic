@@ -25,21 +25,23 @@
                 </div>
                 <div class="col-md-6">
                     <input class="default-form-input"
-                           type="text"
+                           type="email"
                            id="email"
                            name="email"
                            placeholder="Эл. почта"
                            maxlength="250"
-                           aria-required="true">
+                           aria-required="true"
+                           pattern="^.+@.+\.[a-zA-Z]{2,63}$">
                 </div>
                 <div class="col-md-6">
                     <input class="default-form-input"
-                           type="text"
+                           type="tel"
                            id="phone"
                            name="phone"
                            placeholder="Телефон"
                            maxlength="50"
-                           aria-required="false">
+                           aria-required="false"
+                           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                 </div>
                 <div class="col-12">
                     <select class="default-form-input" id="cars" name="variables">
@@ -56,15 +58,6 @@
                 <div class="col-12">
                     <button class="w-100 default-form-btn" type="submit">Запросить цену</button>
                 </div>
-
-
-
-
-
-
-                <br>
-                <br>
-
             </form>
         </div>
         <div class="uslugi-contact-form-block-under">

@@ -1108,6 +1108,7 @@ $pentagonal-arrow: 40px;
     justify-content: center;
     width: 100%;
     background-color: #3A393B;
+    font-family: 'Proxima Nova Regular', serif;
     .uslugi-contact-form-block-form{
         max-width: 510px;
         max-height: 550px;
@@ -1120,40 +1121,52 @@ $pentagonal-arrow: 40px;
     .uslugi-contact-form-block-under{
         display: flex;
         justify-content: center;
-        font-family: 'Proxima Nova Regular', serif;
         font-size: 15px;
         color: #CCC9C4;
         line-height: 0.9em;
         max-width: 990px;
     }
-}
 
-.contact-form-block-hr{
-    margin-top: 35px;
-    margin-bottom: 60px;
-    border-top: 1px solid silver;
-}
+    .contact-form-block-hr{
+        margin-top: 35px;
+        margin-bottom: 60px;
+        border-top: 1px solid silver;
+    }
 
-.default-form-input{
-    width: 100%;
-    padding: 14px 12px;
-    background-color: #57575426; //прозрачность 15% - это параметр 26
-    font-size: 14px;
-    color: #FFFFFF;
-    border: none;
-    outline: none;
-    &::placeholder {
-        color: #DBDBDB;
+    .default-form-input{
+        width: 100%;
+        padding: 14px 12px;
+        background-color: #57575426; //прозрачность 15% - это параметр 26;
+        font-size: 15px;
+        color: #FFFFFF;
+        border: none;
+        outline: none;
+        &::placeholder {
+            color: #DBDBDB;
+        }
+        &:hover{
+            background-color: #FFFFFF;
+            color: #F5AF5F;
+        }
+        &:focus{
+            background-color: #FAFFBD;
+            color: #F5AF5F;
+        }
+        &:invalid{
+            background-color: #B45AD426; //прозрачность 15% - это параметр 26
+            border: 1px solid #FF4040;
+        }
     }
-    &:hover{
-        background-color: #FFFFFF;
-        color: #F5AF5F;
-    }
-    &:focus{
-        background-color: #FAFFBD;
-    }
-    &:invalid{
-        background-color: #B45AD426; //прозрачность 15% - это параметр 26
-        border: 1px solid #FF4040;
+
+    .default-form-btn{
+        border: none;
+        //outline: none;
+        padding: 14px 0;
+        background-color: #575754;
+        color: #FFFFFF;
+        transition: all 0.2s ease-in-out;
+        &:hover{
+            background-color: #F5AF5F;
+        }
     }
 }
