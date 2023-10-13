@@ -21,7 +21,7 @@
     <meta name="yandex-verification" content="{{config('seo.yandexSiteVerification')}}" />
 
     <!-- favicon links -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset("/img/favicon.ico")}}" />
+{{--    <link rel="shortcut icon" type="image/x-icon" href="{{asset("/img/favicon.ico")}}" />--}}
     <link rel="icon" type="image/png" href="{{asset("/img/favicon.png")}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
