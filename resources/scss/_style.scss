@@ -1119,18 +1119,19 @@ $pentagonal-arrow: 40px;
         }
     }
     .uslugi-contact-form-block-under{
-        display: flex;
-        justify-content: center;
         font-size: 15px;
         color: #CCC9C4;
-        line-height: 1.4em;
+        line-height: 1.6em;
         max-width: 990px;
+        a{
+            color: #CCC9C4;
+        }
     }
 
     .contact-form-block-hr{
-        margin-top: 35px;
-        margin-bottom: 60px;
+        margin: auto;
         border-top: 1px solid silver;
+        width: 65%;
     }
 
     .default-form-input{

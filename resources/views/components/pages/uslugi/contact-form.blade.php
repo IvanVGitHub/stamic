@@ -60,11 +60,13 @@
                 </div>
             </form>
         </div>
-        <div class="uslugi-contact-form-block-under">
+        <div class="uslugi-contact-form-block-under pt-px-40">
             Каждая форма разрабатывается индивидуально и можете с уверенностью сказать, что Ваши формы будут уникальны!
             Наша компания может взять Ваши заботы по формовке пластика, литью, сканированию, моделированию и фрезеровке.
-            Пожалуйста, посмотрите "Наши технологии"
+            Пожалуйста, посмотрите <a href="">"Наши технологии"</a>
         </div>
-        <hr class="contact-form-block-hr">
+        <div class="w-100 pt-px-50">
+            <hr class="contact-form-block-hr">
+        </div>
     </div>
 </div>
