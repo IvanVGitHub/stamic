@@ -41,7 +41,7 @@
                            placeholder="Телефон"
                            maxlength="50"
                            aria-required="false"
-                           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                           pattern="[7,8]{0,1}[0-9]{3}[0-9]{3}[0-9]{4}">
                 </div>
                 <div class="col-12">
                     <select class="default-form-input" id="cars" name="variables">
