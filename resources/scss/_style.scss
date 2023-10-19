@@ -968,12 +968,19 @@ body{
 $triangleBlockHeight: 413px;
 $triangleBlockVerticalOffset: -45px;
 $triangleBlockWidth: 235px;
+$imageHeight: 500px;
 .uslugi-text-img-block-4{
     .block-4-img-left{
         position: relative;
+        img{
+            height: $imageHeight;
+        }
     }
     .block-4-img-right{
         position: relative;
+        img{
+            height: $imageHeight;
+        }
     }
     .block-triangle-container{
         top: $triangleBlockVerticalOffset;
@@ -1169,5 +1176,52 @@ $pentagonal-arrow: 40px;
         &:hover{
             background-color: #F5AF5F;
         }
+    }
+}
+
+.proekty-block{
+    display: block;
+    position: relative;
+    .proekty-content{
+        @include wrapper($width: 998px);
+        padding: 60px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .proekty-image{
+        width: 100%;
+        max-width: 468px;
+        cursor: pointer;
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 348px;
+        }
+
+    }
+}
+
+.grid-image-content{
+    .modal-content{
+        background-color: #FFFFFF;
+    }
+}
+
+.modal-image-content{
+    .carousel-control-prev{
+        border: unset;
+        background-color: unset;
+        backdrop-filter: unset;
+    }
+    .carousel-control-next{
+        border: unset;
+        background-color: unset;
+        backdrop-filter: unset;
+    }
+    margin: 10% auto;
+    img{
+        width: 100%;
+        max-width: 1164px;
+        object-fit: contain;
     }
 }

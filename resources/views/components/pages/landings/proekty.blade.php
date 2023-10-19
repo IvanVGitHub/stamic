@@ -5,7 +5,45 @@
 @endsection
 
 @section('content')
-    <div class="">
+    <div class="proekty-block">
+        <div class="proekty-content">
+            <x-pages.proekty.grid-image image="{{asset('img/proekty-1-1.webp')}}" >
+                <div class="carousel-item">
+                    <img src="{{asset('img/pistol grip.webp')}}" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{asset('img/sequence5of5.webp')}}" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{asset('img/sequence4of5.webp')}}" alt="">
+                </div>
+            </x-pages.proekty.grid-image>
+            <x-pages.proekty.grid-image image="img/pistol grip.webp" />
+        </div>
+    </div>
+    <div class="proekty-block">
+        <div class="proekty-content">
+            <x-pages.proekty.grid-image image="img/pistol grip.webp" />
+            <x-pages.proekty.grid-image image="img/pistol grip.webp" />
+        </div>
+    </div>
+    <div class="proekty-block">
+        <div class="proekty-content">
+            <x-pages.proekty.grid-image image="img/pistol grip.webp" />
+            <x-pages.proekty.grid-image image="img/pistol grip.webp" />
+        </div>
+    </div>
+    <div class="proekty-block">
+        <div class="proekty-content">
+            <x-pages.proekty.grid-image image="img/pistol grip.webp" />
+            <x-pages.proekty.grid-image image="img/pistol grip.webp" />
+        </div>
+    </div>
+    <div class="proekty-block">
+        <div class="proekty-content">
+            <x-pages.proekty.grid-image image="img/pistol grip.webp" />
+            <x-pages.proekty.grid-image image="img/pistol grip.webp" />
+        </div>
     </div>
 @endsection
 

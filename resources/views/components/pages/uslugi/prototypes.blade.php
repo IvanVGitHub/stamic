@@ -16,7 +16,7 @@
         <div class="d-flex flex-grow-1" id="triangles-block">
             <div class="">
                 <div class="block-4-img-left">
-                    <img class="object-fit-cover w-100" height="500" src="{{asset('img/pistol grip.webp')}}" alt="">
+                    <img class="object-fit-cover w-100" src="{{asset('img/pistol grip.webp')}}" alt="">
                     <div class="block-triangle-container left" id="triangle-left">
                         <div class="block-4-triangle">
                             <div>
@@ -36,7 +36,7 @@
             </div>
             <div class="">
                 <div class="block-4-img-right">
-                    <img class="object-fit-cover w-100" height="500" src="{{asset('img/monolasts.webp')}}" alt="">
+                    <img class="object-fit-cover w-100" src="{{asset('img/monolasts.webp')}}" alt="">
                     <div class="block-triangle-container right" id="triangle-right">
                         <div class="block-4-triangle">
                             <div>
