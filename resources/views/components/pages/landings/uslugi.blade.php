@@ -5,10 +5,10 @@
 @endsection
 
 @section('content')
-<div class="tech-bg-oliva w-100 py-px-25">
+<div class="wide-bg-oliva w-100 py-px-25">
     <x-pages.uslugi.wide-oliva-block />
 </div>
-<div class="tech-bg-white w-100">
+<div class="wide-bg-white w-100">
     <x-pages.uslugi.forms-for-vacuum />
     <x-pages.uslugi.forms-for-melters />
     <x-pages.uslugi.forms-for-silicone />
