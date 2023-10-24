@@ -237,7 +237,9 @@ body{
             animation-direction: normal;
             animation-fill-mode: forwards;
         }
+        transition: opacity 1s 0s;
     }
+    transition: transform 1s ease-in-out;
 }
 
 .carousel-control-next, .carousel-control-prev {
