@@ -1,5 +1,5 @@
 <div class="uslugi-text-img-block-4 pt-px-180">
-    <div class="title-first-letter tech-wrapper-white">
+    <div class="title-first-letter wrapper-1314">
         Прототипы
     </div>
     <div class="d-flex mt-px-20">

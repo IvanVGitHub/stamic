@@ -1,4 +1,4 @@
-<div class="tech-wrapper-white">
+<div class="wrapper-1314">
     <div class="uslugi-text-img-block-2 mt-px-185">
         <div class="title-first-letter">
             Формы для силикона

@@ -1,4 +1,4 @@
-<div class="tech-wrapper-white">
+<div class="wrapper-1314">
     <div class="uslugi-text-img-block-3 mt-px-175">
         <div class="title-first-letter">
             Матрицы

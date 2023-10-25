@@ -1,4 +1,4 @@
-<div class="tech-wrapper-white">
+<div class="wrapper-1314">
     <div class="uslugi-text-img-block-1 d-flex mt-px-150">
         <div class="text-left">
             <div class="flex-grow-1">

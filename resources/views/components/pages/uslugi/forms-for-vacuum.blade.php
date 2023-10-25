@@ -1,4 +1,4 @@
-<div class="tech-wrapper-white">
+<div class="wrapper-1314">
     <div class="title-first-letter pt-px-90">
         Формы для вакуумной формовки
     </div>
