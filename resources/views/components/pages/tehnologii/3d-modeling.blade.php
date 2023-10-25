@@ -2,12 +2,12 @@
     <div class="title-first-letter pt-px-50">
         <span>3D</span> моделирование
     </div>
-    <div class="wrapper-1150">
+    <div class="wrapper-1218">
         <div class="d-flex justify-content-center">
-            <img src="{{asset('img/form half real.webp')}}" class="tech-block1-img" alt="">
+            <img src="{{asset('img/form half real.webp')}}" class="tehnologii-block1-img" alt="">
         </div>
         <div class="d-flex justify-content-between">
-            <div class="teh-text-oliva pt-px-20 w-50">
+            <div class="tehnologii-text-oliva pt-px-20 w-50">
                 Мы различаем два вида моделирования.
                 <br>
                 <strong>3Д скульптор и 3Д проектирование.</strong>

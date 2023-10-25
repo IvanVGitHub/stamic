@@ -11,6 +11,13 @@
     <div class="wide-bg-white w-100">
         <x-pages.tehnologii.3d-modeling />
         <x-pages.tehnologii.3d-printing />
+        <x-pages.tehnologii.3d-scaning />
+        <x-pages.tehnologii.milling />
+        <x-pages.tehnologii.injection-molding />
+        <x-pages.tehnologii.vacuum-forming />
+    </div>
+    <div class="wide-bg-oliva w-100 py-px-25">
+        <x-pages.tehnologii.wide-oliva-block-bottom />
     </div>
 @endsection
 
