@@ -6,7 +6,7 @@
                     <img src="{{asset('img/logo-light.webp')}}" class="footer-logo mb-3">
                 </div>
                 <div style="max-width: 172px; ">
-                    <div class="foot-txt mb-2 text-center text-md-start">
+                    <div class="footer-txt mb-2 text-center text-md-start">
                         Компания <b>Стамик</b> - это разработка и производство пресс-форм,
                         прототипов, мастер моделей. Для литья и вакуумной формовки.
                     </div>
@@ -111,7 +111,7 @@
                     <img src="{{asset('img/logo-light.webp')}}" class="footer-logo">
                 </div>
                 <div style="margin-bottom: 22px;">
-                    <div class="foot-txt mb-2 text-center" >
+                    <div class="footer-txt mb-2 text-center" >
                         Компания <b>Стамик</b> - это разработка и производство пресс-форм,
                         прототипов, мастер моделей. Для литья и вакуумной формовки.
                     </div>

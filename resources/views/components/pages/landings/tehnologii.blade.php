@@ -19,24 +19,17 @@
     <div class="wide-bg-white w-100 pt-8">
         <div class="d-flex justify-content-center position-relative">
             <div class="position-relative">
-
                 <img src="{{asset('img/HomePage_Grey_Banner 1.png')}}" class="tech-block2-img" style="margin-left: 110px;" alt="">
                 <div class="test d-flex justify-content-between">
                     <div class="photo-card">
-
-                        <a href="" class="hidden-img">
-                            <img src="{{asset('img/1.png')}}" class="tech-block2-img-small" alt="">
-
+                        <a href="" class="tehnologii-hover-image-scale">
+                            <img src="{{asset('img/1.png')}}" class="tech-block-img-small" alt="">
                         </a>
-
-
-                        <a href="" class="hidden-img">
-                            <img src="{{asset('img/2.png')}}" class="tech-block2-img-small" alt="">
+                        <a href="" class="tehnologii-hover-image-scale">
+                            <img src="{{asset('img/2.png')}}" class="tech-block-img-small" alt="">
                         </a>
-
-
-                        <a href="" class="hidden-img">
-                            <img src="{{asset('img/3.png')}}" class="tech-block2-img-small" alt="">
+                        <a href="" class="tehnologii-hover-image-scale">
+                            <img src="{{asset('img/3.png')}}" class="tech-block-img-small" alt="">
                         </a>
                         <div class="photo-card-comment">примеры 3Д печати</div>
                     </div>
