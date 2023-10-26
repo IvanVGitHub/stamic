@@ -23,7 +23,7 @@
         <div class="block-3d-printing-description-gray-left row">
             <div class="d-none d-sm-block col-md-1 col-lg-2 col-xl-3 col-xxl-5"></div>
             <div class="col-12 col-md-11 col-lg-10 col-xl-9 col-xxl-7">
-                <div class="p-px-30 tehnologii-block-left-grey">
+                <div class="p-px-30 tehnologii-text">
                     Мы печатаем прототипы и детали на 3d принтерах собственного производства.
                     Высочайшая точность,&nbsp;скорость и качество проверенно сотнями часов печати. Печатаем ABS и PLA пластиками.
                     Возможна печать с&nbsp; водорастворимыми поддержками.

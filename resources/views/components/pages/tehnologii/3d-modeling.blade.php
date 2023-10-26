@@ -7,7 +7,7 @@
             <img src="{{asset('img/form half real.webp')}}" class="tehnologii-block1-img" alt="">
         </div>
         <div class="d-flex justify-content-between">
-            <div class="tehnologii-text-oliva pt-px-20 w-50">
+            <div class="tehnologii-text pt-px-20 w-50">
                 Мы различаем два вида моделирования.
                 <br>
                 <strong>3Д скульптор и 3Д проектирование.</strong>
