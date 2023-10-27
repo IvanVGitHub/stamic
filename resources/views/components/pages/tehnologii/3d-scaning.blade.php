@@ -32,7 +32,7 @@
                         <div class="tehnologii-hover-image-scale">
                             <img src="{{asset('img/clothespin.webp')}}" alt="">
                         </div>
-                        <div class="wide-to-right-gray-translucent-background"></div>
+                        <div class="wide-to-right-gray-translucent-background position-absolute"></div>
                     </div>
                     <div class="text-center">
                         примеры сканирования

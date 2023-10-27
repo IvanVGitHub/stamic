@@ -348,10 +348,39 @@
 }
 
 .wide-to-right-gray-translucent-background{
-    position: absolute;
     left: 0;
-    width: 1000%;
+    width: 4000px;
     height: 100%;
     background-color: rgba(#CCC9C4, .37);
     z-index: 1;
+}
+
+.milling-background{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.milling-content{
+    //position: absolute;
+    padding: 114px 0;
+    left: 0;
+    top: 0;
+    overflow-y: hidden;
+    background: url("/img/milling-cutter-and-chips.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .card-thumbnails{
+        right: 0;
+        margin-right: 0;
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+    }
+}
+
+.wide-gray-translucent-background{
+    width: 100%;
+    background-color: rgba(#FFFFFF, .82);
 }

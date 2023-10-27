@@ -5,7 +5,7 @@
     <div class="wrapper-1218">
         <div class="d-flex justify-content-center position-relative">
             <div class="position-relative pt-px-40">
-                <img src="{{asset('img/any-white-parts.jpg')}}" class="tehnologii-block2-img" alt="">
+                <img class="tehnologii-block2-img" src="{{asset('img/any-white-parts.jpg')}}" alt="">
                 <div class="card-thumbnails">
                     <div class="card-thumbnails-content">
                         <div class="tehnologii-hover-image-scale">
