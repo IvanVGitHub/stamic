@@ -261,6 +261,9 @@
 .tehnologii-block2-img{
     width: 100%;
     object-fit: cover;
+    @include l-md{
+        display: none;
+    }
 }
 
 .block-3d-printing-description-gray-left{
@@ -268,19 +271,33 @@
     left: 0;
     transform: translatey(-300px);
     max-width: 911px;
-    width: 100%;
-    min-height: 244px;
+    width: 50%;
+    @include l-xl{
+        width: 40%;
+    }
+    @include l-lg{
+        width: 100%;
+    }
+    @include l-md{
+        position: relative;
+        transform: unset;
+    }
     background-color: #F2F1F2;
     border-left: #C8C4C7 solid 38px;
 }
 
 .card-thumbnails{
     position: absolute;
-    display: flex;
     bottom: 0;
     right: 20px;
     margin-right: 90px;
-    gap: 10px;
+    .card-thumbnails-content{
+        display: flex;
+        gap: 10px;
+        @include l-md{
+            gap: 5px;
+        }
+    }
     .card-thumbnails-description{
         position: absolute;
         width: 100%;
@@ -288,6 +305,15 @@
         top: 100%;
         left: 0;
         padding: 5px;
+        @include l-md{
+            position: relative;
+        }
+    }
+    @include l-md{
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin-right: 0;
     }
 }
 
@@ -296,6 +322,9 @@
         position: relative;
         font-size: 16px;
         display: flex;
+    }
+    .tehnologii-hover-image-scale{
+        z-index: 1;
     }
 }
 
@@ -312,4 +341,13 @@
         height: 0.8em;
         width: 0.8em;
     }
+}
+
+.wide-to-right-gray-translucent-background{
+    position:absolute;
+    left:0;
+    width: 1000%;
+    height: 100%;
+    background-color: rgba(gray, .2);
+    z-index: 0;
 }

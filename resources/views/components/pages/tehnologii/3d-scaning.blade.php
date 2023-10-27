@@ -22,24 +22,25 @@
                     </div>
                 </div>
                 <div class="pt-px-80 d-inline-block">
-                    <div class="d-flex gap-2">
+                    <div class="d-flex gap-2 position-relative">
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/sea_star.webp')}}" alt="">
+                            <img src="{{asset('img/sea-star.webp')}}" alt="">
                         </div>
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/scan_drill.webp')}}" alt="">
+                            <img src="{{asset('img/scan-drill.webp')}}" alt="">
                         </div>
                         <div class="tehnologii-hover-image-scale">
                             <img src="{{asset('img/clothespin.webp')}}" alt="">
                         </div>
+                        <div class="wide-to-right-gray-translucent-background"></div>
                     </div>
                     <div class="text-center">
                         примеры сканирования
                     </div>
                 </div>
             </div>
-            <div>
-                <img src="{{asset('img/scaning_cameras.webp')}}" alt="">
+            <div class="tehnologii-3d-scaning-image">
+                <img src="{{asset('img/scaning-cameras.webp')}}" alt="">
             </div>
         </div>
     </div>

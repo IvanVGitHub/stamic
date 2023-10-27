@@ -5,16 +5,18 @@
     <div class="wrapper-1218">
         <div class="d-flex justify-content-center position-relative">
             <div class="position-relative pt-px-40">
-                <img src="{{asset('img/any_white_parts.jpg')}}" class="tehnologii-block2-img" alt="">
+                <img src="{{asset('img/any-white-parts.jpg')}}" class="tehnologii-block2-img" alt="">
                 <div class="card-thumbnails">
-                    <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/woman_and_text.webp')}}" alt="">
-                    </div>
-                    <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/flowers.webp')}}" alt="">
-                    </div>
-                    <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/yellow_door.webp')}}" alt="">
+                    <div class="card-thumbnails-content">
+                        <div class="tehnologii-hover-image-scale">
+                            <img src="{{asset('img/woman_and_text.webp')}}" alt="">
+                        </div>
+                        <div class="tehnologii-hover-image-scale">
+                            <img src="{{asset('img/flowers.webp')}}" alt="">
+                        </div>
+                        <div class="tehnologii-hover-image-scale">
+                            <img src="{{asset('img/yellow_door.webp')}}" alt="">
+                        </div>
                     </div>
                     <div class="card-thumbnails-description">
                         примеры 3Д печати
