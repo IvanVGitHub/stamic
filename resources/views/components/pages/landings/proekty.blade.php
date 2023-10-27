@@ -17,7 +17,7 @@
             </x-pages.proekty.grid-image>
             <x-pages.proekty.grid-image image="img/proekty-1-2.webp"
                                         name="Следующий проект"
-                                        description="Описание очередного проекта" >
+                                        description="Описание очередного проекта">
                 <x-pages.proekty.modal-image image="{{asset('img/sequence4of5.webp')}}" />
                 <x-pages.proekty.modal-image image="{{asset('img/logo-light.webp')}}" />
             </x-pages.proekty.grid-image>
@@ -29,13 +29,13 @@
         <div class="proekty-content">
             <x-pages.proekty.grid-image image="img/proekty-2-1.webp"
                                         name="Следующий проект"
-                                        description="Описание очередного проекта" >
+                                        description="Описание очередного проекта">
                 <x-pages.proekty.modal-image image="{{asset('img/form with orange detail.webp')}}" />
                 <x-pages.proekty.modal-image image="{{asset('img/tipo-logo.png')}}" />
             </x-pages.proekty.grid-image>
             <x-pages.proekty.grid-image image="img/proekty-2-2.webp"
                                         name="Следующий проект"
-                                        description="Описание очередного проекта" >
+                                        description="Описание очередного проекта">
                 <x-pages.proekty.modal-image image="{{asset('img/telegram.png')}}" />
                 <x-pages.proekty.modal-image image="{{asset('img/logo-light.webp')}}" />
             </x-pages.proekty.grid-image>
@@ -47,13 +47,13 @@
         <div class="proekty-content">
             <x-pages.proekty.grid-image image="img/proekty-3-1.webp"
                                         name="Следующий проект"
-                                        description="Описание очередного проекта" >
+                                        description="Описание очередного проекта">
                 <x-pages.proekty.modal-image image="{{asset('img/monolasts.webp')}}" />
                 <x-pages.proekty.modal-image image="{{asset('img/pistol grip.webp')}}" />
             </x-pages.proekty.grid-image>
             <x-pages.proekty.grid-image image="img/proekty-3-2.webp"
                                         name="Следующий проект"
-                                        description="Описание очередного проекта" >
+                                        description="Описание очередного проекта">
                 <x-pages.proekty.modal-image image="{{asset('img/monolasts.webp')}}" />
                 <x-pages.proekty.modal-image image="{{asset('img/pistol grip.webp')}}" />
             </x-pages.proekty.grid-image>
@@ -65,13 +65,13 @@
         <div class="proekty-content">
             <x-pages.proekty.grid-image image="img/proekty-4-1.webp"
                                         name="Следующий проект"
-                                        description="Описание очередного проекта" >
+                                        description="Описание очередного проекта">
                 <x-pages.proekty.modal-image image="{{asset('img/monolasts.webp')}}" />
                 <x-pages.proekty.modal-image image="{{asset('img/pistol grip.webp')}}" />
             </x-pages.proekty.grid-image>
             <x-pages.proekty.grid-image image="img/proekty-4-2.webp"
                                         name="Следующий проект"
-                                        description="Описание очередного проекта" >
+                                        description="Описание очередного проекта">
                 <x-pages.proekty.modal-image image="{{asset('img/monolasts.webp')}}" />
                 <x-pages.proekty.modal-image image="{{asset('img/pistol grip.webp')}}" />
             </x-pages.proekty.grid-image>
@@ -82,7 +82,7 @@
         <div class="proekty-content">
             <x-pages.proekty.grid-image image="img/pistol grip.webp"
                                         name="Следующий проект"
-                                        description="Описание очередного проекта" >
+                                        description="Описание очередного проекта">
                 <x-pages.proekty.modal-image image="{{asset('img/monolasts.webp')}}" />
                 <x-pages.proekty.modal-image image="{{asset('img/pistol grip.webp')}}" />
             </x-pages.proekty.grid-image>

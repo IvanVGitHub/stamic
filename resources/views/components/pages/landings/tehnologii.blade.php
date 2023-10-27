@@ -6,7 +6,7 @@
 
 @section('content')
     <div class="wide-bg-oliva w-100 py-px-25">
-        <x-pages.tehnologii.wide-oliva-block />
+        <x-pages.tehnologii.wide-oliva-block-top />
     </div>
     <div class="wide-bg-white w-100">
         <x-pages.tehnologii.3d-modeling />

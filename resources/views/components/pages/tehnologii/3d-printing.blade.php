@@ -16,7 +16,9 @@
                     <div class="tehnologii-hover-image-scale">
                         <img src="{{asset('img/yellow_door.webp')}}" alt="">
                     </div>
-                    <div class="card-thumbnails-description">примеры 3Д печати</div>
+                    <div class="card-thumbnails-description">
+                        примеры 3Д печати
+                    </div>
                 </div>
             </div>
         </div>

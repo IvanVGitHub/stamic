@@ -1263,8 +1263,8 @@ $pentagonal-arrow: 40px;
     }
 }
 
-.modal-image-content-block{
-    .modal-image-content{
+.carousel-image-content-block{
+    .carousel-image-content{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1284,7 +1284,7 @@ $pentagonal-arrow: 40px;
                 }
             }
         }
-        .modal-image-content-description{
+        .carousel-image-content-description{
             align-items: start;
         }
     }

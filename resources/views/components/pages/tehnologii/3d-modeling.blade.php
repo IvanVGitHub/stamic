@@ -20,19 +20,21 @@
                 упаковки.
             </div>
             <div class="w-50">
-                <div class="d-flex gap-2">
-                    <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/form combined.webp')}}" alt="">
+                <div class="d-inline-block">
+                    <div class="d-flex gap-2">
+                        <div class="tehnologii-hover-image-scale">
+                            <img src="{{asset('img/form combined.webp')}}" alt="">
+                        </div>
+                        <div class="tehnologii-hover-image-scale">
+                            <img src="{{asset('img/form steel.webp')}}" alt="">
+                        </div>
+                        <div class="tehnologii-hover-image-scale">
+                            <img src="{{asset('img/pistol grip.webp')}}" alt="">
+                        </div>
                     </div>
-                    <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/form steel.webp')}}" alt="">
+                    <div class="text-center">
+                        примеры 3Д моделирования
                     </div>
-                    <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/pistol grip.webp')}}" alt="">
-                    </div>
-                </div>
-                <div class="text-center pr-px-100">
-                    примеры 3Д моделирования
                 </div>
             </div>
         </div>

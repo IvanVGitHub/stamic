@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pt-px-80">
+                <div class="pt-px-80 d-inline-block">
                     <div class="d-flex gap-2">
                         <div class="tehnologii-hover-image-scale">
                             <img src="{{asset('img/sea_star.webp')}}" alt="">
@@ -33,7 +33,7 @@
                             <img src="{{asset('img/clothespin.webp')}}" alt="">
                         </div>
                     </div>
-                    <div class="text-center pr-px-100">
+                    <div class="text-center">
                         примеры сканирования
                     </div>
                 </div>
