@@ -1,5 +1,5 @@
-<div class="wrapper-1314">
-    <div class="title-first-letter pt-px-50">
+<div class="wrapper-1314 pt-px-50">
+    <div class="title-first-letter">
         <span>3D</span> моделирование
     </div>
     <div class="wrapper-1218">

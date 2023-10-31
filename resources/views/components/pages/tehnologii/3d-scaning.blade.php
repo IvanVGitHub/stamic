@@ -1,5 +1,5 @@
-<div class="wrapper-1314">
-    <div class="title-first-letter pt-px-100">
+<div class="wrapper-1314 pt-px-100">
+    <div class="title-first-letter">
         <span>3D</span> сканирование
     </div>
     <div class="wrapper-1218">
@@ -12,13 +12,13 @@
                     <br>
                     На выходе получаем 3D модель, полностью повторяющую оригинал.
                 </div>
-                <div class="d-flex pt-px-50">
-                    <div class="minor-text">
-                        Наши специалисты смогут осуществить выезд для сканирования.
-                        <div class="d-flex flex-column align-items-center gray-triangle-boll pr-px-30">
-                            <div class="vertical-triangle"></div>
-                            <div class="orange-ball"></div>
-                        </div>
+                <div class="minor-text pt-px-50">
+                    Наши специалисты смогут осуществить
+                    <br>
+                    выезд для сканирования.
+                    <div class="d-flex flex-column align-items-center gray-triangle-boll pr-px-30">
+                        <div class="vertical-triangle"></div>
+                        <div class="orange-ball"></div>
                     </div>
                 </div>
                 <div class="pt-px-80 d-inline-block">

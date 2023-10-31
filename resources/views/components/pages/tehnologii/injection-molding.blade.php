@@ -1,5 +1,5 @@
-<div class="wrapper-1314 mr-0">
-    <div class="title-first-letter pt-px-50">
+<div class="wrapper-1314 pt-px-100">
+    <div class="title-first-letter">
         Литье под давлением
     </div>
     <div class="injection-wide-darkgray mt-px-35">

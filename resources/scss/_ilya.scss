@@ -299,6 +299,18 @@
             margin-right: 0;
         }
     }
+    &.milling{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        bottom: 0;
+        right: 0;
+        margin-right: 0;
+    }
+    &.vacuum-forming{
+        bottom: 0;
+        right: 100%;
+    }
 }
 
 .card-thumbnails-content{
@@ -322,11 +334,6 @@
 }
 
 .tehnologii-3d-scaning{
-    .minor-text{
-        position: relative;
-        font-size: 16px;
-        display: flex;
-    }
     .tehnologii-hover-image-scale{
         z-index: 5;
     }
@@ -334,6 +341,16 @@
         transform: translate(-100px, -50px);
         z-index: 0;
     }
+}
+
+.minor-text{
+    position: relative;
+    display: flex;
+    font-family: 'Proxima Nova Regular', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+    line-height: 1.4em;
 }
 
 .gray-triangle-boll{
@@ -348,6 +365,10 @@
         background-color: #999997;
         height: 0.8em;
         width: 0.8em;
+    }
+    &.vacuum-forming{
+        position: relative;
+        right: 0;
     }
 }
 
@@ -382,14 +403,6 @@ $wide-to-right-gray-translucent: rgba(#CCC9C4, .37);
     overflow-y: hidden;
     background: url("/img/milling-cutter-and-chips(cut).webp") no-repeat top;
     background-size: cover;
-    .card-thumbnails{
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
-        bottom: 0;
-        right: 0;
-        margin-right: 0;
-    }
 }
 
 .wide-gray-translucent-background{
@@ -408,7 +421,6 @@ $wide-to-right-darkgray-translucent: #383A3C;
         justify-content: center;
         padding: 0 20px;
         img{
-            width: 100%;
             object-fit: contain;
         }
     }
@@ -425,5 +437,26 @@ $wide-to-right-darkgray-translucent: #383A3C;
     }
     .shred-right{
         background-color: $wide-to-right-darkgray-translucent;
+    }
+}
+
+.vacuum-forming-block{
+    display:grid;
+    grid-template-columns: 35% 65%;
+    font-family: 'Proxima Nova Regular', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+    line-height: 1.4em;
+}
+
+.vacuum-forming-wide-warm{
+    display: flex;
+    justify-content: center;
+    width: 1134px;
+    background-color: #D1CAC5;
+    max-height: 448px;
+    .vacuum-forming-wide-warm-img{
+        height: 100%;
     }
 }
