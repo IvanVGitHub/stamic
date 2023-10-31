@@ -1,4 +1,4 @@
-<div class="wrapper-1314 pt-px-50">
+<div class="wrapper-1314 pt-px-50 pb-px-130">
     <div class="title-first-letter">
         Вакуумная формовка
     </div>
