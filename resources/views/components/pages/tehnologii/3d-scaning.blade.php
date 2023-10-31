@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="pt-px-80 d-inline-block">
-                    <div class="d-flex gap-2 position-relative">
+                    <div class="card-thumbnails-content position-relative">
                         <div class="tehnologii-hover-image-scale">
                             <img src="{{asset('img/sea-star.webp')}}" alt="">
                         </div>
@@ -32,7 +32,10 @@
                         <div class="tehnologii-hover-image-scale">
                             <img src="{{asset('img/clothespin.webp')}}" alt="">
                         </div>
-                        <div class="wide-to-right-gray-translucent-background position-absolute"></div>
+                        <div class="wide-to-right-gray-translucent-background position-absolute" id="parent-wide-gray">
+                            <div class="shred-right" id="wide-gray">
+                            </div>
+                        </div>
                     </div>
                     <div class="text-center">
                         примеры сканирования
@@ -45,3 +48,18 @@
         </div>
     </div>
 </div>
+
+<script>
+{{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}
+    function calculateGrayBlock(){
+        let div = document.getElementById('parent-wide-gray'),
+            rect = div.getBoundingClientRect(),
+            d = document.documentElement,
+            rectD = d.getBoundingClientRect();
+        let result = rectD.right - rect.right;
+        let wideGray = document.getElementById("wide-gray");
+        wideGray.style.width = result + "px";
+    }
+    window.addEventListener("load", calculateGrayBlock);
+    window.addEventListener('resize', calculateGrayBlock);
+</script>

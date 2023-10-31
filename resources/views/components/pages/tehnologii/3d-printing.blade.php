@@ -6,7 +6,7 @@
         <div class="d-flex justify-content-center position-relative">
             <div class="position-relative pt-px-40">
                 <img class="tehnologii-block2-img" src="{{asset('img/any-white-parts.jpg')}}" alt="">
-                <div class="card-thumbnails">
+                <div class="card-thumbnails block-3d-printing">
                     <div class="card-thumbnails-content">
                         <div class="tehnologii-hover-image-scale">
                             <img src="{{asset('img/woman_and_text.webp')}}" alt="">

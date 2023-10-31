@@ -192,16 +192,16 @@
     max-width: 1314px;
     width: 100%;
     margin: 0 auto !important;
-}
-@media only screen and (max-width: 1399px){
-    .wrapper-1314{
-        padding-left: 10px;
-        padding-right: 10px;
+    @include l-xxl{
+        .wrapper-1314{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     }
-}
-@media only screen and (max-width: 991px){
-    .wrapper-1314{
-        max-width: 100%;
+    @include l-lg{
+        .wrapper-1314{
+            max-width: 100%;
+        }
     }
 }
 
@@ -288,32 +288,36 @@
 
 .card-thumbnails{
     position: absolute;
-    bottom: 0;
-    right: 20px;
-    margin-right: 90px;
-    .card-thumbnails-content{
-        display: flex;
-        gap: 10px;
-        @include l-md{
-            gap: 5px;
-        }
-    }
-    .card-thumbnails-description{
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        top: 100%;
-        left: 0;
-        padding: 5px;
+    &.block-3d-printing{
+        bottom: 0;
+        right: 20px;
+        margin-right: 90px;
         @include l-md{
             position: relative;
+            bottom: 0;
+            right: 0;
+            margin-right: 0;
         }
     }
+}
+
+.card-thumbnails-content{
+    display: flex;
+    gap: 10px;
+    @include l-md{
+        gap: 5px;
+    }
+}
+
+.card-thumbnails-description{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    padding: 5px;
     @include l-md{
         position: relative;
-        bottom: 0;
-        right: 0;
-        margin-right: 0;
     }
 }
 
@@ -347,12 +351,22 @@
     }
 }
 
+$wide-to-right-gray-translucent: rgba(#CCC9C4, .37);
 .wide-to-right-gray-translucent-background{
     left: 0;
-    width: 4000px;
+    width: 100%;
     height: 100%;
-    background-color: rgba(#CCC9C4, .37);
+    background-color: $wide-to-right-gray-translucent;
     z-index: 1;
+}
+
+.shred-right{
+    position: absolute;
+    height: 100%;
+    left: 100%;
+    top: 0;
+    background-color: $wide-to-right-gray-translucent;
+    background-position: right;
 }
 
 .milling-background{
@@ -362,25 +376,54 @@
 }
 
 .milling-content{
-    //position: absolute;
     padding: 114px 0;
     left: 0;
     top: 0;
     overflow-y: hidden;
-    background: url("/img/milling-cutter-and-chips.webp");
+    background: url("/img/milling-cutter-and-chips(cut).webp") no-repeat top;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     .card-thumbnails{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        bottom: 0;
         right: 0;
         margin-right: 0;
-        display: flex;
-        position: relative;
-        justify-content: flex-end;
     }
 }
 
 .wide-gray-translucent-background{
     width: 100%;
     background-color: rgba(#FFFFFF, .82);
+}
+
+$wide-to-right-darkgray-translucent: #383A3C;
+.injection-wide-darkgray{
+    display:grid;
+    grid-template-columns: 39% 61%;
+    background-color: $wide-to-right-darkgray-translucent;
+    .injection-wide-darkgray-image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px;
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    .injection-wide-darkgray-content-text{
+        font-family: 'Proxima Nova', serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #CCC9C4;
+        line-height: 1.4em;
+        padding: 40px 0;
+    }
+    .wide-to-right-gray-translucent-background{
+        background-color: $wide-to-right-darkgray-translucent;
+    }
+    .shred-right{
+        background-color: $wide-to-right-darkgray-translucent;
+    }
 }
