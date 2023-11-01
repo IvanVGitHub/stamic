@@ -296,16 +296,40 @@ body{
     @extend .text-big-bullet;
     border-color: #FFFFFF;
 }
+.text-responsive-14{
+    font-size: 14px;
+    @include l-md{
+        font-size: 12px !important;
+    }
+}
+.text-responsive-15{
+    font-size: 15px;
+    @include l-md{
+        font-size: 13px !important;
+    }
+}
 .text-responsive-16{
     font-size: 16px;
     @include l-md{
         font-size: 14px !important;
     }
 }
+.text-responsive-17{
+    font-size: 17px;
+    @include l-md{
+        font-size: 15px !important;
+    }
+}
 .text-responsive-18{
     font-size: 18px;
     @include l-md{
         font-size: 16px !important;
+    }
+}
+.text-responsive-21{
+    font-size: 21px;
+    @include l-md{
+        font-size: 19px !important;
     }
 }
 .text-responsive-22{

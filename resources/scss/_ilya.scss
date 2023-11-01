@@ -211,6 +211,13 @@
     margin: 0 auto !important;
 }
 
+.wrapper-1168{
+    max-width: 1168px;
+    width: 100%;
+    margin: 0 auto !important;
+    background-color: #FFFFFF;
+}
+
 .wrapper-oliva{
     max-width: 980px;
     width: 100%;
@@ -458,5 +465,26 @@ $wide-to-right-darkgray-translucent: #383A3C;
     max-height: 448px;
     .vacuum-forming-wide-warm-img{
         height: 100%;
+    }
+}
+
+.kontakty-map{
+    width: 100%;
+    height: 350px;
+}
+
+.kontakty-content{
+    display: flex;
+    padding: 25px 100px;
+    font-family: 'Proxima Nova Regular', serif;
+    font-weight: 400;
+    color: #424242;
+    .address{
+    }
+    .phone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
