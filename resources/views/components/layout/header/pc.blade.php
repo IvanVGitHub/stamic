@@ -24,16 +24,10 @@
                     <a href="{{route('kontakty')}}" class="header-navigation-link {{request()->route()->getName() == 'kontakty' ? 'selected' : ''}}">
                         Контакты
                     </a>
-                    <a href="{{route('kontakty')}}" class="header-navigation-phone {{request()->route()->getName() == 'kontakty' ? 'selected' : ''}}">
-                        <div class="d-flex flex-column gap-3">
-                            <div>
-                                +7 950 912 05 91
-                            </div>
-                            <div>
-                                +7 952 018 33 46
-                            </div>
-                        </div>
-                    </a>
+                    <div class="d-flex flex-column gap-3">
+                        <a class="header-navigation-phone" href="tel:+79509120591">+7 950 912 05 91</a>
+                        <a class="header-navigation-phone" href="tel:+79520183346">+7 952 018 33 46</a>
+                    </div>
                 </div>
             </div>
         </div>

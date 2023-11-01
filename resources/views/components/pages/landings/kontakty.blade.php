@@ -10,7 +10,7 @@
             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A579655227e9d4f0440f6ddd274295e472bf6fc04a6c8bb71bebf05b278bcd07b&amp;width=1168&amp;height=350&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
         <div class="kontakty-content">
-            <div class="col-9 address">
+            <div class="col-9 d-grid row-gap-4">
                 <div>
                     <div class="text-responsive-21">
                         <strong>Производство. пн-сб 9.00-19.00</strong>
@@ -36,12 +36,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 phone">
+            <div class="col-3 kontakty-content-phone">
                 <div class="text-responsive-16">
-                    <strong>+7 950 912 05 91</strong>
+                    <a href="tel:+79509120591">+7 950 912 05 91</a>
                 </div>
                 <div class="text-responsive-16">
-                    <strong>+7 952 018 33 46</strong>
+                    <a href="tel:+79520183346">+7 952 018 33 46</a>
                 </div>
                 <br>
                 <div class="text-responsive-15">

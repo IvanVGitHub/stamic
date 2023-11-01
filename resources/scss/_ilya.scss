@@ -477,14 +477,18 @@ $wide-to-right-darkgray-translucent: #383A3C;
     display: flex;
     padding: 25px 100px;
     font-family: 'Proxima Nova Regular', serif;
+    font-size: 10px;
     font-weight: 400;
     color: #424242;
-    .address{
-    }
-    .phone{
+    .kontakty-content-phone{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: unset;
+        }
     }
 }
