@@ -429,12 +429,15 @@ body{
 }
 
 .header-navigation-link{
-    &:hover{
-        color: #FFFFFF;
-    }
     color: #CCC9C4;
     font: 300 16px "Roboto";
     text-decoration: none;
+    &:hover{
+        color: #FFFFFF;
+    }
+    &.selected{
+        color: #FFA15E;
+    }
 }
 
 .header-navigation-phone{
