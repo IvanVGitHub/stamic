@@ -3,9 +3,9 @@
 
 
 <main class="main" id="main">
-    <x-layout.header/>
+    <x-layout.header class="mb-px-200"/>
 
-    <div class="flex-grow-1">
+    <div class="flex-grow-1 content">
         @yield('content')
     </div>
 

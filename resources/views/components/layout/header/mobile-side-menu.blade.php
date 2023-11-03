@@ -3,7 +3,7 @@
         <div class="mb-3 d-flex justify-content-between align-items-center position-absolute top-0 start-0 w-100 p-2 bg-default"
              style="z-index:300; height: 56px">
             <a href="{{route('main')}}" class="header-mobile-logo">
-                <img src="{{asset('img/logo-light.webp')}}" class="main-logo-image w-100" alt="stamic">
+                <img class="main-logo-image w-50" src="{{asset('img/logo-light.webp')}}" alt="stamic">
             </a>
             <button class="header-mobile-button" onclick="toggleMobileMenu()"><i class="fa-solid fa-xmark"></i></button>
         </div>
@@ -31,10 +31,10 @@
             </div>
 
             <a href="https://t.me/AndreMatro" class="header-link mt-px-20">
-                <img src="{{asset('img/telegram.png')}}" class="main-logo-image w-100" alt="stamic">&nbsp;&nbsp;Телеграм
+                <img class="messenger w-100" src="{{asset('img/telegram.png')}}" alt="stamic">&nbsp;&nbsp;Telegram
             </a>
             <a href="https://www.instagram.com/stamic_ru/" class="header-link">
-                <img src="{{asset('img/instagram.png')}}" class="main-logo-image w-100" alt="stamic">&nbsp;&nbsp;Фото
+                <img class="messenger w-100" src="{{asset('img/instagram.png')}}" alt="stamic">&nbsp;&nbsp;Фото
             </a>
         </div>
     </div>

@@ -468,9 +468,26 @@ $wide-to-right-darkgray-translucent: #383A3C;
     }
 }
 
+.kontakty-container{
+    @extend .wrapper-1168;
+    @include l-xxl{
+        padding: 0 50px !important;
+    }
+}
+.kontakty{
+    @extend .wrapper-1168;
+    background: transparent;
+    @include l-xxl{
+        padding: 0 50px !important;
+    }
+    @include l-md{
+        padding: 0 !important;
+    }
+}
+
 .kontakty-map{
     width: 100%;
-    height: 350px;
+    height: 100%;
 }
 
 .kontakty-content{
@@ -490,5 +507,10 @@ $wide-to-right-darkgray-translucent: #383A3C;
             text-decoration: none;
             color: unset;
         }
+    }
+    @include l-md{
+        flex-direction: column;
+        padding: 25px;
+        row-gap: 50px;
     }
 }
