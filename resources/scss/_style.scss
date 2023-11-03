@@ -362,6 +362,15 @@ body{
         font-size: 24px !important;
     }
 }
+.text-responsive-40{
+    font-size: 40px;
+    @include l-lg{
+        font-size: 32px !important;
+    }
+    @include l-md{
+        font-size: 25px !important;
+    }
+}
 .text-responsive-42{
     font-size: 42px;
     @include l-lg{
@@ -1217,24 +1226,45 @@ $pentagonal-arrow: 40px;
         @include wrapper($width: 985px);
         display: flex;
         justify-content: space-between;
-        img{
-            display: block;
-            width: 100%;
+        row-gap: 30px;
+        .proekty-grid{
+            cursor: pointer;
+            .proekty-grid-image{
+                //4:3 size
+                width: 464px;
+                height: 348px;
+                object-fit: cover;
+                @include l-xl{
+                    //90%
+                    width: 417px;
+                    height: 313px;
+                }
+                @include l-lg{
+                    //70%
+                    width: 324px;
+                    height: 243px;
+                }
+                @include l-md{
+                    //50%
+                    width: 208px;
+                    height: 156px;
+                }
+                @include l-sm{
+                    //70%
+                    width: 1px;
+                    height: 1px;
+                }
+            }
+            .proekty-grid-image-text{
+                font: 400 18px "Open Sans";
+                color: #FFFFFF;
+                padding: 13px 0;
+            }
         }
-    }
-    .proekty-grid-image{
-        width: 100%;
-        max-width: 468px;
-        cursor: pointer;
-        img{
-            object-fit: cover;
-            width: 100%;
-            height: 348px;
-        }
-        .proekty-grid-image-text{
-            font: 400 18px "Open Sans";
-            color: #FFFFFF;
-            padding: 13px 0;
+        @include l-xs{
+            align-content: center;
+            flex-wrap: wrap;
+            flex-direction: column;
         }
     }
     .h-line{
@@ -1264,21 +1294,45 @@ $pentagonal-arrow: 40px;
             height: 120%;
             top: -14%;
             left: 5%;
+            @include l-xxxl{
+                left: 2%;
+            }
+            @include l-lg{
+                display: none;
+            }
         }
         &.vl2{
             height: 80%;
             top: -25%;
             left: 14%;
+            @include l-xxxl{
+                left: 5%;
+            }
+            @include l-lg{
+                display: none;
+            }
         }
         &.vl3{
             height: 115%;
             top: -25%;
             left: 2%;
+            @include l-lg{
+                display: none;
+            }
         }
         &.vl4{
             height: 120%;
             top: -55%;
             right: 21%;
+            @include l-hd{
+                right: 10%;
+            }
+            @include l-xxl{
+                right: 5%;
+            }
+            @include l-lg{
+                display: none;
+            }
         }
     }
 }
@@ -1296,6 +1350,7 @@ $pentagonal-arrow: 40px;
         justify-content: space-between;
         align-items: center;
         font: 600 40px "Helvetica";
+        @extend .text-responsive-40;
         color: rgba(65,65,65,1);
         line-height: 1.4em;
         .carousel-inner{

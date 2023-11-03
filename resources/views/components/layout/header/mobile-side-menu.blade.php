@@ -31,10 +31,10 @@
             </div>
 
             <a href="https://t.me/AndreMatro" class="header-link mt-px-20">
-                <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;Телеграм
+                <img src="{{asset('img/telegram.png')}}" class="main-logo-image w-100" alt="stamic">&nbsp;&nbsp;Телеграм
             </a>
             <a href="https://www.instagram.com/stamic_ru/" class="header-link">
-                <i class="fa-solid fa-circle-info"></i>&nbsp;&nbsp;Фото
+                <img src="{{asset('img/instagram.png')}}" class="main-logo-image w-100" alt="stamic">&nbsp;&nbsp;Фото
             </a>
         </div>
     </div>

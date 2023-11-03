@@ -2,8 +2,8 @@
     $id = \Str::random();
 @endphp
 
-<div class="proekty-grid-image" data-bs-toggle="modal" data-bs-target="#modal-{{$id}}">
-    <img src="{{asset($image ?? '')}}" alt="">
+<div class="proekty-grid" data-bs-toggle="modal" data-bs-target="#modal-{{$id}}">
+    <img class="proekty-grid-image" src="{{asset($image ?? '')}}" alt="">
     <div class="proekty-grid-image-text">
         {{$name ?? ''}}
     </div>
