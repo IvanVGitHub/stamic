@@ -536,6 +536,24 @@ body{
     max-width: 1572px;
     width: 100%;
     margin: 0 auto !important;
+    @include l-xxxl{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.logo-fhd{
+    @include l-lg{
+        display: none !important;
+    }
+}
+
+.logo-l-lg{
+    display: none !important;
+    @include l-lg{
+        display: block !important;
+        width: 50px;
+    }
 }
 
 .button-detailed{

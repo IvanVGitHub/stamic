@@ -1,13 +1,19 @@
 <div class="header-content">
     <div class="header-wrapper">
         <div class="d-flex justify-content-between">
-            <div class="d-inline-block">
+            <div class="d-inline-block logo-fhd">
                 <a href="{{route('main')}}" class="header-logo text-center">
                     <img src="{{asset('img/logo-light.webp')}}"
                          class="header-logo-img" alt="{{route('main')}}">
                     <div class="header-logo-text">
                         Формы.Пресс-формы.
                     </div>
+                </a>
+            </div>
+            <div class="d-inline-block logo-l-lg">
+                <a href="{{route('main')}}" class="header-logo text-center">
+                    <img src="{{asset('img/favicon.png')}}"
+                         class="header-logo-img" alt="{{route('main')}}">
                 </a>
             </div>
             <div class="d-inline-block">
