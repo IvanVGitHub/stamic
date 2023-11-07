@@ -488,14 +488,14 @@ body{
     border-top: 1px solid silver;
 }
 
-/*.index-block-title{
-    font: 700 36px "Montserrat";
-    color: #F5AF5F;
-}*/
-
-.index-block-title{
+.index-title{
     color: #FFFFFF;
     font: 400 54px "Roboto";
+}
+
+.index-block-title{
+    font: 700 36px "Montserrat";
+    color: #F5AF5F;
 }
 
 .index-block-subtitle{
@@ -504,11 +504,6 @@ body{
     letter-spacing: 0.3em;
 }
 
-.index-block-title{
-    color: #FFFFFF;
-    font: 400 54px "Roboto";
-
-}
 .index-block-subtitle{
     color: #A9A9A9;
     font: 400 19px "Roboto";
@@ -523,6 +518,10 @@ body{
     .index-block1-img{
         filter: grayscale(100%) brightness(130%);
     }
+}
+
+.index-block1-empty-box{
+
 }
 
 .index-block-text{
@@ -573,9 +572,6 @@ body{
     display: flex;
     width: 100%;
     padding-left: 125px;
-    .index-block-title{
-        line-height: 0.8em;
-    }
     .index-block2-list{
         display: inline-flex;
         background-color: #424242;

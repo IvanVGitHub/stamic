@@ -6,7 +6,7 @@
 @section('content')
     <div class="container">
         <div class="text-center">
-            <div class="index-block-title pb-3">
+            <div class="index-title pb-3">
                 Формы для литья
             </div>
             <div class="index-block-subtitle">
@@ -15,8 +15,13 @@
         </div>
         <div class="d-flex justify-content-center w-100">
             <div>
-                <div class="index-block-title">
-                    Наши формы
+                <div class="row">
+                    <div class="col index-block-title">
+                        Наши формы
+                    </div>
+                    <div class="col index-block1-empty-box index-block2-list">
+
+                    </div>
                 </div>
                 <div class="index-block1">
                     <div class="index-block-text tab">
