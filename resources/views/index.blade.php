@@ -15,11 +15,11 @@
         </div>
         <div class="d-flex justify-content-center w-100">
             <div>
-                <div class="row">
-                    <div class="col index-block-title">
+                <div class="index-block1-title-and-box">
+                    <div class="index-block-title">
                         Наши формы
                     </div>
-                    <div class="col index-block1-empty-box index-block2-list">
+                    <div class="index-block1-empty-box">
 
                     </div>
                 </div>

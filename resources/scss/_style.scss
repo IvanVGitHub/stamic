@@ -520,8 +520,14 @@ body{
     }
 }
 
-.index-block1-empty-box{
+.index-block1-title-and-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
 
+.index-block1-empty-box{
+    background-color: #424242;
 }
 
 .index-block-text{
