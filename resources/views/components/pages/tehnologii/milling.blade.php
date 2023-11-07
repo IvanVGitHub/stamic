@@ -1,4 +1,4 @@
-<div class="wrapper-1314 pt-px-50">
+<div class="wrapper-1314 pt-md-px-50 pt-px-15">
     <div class="title-first-letter">
         Фрезеровка
     </div>

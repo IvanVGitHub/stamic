@@ -170,7 +170,7 @@
 
 .tehnologii-text {
     font-family: 'Proxima Nova Regular', serif;
-    font-size: 18px;
+    @extend .text-responsive-18;
     font-weight: 400;
     color: #414141;
     line-height: 1.4em;
@@ -190,13 +190,39 @@
     }
     color: #414141;
     @include l-md{
-        padding-left: 15px;
-        padding-right: 15px;
-        font-size: 36px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 30px;
         text-align: center;
         margin-bottom: 10px;
     }
 }
+
+.img-form-with-orange-detail{
+    @include l-lg{
+        width: 360px;
+        height: auto;
+    }
+}
+
+.line-forms-for-melters{
+    width: 285px;
+    border-bottom: 1px solid #696969;
+
+}
+
+.silicone-form{
+    width: 100%;
+    height: auto;
+}
+
+.wide-gray-block-silicone-form{
+    background-color: #858581;
+    width: 100%;
+    color: #FFFFFF;
+
+}
+
 
 .wrapper-1314{
     max-width: 1314px;

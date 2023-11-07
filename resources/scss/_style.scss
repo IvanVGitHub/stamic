@@ -768,7 +768,7 @@ body{
 
 .wide-block-description{
     font-family: 'Proxima Nova Regular', serif;
-    font-size: 18px;
+    @extend .text-responsive-18;
     color: #414141;
     line-height: 1.4em;
     width: 100%;
@@ -786,6 +786,10 @@ body{
     img{
         width: 100%;
         height: 587px;
+        @include l-lg{
+            width: 100%;
+            height: auto;
+        }
     }
     .text-on-img{
         position: absolute;
@@ -837,13 +841,21 @@ body{
         }
         .text-under-list{
             color: #414141;
-            font-size: 18px;
+            @extend .text-responsive-18;
+            @include l-lg{
+                padding-left: 10px;
+                padding-right: 10px;
+            }
         }
     }
     .bottom-text{
         width: 100%;
         font-size: 16px;
         bottom: 0;
+        @include l-lg{
+            padding-right: 10px;
+            padding-left: 10px;
+        }
     }
     .text-under-img{
         font-family: 'Proxima Nova Regular', serif;
@@ -859,11 +871,18 @@ body{
         font-size: 16px;
         color: #3B3939;
         text-align: center;
+        @include l-lg{
+            padding-right: 5px;
+            padding-left: 5px;
+        }
     }
     .wide-block-left-block{
         background-color: #414141;
         padding: 30px 25px;
         min-width: 256px;
+        @include l-lg{
+            width: 100%;
+        }
         li{
             font-family: 'Proxima Nova Regular', serif;
             font-size: 15px;
@@ -874,11 +893,14 @@ body{
         display: flex;
         align-items: center;
         font-family: 'Proxima Nova Regular', serif;
-        font-size: 16px;
+        @extend .text-responsive-16;
         color: #FFFFFF;
         padding: 5px 20px;
         background-color: #858581;
         vertical-align: center;
+        @include l-lg{
+            padding: 10px 20px;
+        }
     }
 }
 
@@ -896,7 +918,8 @@ body{
         display: flex;
         flex-direction: column;
         font-family: 'Proxima Nova Regular', serif;
-        font-size: 18px;
+        @extend .text-responsive-18;
+        //font-size: 18px;
         color: #414141;
         line-height: 1.4em;
         ul{
@@ -906,7 +929,8 @@ body{
         }
         li{
             font-family: 'Proxima Nova Bold', serif;
-            font-size: 18px;
+            @extend .text-responsive-18;
+            //font-size: 18px;
             color: #575754;
         }
     }
@@ -971,10 +995,13 @@ body{
         font-family: 'Proxima Nova Regular', serif;
         font-size: 20px;
         padding: 30px 20px;
+        @include l-lg{
+            padding: 20px 20px;
+        }
     }
     .block-2-left-block{
         font-family: 'Proxima Nova Regular', serif;
-        font-size: 18px;
+        @extend .text-responsive-18;
         color: #414141;
         line-height: 1.4em;
     }
@@ -994,8 +1021,12 @@ body{
         font-family: 'Proxima Nova Regular', serif;
         font-size: 24px;
         color: #575754;
+        @include l-lg{
+            font-size: 20px;
+        }
         li{
-            font-size: 18px;
+            @extend .text-responsive-18;
+            //font-size: 18px;
             color: #414141;
             line-height: 1.7em;
         }
@@ -1008,9 +1039,12 @@ body{
         font-family: 'Proxima Nova Bold', serif;
         font-size: 24px;
         color: #575754;
+        @include l-lg{
+            font-size: 20px;
+        }
     }
     .block-3-text{
-        font-size: 18px;
+        @extend .text-responsive-18;
         color: #414141;
         line-height: 1.4em;
     }
@@ -1020,6 +1054,10 @@ body{
         align-items: center;
         background-color: #414141;
         padding: 12px 50px;
+        @include l-lg{
+            font-size: 19px;
+            padding: 10px 0px 10px 0px;
+        }
     }
 }
 
