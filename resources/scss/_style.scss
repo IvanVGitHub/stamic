@@ -774,6 +774,11 @@ body{
     width: 100%;
     display: block;
     background-color: #E2E2D7;
+
+    @include l-md{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 .img-with-stripe{

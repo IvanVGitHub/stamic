@@ -168,14 +168,17 @@
     height: 100%;
 }
 
-.tehnologii-text{
+.tehnologii-text {
     font-family: 'Proxima Nova Regular', serif;
     font-size: 18px;
     font-weight: 400;
     color: #414141;
     line-height: 1.4em;
+    @include l-md {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
-
 .title-first-letter{
     font-family: 'Impact Regular', serif;
     font-size: 43px;
@@ -186,6 +189,13 @@
         color: #FFA15E;
     }
     color: #414141;
+    @include l-md{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
 
 .wrapper-1314{
@@ -258,12 +268,21 @@
             background-color: rgba(gray, 0.5);
         }
     }
+    @include l-lg{
+        width: 100%;
+    }
 }
 
 .tehnologii-block1-img{
     max-width: 1053px;
     max-height: 425px;
+    @include l-md{
+        width: 100%;
+        //padding-right: 15px;
+        //padding-left: 15px;
+    }
 }
+
 
 .tehnologii-block2-img{
     width: 100%;
@@ -358,6 +377,30 @@
     font-weight: 400;
     color: #414141;
     line-height: 1.4em;
+    @include l-lg{
+        font-size: 17px;
+        padding-left: 10px;
+    }
+}
+
+.minor-text-small{
+    position: relative;
+    display: flex;
+    font-family: 'Proxima Nova Regular', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #414141;
+    line-height: 1.4em;
+}
+
+
+.img-minor-text{
+    width: 17px;
+    height: 42px;
+}
+
+.scaning-cameras-phone{
+    width: 100%;
 }
 
 .gray-triangle-boll{
@@ -447,6 +490,20 @@ $wide-to-right-darkgray-translucent: #383A3C;
     }
 }
 
+.detail-plastic-white-phone{
+    width: 250px;
+    height: auto;
+    align-items: center;
+}
+
+.tehnologii-text-white{
+    font-family: 'Proxima Nova', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #CCC9C4;
+    line-height: 1.4em;
+}
+
 .vacuum-forming-block{
     display:grid;
     grid-template-columns: 37% 63%;
@@ -466,6 +523,39 @@ $wide-to-right-darkgray-translucent: #383A3C;
     .vacuum-forming-wide-warm-img{
         height: 100%;
     }
+}
+
+.vacuum-forming-img-phone{
+    width: 150px;
+    height: auto;
+}
+
+.header-mobile-button{
+    padding: 5px;
+    color: white;
+    border: rgba(white,0.6) solid 1px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px !important;
+    height: 40px !important;
+    text-decoration: none;
+    background: rgba(white,0.1);
+    outline: none;
+    transition: all 0.15s ease-in-out;
+    &:hover{
+        background: rgba(white,0.3);
+        border-color: white;
+    }
+    &:active{
+        background: rgba(white,0.3);
+        border-color: white;
+    }
+    //@include  l-md{
+    //    width: 25px !important;
+    //    height: 25px !important;
+    //}
 }
 
 .kontakty-container{

@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="stamic.bedivierre.com" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
-    <option name="confirmBeforeUploading" value="false" />
+  <component name="PublishConfigData" serverName="stamic.bedivierre.com" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="stamic.bedivierre.com">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
-          <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
-            <excludedPath local="true" path="$PROJECT_DIR$/node_modules" />
-            <excludedPath local="true" path="$PROJECT_DIR$/vendor" />
-            <excludedPath local="true" path="$PROJECT_DIR$/.env" />
-            <excludedPath local="true" path="$PROJECT_DIR$/composer.lock" />
-          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
