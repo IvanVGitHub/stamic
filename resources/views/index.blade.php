@@ -5,23 +5,35 @@
 
 @section('content')
     <div class="container">
-        <div class="text-center">
+        <div class="index-title-block" id="index-block-title">
             <div class="index-title pb-3">
                 Формы для литья
             </div>
-            <div class="index-block-subtitle">
+            <div class="index-block-subtitle" style="width: fit-content">
                 Лучшая реклама любой работы - её качество!
+                <div class="index-under-subtitle-line left" id="movelineleft"></div>
+                <div class="index-under-subtitle-line right" id="movelineright"></div>
             </div>
+            <div class="index-under-subtitle-container">
+                <div class="index-under-subtitle-container-triangle" id="transparenttriangle"></div>
+            </div>
+            @push('custom_scripts')
+                <script>
+                    registerForAnimation('index-block-title',[
+                        {id:'movelineleft', addedClass:'moved', delay:300},
+                        {id:'movelineright', addedClass:'moved', delay:300},
+                        {id:'transparenttriangle', addedClass:'moved', delay:1500},
+                    ]);
+                </script>
+            @endpush
         </div>
         <div class="d-flex justify-content-center w-100">
             <div>
                 <div class="index-block1-title-and-box">
-                    <div class="index-block-title">
+                    <div class="index-block-title p-md-px-20 p-px-30">
                         Наши формы
                     </div>
-                    <div class="index-block1-empty-box">
-
-                    </div>
+                    <div class="index-block1-empty-box"></div>
                 </div>
                 <div class="index-block1">
                     <div class="index-block-text tab">
@@ -30,21 +42,28 @@
                             для выпечки, формы для литья пластиков, матрицы, прототипы и мастер модели,..
                         </div>
                         <br>
-                        <div>
-                            Для них нужны &nbsp&nbsp<strong>ФОРМЫ.</strong>
-                            <div class="d-flex justify-content-end">
-                                <button class="button-detailed">Подробнее</button>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                Для них нужны &nbsp&nbsp<strong>ФОРМЫ.</strong>
                             </div>
+                            <button class="button-detailed">Подробнее</button>
                         </div>
                     </div>
-                    <div class="index-block1-img">
-                        <img src="{{asset('img/cutters.webp')}}" alt="">
+                    <div class="index-block1-img" id="parent-wide-gray">
+                        <div class="shred-right" id="wide-gray"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <br>
-        <div class="d-flex justify-content-center w-100">
+    </div>
+
+    <div class="index-wide-gray pt-px-90">
+        <div></div>
+        <div class="index-wide-gray-right"></div>
+    </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-center w-100 pt-px-40">
             <div>
                 <div class="index-block2">
                     <div class="index-block2-list">
@@ -58,21 +77,32 @@
                             <li>Литье под давлением</li>
                         </ul>
                     </div>
-                    <div class="index-block2-content">
+                    <div class="index-block2-content" id="index-block2">
                         <div class="index-block-title w-100 text-center mb-3">
                             Наши технологии
                         </div>
-                        <div class="index-block2-text">
+                        <div class="index-block2-text" id="movetext">
                             Все наши технологии мы используем в той или иной степени в изготовлении форм . Вы можете
                             воспользоваться любой из них как отдельной услугой или как частью вашего проекта. С
                             помощью этих технологий можно реализовать самые смелые проекты вашего бизнеса
                             <button class="button-detailed float-end mt-3">Подробнее</button>
                         </div>
+                        <div class="index-block2-triangle-container" id="movetriangle">
+                            <div class="index-block2-triangle"></div>
+                        </div>
+                        @push('custom_scripts')
+                            <script>
+                                registerForAnimation('index-block2',[
+                                    {id:'movetriangle', addedClass:'moved', delay:300},
+                                    {id:'movetext', addedClass:'moved', delay:500},
+                                ]);
+                            </script>
+                        @endpush
                     </div>
                 </div>
             </div>
         </div>
-        <div class="pl-px-115 my-5">
+        <div class="pl-px-115 pt-px-100 my-5">
             <div class="index-block-title">
                 Примеры проектов
             </div>
@@ -148,6 +178,21 @@
             </div>
         </div>
     </div>
+
+    <script>
+        {{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}
+        function calculateGrayBlock(){
+            let div = document.getElementById('parent-wide-gray'),
+                rect = div.getBoundingClientRect(),
+                d = document.documentElement,
+                rectD = d.getBoundingClientRect();
+            let result = rectD.right - rect.right;
+            let wideGray = document.getElementById("wide-gray");
+            wideGray.style.width = result + "px";
+        }
+        window.addEventListener("load", calculateGrayBlock);
+        window.addEventListener('resize', calculateGrayBlock);
+    </script>
 @endsection
 
 @section('meta-description')
