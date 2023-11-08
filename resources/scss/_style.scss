@@ -380,6 +380,15 @@ body{
         font-size: 26px !important;
     }
 }
+.text-responsive-43{
+    font-size: 43px;
+    @include l-lg{
+        font-size: 36px !important;
+    }
+    @include l-md{
+        font-size: 30px !important;
+    }
+}
 .text-responsive-48{
     font-size: 48px;
     @include l-lg{
@@ -499,12 +508,7 @@ body{
 }
 
 .index-block-subtitle{
-    color: #A9A9A9;
-    font: 400 19px "Roboto";
-    letter-spacing: 0.3em;
-}
-
-.index-block-subtitle{
+    position: relative;
     color: #A9A9A9;
     font: 400 19px "Roboto";
     letter-spacing: 0.3em;
@@ -603,7 +607,7 @@ $indexTriangleHeight:62px;
 
 .index-block-text{
     font: 300 21px "Roboto";
-    padding: 19px 100px 39px 51px;
+    padding: 39px 0 19px 51px;
     line-height: 1.4em;
 }
 
@@ -1032,7 +1036,6 @@ $indexTriangleHeight:62px;
         flex-direction: column;
         font-family: 'Proxima Nova Regular', serif;
         @extend .text-responsive-18;
-        //font-size: 18px;
         color: #414141;
         line-height: 1.4em;
         ul{
@@ -1043,7 +1046,6 @@ $indexTriangleHeight:62px;
         li{
             font-family: 'Proxima Nova Bold', serif;
             @extend .text-responsive-18;
-            //font-size: 18px;
             color: #575754;
         }
     }
@@ -1139,7 +1141,6 @@ $indexTriangleHeight:62px;
         }
         li{
             @extend .text-responsive-18;
-            //font-size: 18px;
             color: #414141;
             line-height: 1.7em;
         }
