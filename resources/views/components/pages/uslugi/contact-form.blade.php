@@ -4,7 +4,7 @@
             <div class="uslugi-contact-form-block-form-title">
                 Узнайте стоимость
             </div>
-            <form class="row g-4 pt-px-35" action="asset{{'index.php'}}">
+            <form class="row gy-2 g-md-4 pt-px-35 w-100 mx-0" action="asset{{'index.php'}}">
                 <div class="col-md-6">
                     <input class="default-form-input"
                            type="text"
@@ -53,7 +53,7 @@
                     </select>
                 </div>
                 <div class="col-12">
-                    <textarea class="default-form-input" name="message" style="width:510px; height:126px;" placeholder="Комментарии" aria-required="false"></textarea>
+                    <textarea class="default-form-input" name="message" placeholder="Комментарии" aria-required="false"></textarea>
                 </div>
                 <div class="col-12">
                     <button class="w-100 default-form-btn" type="submit">Запросить цену</button>
