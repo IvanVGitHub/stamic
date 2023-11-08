@@ -19,6 +19,8 @@
     <div class="wide-bg-oliva w-100 py-px-25">
         <x-pages.tehnologii.wide-oliva-block-bottom />
     </div>
+    <x-pages.uslugi.contact-form />
+    <x-pages.tehnologii.under-contact-form/>
 @endsection
 
 @section('meta-description')

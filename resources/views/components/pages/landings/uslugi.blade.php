@@ -5,18 +5,21 @@
 @endsection
 
 @section('content')
-<div class="wide-bg-oliva w-100 py-px-25">
-    <x-pages.uslugi.wide-oliva-block-top />
-</div>
-<div class="wide-bg-white w-100">
-    <x-pages.uslugi.forms-for-vacuum />
-    <x-pages.uslugi.forms-for-melters />
-    <x-pages.uslugi.forms-for-silicone />
-    <x-pages.uslugi.matrixes />
-    <x-pages.uslugi.prototypes />
-    <x-pages.uslugi.example-of-work />
-    <x-pages.uslugi.contact-form />
-</div>
+    <div class="wide-bg-oliva w-100 py-px-25">
+        <x-pages.uslugi.wide-oliva-block-top />
+    </div>
+    <div class="wide-bg-white w-100">
+        <x-pages.uslugi.forms-for-vacuum />
+        <x-pages.uslugi.forms-for-melters />
+        <x-pages.uslugi.forms-for-silicone />
+        <x-pages.uslugi.matrixes />
+        <x-pages.uslugi.prototypes />
+        <x-pages.uslugi.example-of-work />
+        <div class="mt-px-50">
+            <x-pages.uslugi.contact-form/>
+        </div>
+        <x-pages.uslugi.under-contact-form/>
+    </div>
 @endsection
 
 

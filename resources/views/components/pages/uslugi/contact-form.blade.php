@@ -1,10 +1,10 @@
-<div class="uslugi-contact-form-block mt-px-50">
+<div class="uslugi-contact-form-block">
     <div>
         <div class="uslugi-contact-form-block-form">
-            <div class="uslugi-contact-form-block-form-title">
-                Узнайте стоимость
-            </div>
-            <form class="row gy-2 g-md-4 pt-px-35 w-100 mx-0" action="asset{{'index.php'}}">
+            <form class="row gy-2 g-md-4 w-100 mx-0" action="asset{{'index.php'}}">
+                <div class="uslugi-contact-form-block-form-title">
+                    Узнайте стоимость
+                </div>
                 <div class="col-md-6">
                     <input class="default-form-input"
                            type="text"
@@ -59,14 +59,6 @@
                     <button class="w-100 default-form-btn" type="submit">Запросить цену</button>
                 </div>
             </form>
-        </div>
-        <div class="uslugi-contact-form-block-under pt-px-40">
-            Каждая форма разрабатывается индивидуально и можете с уверенностью сказать, что Ваши формы будут уникальны!
-            Наша компания может взять Ваши заботы по формовке пластика, литью, сканированию, моделированию и фрезеровке.
-            Пожалуйста, посмотрите <a href="">"Наши технологии"</a>
-        </div>
-        <div class="w-100 pt-px-50">
-            <hr class="contact-form-block-hr">
         </div>
     </div>
 </div>

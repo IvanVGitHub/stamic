@@ -1356,7 +1356,6 @@ $pentagonal-arrow: 40px;
             max-width: 100%;
             max-height: unset;
         }
-
         .uslugi-contact-form-block-form-title{
             font: 700 20px "Roboto";
             color: #858581;
@@ -1364,10 +1363,9 @@ $pentagonal-arrow: 40px;
                 text-align: center;
             }
         }
-
-
     }
     .uslugi-contact-form-block-under{
+        text-align: center;
         font-size: 15px;
         color: #CCC9C4;
         line-height: 1.6em;
@@ -1376,18 +1374,15 @@ $pentagonal-arrow: 40px;
         a{
             color: #CCC9C4;
         }
-
         @include l-md{
             max-width: 100%;
         }
     }
-
     .contact-form-block-hr{
         margin: auto;
         border-top: 1px solid silver;
         width: 65%;
     }
-
     .contakt-form{
         @include l-lg{
             width: 360px;
@@ -1397,7 +1392,6 @@ $pentagonal-arrow: 40px;
         }
 
     }
-
     .default-form-input{
         width: 100%;
         padding: 14px 12px;
@@ -1421,12 +1415,7 @@ $pentagonal-arrow: 40px;
             background-color: #B45AD426; //прозрачность 15% - это параметр 26
             border: 1px solid #FF4040;
         }
-        @include l-lg{
-
-
-        }
     }
-
     .default-form-btn{
         border: none;
         //outline: none;
