@@ -1246,7 +1246,7 @@ $imageHeight: 500px;
     }
     .block-4-grid-block-3-left-text{
         font-family: 'Proxima Nova Regular', serif;
-        font-size: 18px;
+        @extend .text-responsive-18;
         color: #414141;
         line-height: 1.4em;
         padding: 10px 10px 10px 295px;
@@ -1256,10 +1256,15 @@ $imageHeight: 500px;
             padding-left: 0;
             max-width: 320px;
         }
+        @include l-lg{
+            max-width: 100%;
+            width: 100%;
+
+        }
     }
     .block-4-grid-block-3-left-title{
         font-family: 'Proxima Nova Regular', serif;
-        font-size: 22px;
+        @extend .text-responsive-22;
         color: #FFFFFF;
         background-color: #858581;
         padding: 28px 70px 28px 295px;
@@ -1268,6 +1273,14 @@ $imageHeight: 500px;
         @include l-xl{
             padding-left: 0;
             max-width: 320px;
+        }
+        @include l-lg{
+            width: 100%;
+            padding: 15px 70px 15px 70px;
+            text-align: center;
+            max-width: 100%;
+            display: flex;
+
         }
     }
 }
@@ -1280,6 +1293,9 @@ $imageHeight: 500px;
     background-color: #858581;
     padding: 10px;
     text-align: center;
+    @include l-lg{
+        font-size: 20px;
+    }
 }
 
 .item{
@@ -1294,6 +1310,11 @@ $pentagonal-arrow: 40px;
     .uslugi-example-of-work-sequence-item{
         img{
             height: 235px;
+            @include l-lg{
+                width: 100%;
+                height: auto;
+                padding: 10px 25px 10px 25px;
+            }
         }
         .uslugi-example-of-work-sequence-item-under{
             display: flex;
@@ -1330,18 +1351,34 @@ $pentagonal-arrow: 40px;
         max-width: 510px;
         max-height: 550px;
         margin: 20px auto !important;
+        width: 100%;
+        @include l-md{
+            max-width: 100%;
+            max-height: unset;
+        }
+
         .uslugi-contact-form-block-form-title{
             font: 700 20px "Roboto";
             color: #858581;
+            @include l-lg{
+                text-align: center;
+            }
         }
+
+
     }
     .uslugi-contact-form-block-under{
         font-size: 15px;
         color: #CCC9C4;
         line-height: 1.6em;
         max-width: 990px;
+        width: 100%;
         a{
             color: #CCC9C4;
+        }
+
+        @include l-md{
+            max-width: 100%;
         }
     }
 
@@ -1349,6 +1386,16 @@ $pentagonal-arrow: 40px;
         margin: auto;
         border-top: 1px solid silver;
         width: 65%;
+    }
+
+    .contakt-form{
+        @include l-lg{
+            width: 360px;
+            display: block;
+            align-content: center;
+            justify-content: center;
+        }
+
     }
 
     .default-form-input{
@@ -1373,6 +1420,10 @@ $pentagonal-arrow: 40px;
         &:invalid{
             background-color: #B45AD426; //прозрачность 15% - это параметр 26
             border: 1px solid #FF4040;
+        }
+        @include l-lg{
+
+
         }
     }
 
