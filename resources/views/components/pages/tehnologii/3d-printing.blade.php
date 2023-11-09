@@ -1,14 +1,18 @@
-<div class="wrapper-1314 pt-px-20">
-
+<div class="wrapper-1314 pb-px-20">
     <div class="title-first-letter">
         <span>3D</span> печать
     </div>
 
-    <div class="wrapper-1218">
-        <div class="d-md-flex d-none justify-content-center position-relative">
-            <div class="position-relative pt-px-40">
-                <img class="tehnologii-block2-img" src="{{asset('img/any-white-parts.jpg')}}" alt="">
-                <div class="card-thumbnails block-3d-printing">
+    <div class="wrapper-1218 pt-px-20">
+        <div class="tehnologii-block2">
+            <div class="block-3d-printing-description-gray-left tehnologii-text" id="wide-printing-gray">
+                Мы печатаем прототипы и детали на 3d принтерах собственного производства.
+                Высочайшая точность, скорость и качество проверенно сотнями часов печати. Печатаем ABS и PLA
+                пластиками.
+                Возможна печать с водорастворимыми поддержками.
+            </div>
+            <div class="position-relative flag-right">
+                <div class="card-thumbnails flag-3d-printing">
                     <div class="card-thumbnails-content">
                         <div class="tehnologii-hover-image-scale">
                             <img src="{{asset('img/woman_and_text.webp')}}" alt="">
@@ -26,47 +30,32 @@
                 </div>
             </div>
         </div>
-
-        <div class="d-flex d-md-none justify-content-center mb-3">
-            <img src="{{asset('img/any-white-parts-phone.png')}}" class="tehnologii-block1-img" alt="" style="max-height: 400px;">
-        </div>
-
-        <div class="block-3d-printing-description-gray-left row">
-            <div class="d-none d-sm-block col-md-1 col-lg-2 col-xl-3 col-xxl-5"></div>
-            <div class="col-12 col-md-11 col-lg-10 col-xl-9 col-xxl-7">
-                <div class="p-px-30 tehnologii-text">
-                    Мы печатаем прототипы и детали на 3d принтерах собственного производства.
-                    Высочайшая точность,&nbsp;скорость и качество проверенно сотнями часов печати. Печатаем ABS и PLA пластиками.
-                    Возможна печать с&nbsp; водорастворимыми поддержками.
-                </div>
-            </div>
-        </div>
-
-
-
-            <div class="d-md-none d-flex justify-content-center position-relative">
-                <div class="position-relative pt-px-10">
-                    <img class="tehnologii-block2-img" src="{{asset('img/any-white-parts.jpg')}}" alt="">
-                    <div class="card-thumbnails block-3d-printing">
-                        <div class="card-thumbnails-content">
-                            <div class="tehnologii-hover-image-scale">
-                                <img src="{{asset('img/woman_and_text.webp')}}" alt="">
-                            </div>
-                            <div class="tehnologii-hover-image-scale">
-                                <img src="{{asset('img/flowers.webp')}}" alt="">
-                            </div>
-                            <div class="tehnologii-hover-image-scale">
-                                <img src="{{asset('img/yellow_door.webp')}}" alt="">
-                            </div>
-                        </div>
-                        <div class="card-thumbnails-description">
-                            примеры 3Д печати
-                        </div>
-                    </div>
-                </div>
-
-
-
     </div>
 </div>
-</div>
+
+<script>
+    {{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}
+    function calculateGrayBlock() {
+        let div = document.getElementById('wide-printing-gray'),
+            rect = div.getBoundingClientRect(),
+            wideGray = getComputedStyle(div);
+        div.style.transform = `translate(-${rect.left}px, ${getTranslateXY(wideGray).translateY}px)`;
+        div.style.paddingLeft = `${rect.left}px`;
+        div.style.width = `${rect.left * 3}px`;
+    }
+
+    {{--получаем отдельные зачения "X" и "Y" "transform: translate(_px,_px)"--}}
+    function getTranslateXY(elementStyle) {
+        const matrix = new DOMMatrixReadOnly(elementStyle.transform)
+        return {
+            translateX: matrix.m41,
+            translateY: matrix.m42
+        }
+    }
+
+    window.addEventListener("load", calculateGrayBlock);
+    window.addEventListener('resize', calculateGrayBlock);
+    $(document).ready(function(){
+        calculateGrayBlock();
+    })
+</script>

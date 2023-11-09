@@ -6,20 +6,32 @@
 
 @section('content')
     <div class="wide-bg-oliva w-100 py-px-25">
-        <x-pages.tehnologii.wide-oliva-block-top />
+        <x-pages.tehnologii.wide-oliva-block-top/>
     </div>
-    <div class="wide-bg-white w-100">
-        <x-pages.tehnologii.3d-modeling />
-        <x-pages.tehnologii.3d-printing />
-        <x-pages.tehnologii.3d-scaning />
-        <x-pages.tehnologii.milling />
-        <x-pages.tehnologii.injection-molding />
-        <x-pages.tehnologii.vacuum-forming />
+    <div class="wide-bg-white w-100 pb-px-80">
+        <div class="pt-px-50">
+            <x-pages.tehnologii.3d-modeling/>
+        </div>
+        <div class="pt-px-50">
+            <x-pages.tehnologii.3d-printing/>
+        </div>
+        <div class="pt-px-50">
+            <x-pages.tehnologii.3d-scaning/>
+        </div>
+        <div class="pt-px-50">
+            <x-pages.tehnologii.milling/>
+        </div>
+        <div class="pt-px-50">
+            <x-pages.tehnologii.injection-molding/>
+        </div>
+        <div class="pt-px-50">
+            <x-pages.tehnologii.vacuum-forming/>
+        </div>
     </div>
     <div class="wide-bg-oliva w-100 py-px-25">
-        <x-pages.tehnologii.wide-oliva-block-bottom />
+        <x-pages.tehnologii.wide-oliva-block-bottom/>
     </div>
-    <x-pages.uslugi.contact-form />
+    <x-pages.uslugi.contact-form/>
     <x-pages.tehnologii.under-contact-form/>
 @endsection
 
