@@ -5,11 +5,12 @@
 
     <div class="wrapper-1218 pt-px-20">
         <div class="tehnologii-block2">
-            <div class="block-3d-printing-description-gray-left tehnologii-text" id="wide-printing-gray">
+            <div class="block-3d-printing-description tehnologii-text" id="parent-wide-gray-border">
                 Мы печатаем прототипы и детали на 3d принтерах собственного производства.
                 Высочайшая точность, скорость и качество проверенно сотнями часов печати. Печатаем ABS и PLA
                 пластиками.
                 Возможна печать с водорастворимыми поддержками.
+                <div class="shred-left" id="wide-gray-border"></div>
             </div>
             <div class="position-relative flag-right">
                 <div class="card-thumbnails flag-3d-printing">
@@ -35,6 +36,16 @@
 
 <script>
     {{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}
+    function calculateGrayBlock(){
+        let div = document.getElementById('parent-wide-gray-border'),
+            rect = div.getBoundingClientRect(),
+            wideGray = document.getElementById("wide-gray-border");
+        wideGray.style.width = rect.left + "px";
+    }
+    window.addEventListener("load", calculateGrayBlock);
+    window.addEventListener('resize', calculateGrayBlock);
+
+/*    {{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}
     function calculateGrayBlock() {
         let div = document.getElementById('wide-printing-gray'),
             rect = div.getBoundingClientRect(),
@@ -57,5 +68,5 @@
     window.addEventListener('resize', calculateGrayBlock);
     $(document).ready(function(){
         calculateGrayBlock();
-    })
+    })*/
 </script>

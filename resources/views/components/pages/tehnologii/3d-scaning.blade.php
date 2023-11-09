@@ -4,7 +4,7 @@
     </div>
     <div class="wrapper-1218">
         <div class="d-flex tehnologii-3d-scaning">
-            <div class="pt-px-20">
+            <div class="pt-px-20 z-1">
                 <div class="tehnologii-text">
                     Мы используем оптический 3D сканер с разрешением до <strong>0.01мм</strong>.
                     <br>
@@ -21,7 +21,7 @@
                         <div class="orange-ball"></div>
                     </div>
                 </div>
-                <div class="pt-px-80 d-inline-block">
+                <div class="tehnologii-3d-scaning-cards">
                     <div class="card-thumbnails-content position-relative">
                         <div class="tehnologii-hover-image-scale">
                             <img src="{{asset('img/sea-star.webp')}}" alt="">
@@ -49,7 +49,7 @@
 </div>
 
 <script>
-{{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}
+    {{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}
     function calculateGrayBlock(){
         let div = document.getElementById('parent-wide-gray'),
             rect = div.getBoundingClientRect(),

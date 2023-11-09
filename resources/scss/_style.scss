@@ -533,6 +533,16 @@ body{
     }
 }
 
+.modeling-description-and-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include l-md{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 .index-block1-title-and-box{
     display: grid;
     grid-template-columns: 1fr 1fr;

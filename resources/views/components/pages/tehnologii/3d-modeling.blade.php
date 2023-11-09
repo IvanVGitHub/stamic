@@ -7,8 +7,8 @@
         <div class="d-flex justify-content-center">
             <img src="{{asset('img/form half real.webp')}}" class="tehnologii-block1-img" alt="">
         </div>
-        <div class="d-flex justify-content-between">
-            <div class="tehnologii-text pt-px-20 w-50">
+        <div class="modeling-description-and-icons">
+            <div class="tehnologii-text pt-px-20">
                 Мы различаем два вида моделирования.
                 <br>
                 <strong>3Д скульптор и 3Д проектирование.</strong>
@@ -20,7 +20,7 @@
                 Например, пластиковый кронштейн или форма для блистерной
                 упаковки.
             </div>
-            <div class="w-50">
+            <div class="">
                 <div class="d-inline-block">
                     <div class="d-flex gap-2">
                         <div class="tehnologii-hover-image-scale">

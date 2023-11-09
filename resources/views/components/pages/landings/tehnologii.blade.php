@@ -15,7 +15,7 @@
         <div class="pt-px-50">
             <x-pages.tehnologii.3d-printing/>
         </div>
-        <div class="pt-px-50">
+        <div class="pt-px-50 overflow-hidden">
             <x-pages.tehnologii.3d-scaning/>
         </div>
         <div class="pt-px-50">

@@ -5,13 +5,13 @@
 
     <div class="position-relative pt-px-20">
         <div class="milling-content">
-            <div class="wide-gray-translucent-background px-px-5 d-flex">
-                <div class="tehnologii-text pl-px-80 py-px-10 pr-px-50 col-6">
+            <div class="wide-gray-translucent-background px-px-5">
+                <div class="tehnologii-text pl-px-md-80 py-px-md-10 pr-px-md-50 p-px-10">
                     Мы используем 3х и 4х осевые фрезерные станки с ЧПУ. Работаем по цветным металлам, сплавам, сталям, пластикам, МДФ и другим материалам.
                     <br>
                     Всегда точное время обработки, высокая скорость и качество наших форм остаются нашими приоритетами в работе. Наш парк фрезерных станков с ЧПУ позволяет изготовлять формы любых размеров и сложности.
                 </div>
-                <div class="col-6">
+                <div class="">
                     <div class="card-thumbnails milling">
                         <div class="position-relative">
                             <div class="card-thumbnails-content">

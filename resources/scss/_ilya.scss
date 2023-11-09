@@ -294,8 +294,9 @@
             background-color: rgba(gray, 0.5);
         }
     }
-    @include l-lg{
-        width: 100%;
+    @include l-sm{
+        width: 120px;
+        height: 160px;
     }
 }
 
@@ -313,36 +314,35 @@
     grid-template-columns: 1fr 1fr;
     background-image: url('/img/any-white-parts.jpg');
     background-size: cover;
-    //width: 100%;
-    height: 100%;
-    &.flag-right{
-        //width: 50%;
-    }
     .flag-right{
-        width: 100%;
+        @include l-md{
+        }
     }
     @include l-md{
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
-.block-3d-printing-description-gray-left{
+$block-3d-printing-description-background-color: #F2F1F2;
+.block-3d-printing-description{
     position: relative;
     z-index: 1;
-    transform: translateY(100px);
-    //width: 100%;
+    margin: 100px 80px 60px 0;
     padding: 30px;
-    background-color: #F2F1F2;
-    border-left: #C8C4C7 solid 38px;
-    @include l-xl{
-        width: 40%;
+    background-color: $block-3d-printing-description-background-color;
+    .shred-left{
+        background-color: $block-3d-printing-description-background-color;
+        border-left: #C8C4C7 solid 38px;
     }
-    @include l-lg{
-        width: 100%;
+    @include l-xxl{
+        margin-right: 10px;
+        border-left: #C8C4C7 solid 38px;
     }
-    @include l-md{
-        position: relative;
-        transform: unset;
+    @include l-sm{
+        margin: 30px 20px 10px 0;
     }
 }
 
@@ -365,6 +365,12 @@
         bottom: 0;
         right: 0;
         margin-right: 0;
+        @include l-lg{
+            justify-content: center;
+            .card-thumbnails-description{
+                position: unset;
+            }
+        }
     }
     &.flag-vacuum-forming{
         bottom: 0;
@@ -388,19 +394,41 @@
     left: 0;
     padding: 5px;
     @include l-md{
-        position: relative;
+        //position: relative;
     }
 }
 
 .tehnologii-3d-scaning{
+    position: relative;
     .tehnologii-hover-image-scale{
         z-index: 5;
+    }
+}
+
+.tehnologii-3d-scaning-cards{
+    display: inline-block;
+    padding-top: 80px;
+    @include l-lg {
+        padding-top: 20px;
+        display: block;
+        text-align: center;
+        .card-thumbnails-content{
+            display: inline-flex;
+        }
     }
 }
 
 .tehnologii-3d-scaning-image{
     transform: translateX(-100px);
     z-index: 0;
+    @include l-lg{
+        position: absolute;
+        opacity: 0.2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 100%;
+    }
 }
 
 .minor-text{
@@ -412,10 +440,10 @@
     color: #414141;
     line-height: 1.4em;
     &.flag-tehnologii-3d-scaning{
-        @include l-xxxl{
+        @include l-lg{
             flex-direction: row-reverse;
             flex-wrap: nowrap;
-            justify-content: flex-end;
+            justify-content: center;
         }
     }
 }
@@ -471,6 +499,15 @@ $wide-to-right-gray-translucent: rgba(#CCC9C4, .37);
     z-index: 1;
 }
 
+.shred-left{
+    position: absolute;
+    height: 100%;
+    right: 100%;
+    top: 0;
+    background-color: $wide-to-right-gray-translucent;
+    background-position: left;
+}
+
 .shred-right{
     position: absolute;
     height: 100%;
@@ -496,8 +533,13 @@ $wide-to-right-gray-translucent: rgba(#CCC9C4, .37);
 }
 
 .wide-gray-translucent-background{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
     background-color: rgba(#FFFFFF, .82);
+    @include l-lg{
+        display: block;
+    }
 }
 
 $wide-to-right-darkgray-translucent: #383A3C;
