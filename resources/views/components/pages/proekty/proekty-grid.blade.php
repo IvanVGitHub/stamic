@@ -16,11 +16,9 @@
                 <div class="w-100 d-flex justify-content-end bg-white">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="d-flex flex-grow-1">
-                    <x-pages.proekty.modal-carousel class="" :image="$image" :description="$description ?? ''">
-                        {{$slot}}
-                    </x-pages.proekty.modal-carousel>
-                </div>
+                <x-pages.proekty.modal-carousel class="" :image="$image" :description="$description ?? ''">
+                    {{$slot}}
+                </x-pages.proekty.modal-carousel>
             </div>
         </div>
     </div>

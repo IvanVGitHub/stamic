@@ -1577,32 +1577,37 @@ $pentagonal-arrow: 40px;
         background-color: #FFFFFF;
         padding: 60px;
     }
+    @include l-xxxl{
+
+    }
 }
 
 .carousel-image-content-block{
-    .carousel-image-content{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font: 600 40px "Helvetica";
-        @extend .text-responsive-40;
-        color: rgba(65,65,65,1);
-        line-height: 1.4em;
-        .carousel-inner{
-            width: 995px;
-            img{
-                width: 995px;
-                height: 664px;
-                object-fit: contain;
-            }
-            .carousel-item{
-                &.active, &.carousel-item-start, &.carousel-item-end{
-                    transition: opacity 0.8s;
-                }
-            }
+    display: flex;
+    align-items: center;
+    font: 600 40px "Helvetica";
+    @extend .text-responsive-40;
+    color: rgba(65,65,65,1);
+    line-height: 1.4em;
+    .carousel-inner{
+        //width: 100%;
+        img{
+            //width: 100%;
+            object-fit: contain;
         }
-        .carousel-image-content-description{
-            align-items: start;
+        .carousel-item{
+            max-height: 70vh;
+            &.active, &.carousel-item-start, &.carousel-item-end{
+                transition: opacity 0.8s;
+                display: flex;
+                justify-content: center;
+            }
+            img{
+                //width: 100%;
+                //height: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
         }
     }
     .carousel-control-prev{
@@ -1617,4 +1622,15 @@ $pentagonal-arrow: 40px;
         background-color: unset;
         backdrop-filter: unset;
     }
+}
+
+.carousel-image-content-description{
+    align-items: start;
+    font-size: 40px;
+}
+
+.carousel-content-block{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
