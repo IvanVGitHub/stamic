@@ -649,8 +649,9 @@ $wide-to-right-darkgray-translucent: #383A3C;
 .vacuum-forming-wide-warm-img{
     height: 100%;
     @include l-md{
-        object-fit: cover;
+        object-fit: contain;
         height: 350px;
+        padding: 15px 0;
     }
 }
 
