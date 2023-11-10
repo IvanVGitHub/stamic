@@ -22,7 +22,7 @@
             </div>
             <div class="">
                 <div class="d-inline-block">
-                    <div class="d-flex gap-2">
+                    <div class="card-thumbnails-content">
                         <div class="tehnologii-hover-image-scale">
                             <img src="{{asset('img/form combined.webp')}}" alt="">
                         </div>

@@ -12,7 +12,7 @@
                     Всегда точное время обработки, высокая скорость и качество наших форм остаются нашими приоритетами в работе. Наш парк фрезерных станков с ЧПУ позволяет изготовлять формы любых размеров и сложности.
                 </div>
                 <div class="">
-                    <div class="card-thumbnails milling">
+                    <div class="card-thumbnails flag-milling">
                         <div class="position-relative">
                             <div class="card-thumbnails-content">
                                 <div class="tehnologii-hover-image-scale">

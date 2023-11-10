@@ -174,9 +174,8 @@
     font-weight: 400;
     color: #414141;
     line-height: 1.4em;
-    @include l-md{
-        padding-left: 15px;
-        padding-right: 15px;
+    @include l-xl{
+        padding: 0 15px;
     }
 }
 
@@ -358,7 +357,7 @@ $block-3d-printing-description-background-color: #F2F1F2;
             margin-right: 0;
         }
     }
-    &.milling{
+    &.flag-milling{
         position: relative;
         display: flex;
         justify-content: flex-end;
@@ -371,10 +370,25 @@ $block-3d-printing-description-background-color: #F2F1F2;
                 position: unset;
             }
         }
+        @include l-xxs{
+            display: block;
+        }
     }
     &.flag-vacuum-forming{
         bottom: 0;
         right: 100%;
+        @include l-xl{
+            position: relative;
+            right: 0;
+        }
+    }
+    &.flag-injection{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        @include l-xxs{
+            display: block;
+        }
     }
 }
 
@@ -393,9 +407,6 @@ $block-3d-printing-description-background-color: #F2F1F2;
     top: 100%;
     left: 0;
     padding: 5px;
-    @include l-md{
-        //position: relative;
-    }
 }
 
 .tehnologii-3d-scaning{
@@ -444,6 +455,12 @@ $block-3d-printing-description-background-color: #F2F1F2;
             flex-direction: row-reverse;
             flex-wrap: nowrap;
             justify-content: center;
+        }
+    }
+    &.flag-vacuum-forming{
+        padding-top: 50px;
+        @include l-xl{
+            padding: 0 20px 20px;
         }
     }
 }
@@ -515,6 +532,9 @@ $wide-to-right-gray-translucent: rgba(#CCC9C4, .37);
     top: 0;
     background-color: $wide-to-right-gray-translucent;
     background-position: right;
+    @include l-xs{
+        display: none;
+    }
 }
 
 .milling-background{
@@ -555,6 +575,9 @@ $wide-to-right-darkgray-translucent: #383A3C;
         img{
             object-fit: contain;
         }
+        @include l-lg{
+            padding: 10px;
+        }
     }
     .injection-wide-darkgray-content-text{
         font-family: 'Proxima Nova', serif;
@@ -563,12 +586,19 @@ $wide-to-right-darkgray-translucent: #383A3C;
         color: #CCC9C4;
         line-height: 1.4em;
         padding: 40px 0;
+        @include l-lg{
+            padding: 20px;
+        }
     }
     .wide-to-right-gray-translucent-background{
         background-color: $wide-to-right-darkgray-translucent;
     }
     .shred-right{
         background-color: $wide-to-right-darkgray-translucent;
+    }
+    @include l-lg{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -594,6 +624,10 @@ $wide-to-right-darkgray-translucent: #383A3C;
     font-weight: 400;
     color: #414141;
     line-height: 1.4em;
+    @include l-xl{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .vacuum-forming-wide-warm{
@@ -602,8 +636,37 @@ $wide-to-right-darkgray-translucent: #383A3C;
     width: 1090px;
     background-color: #D1CAC5;
     max-height: 448px;
-    .vacuum-forming-wide-warm-img{
-        height: 100%;
+    margin-right: 40px;
+    @include l-xl{
+        margin-right: 0;
+        width: 100%;
+    }
+    @include l-md{
+        max-height: unset;
+    }
+}
+
+.vacuum-forming-wide-warm-img{
+    height: 100%;
+    @include l-md{
+        object-fit: cover;
+        height: 350px;
+    }
+}
+
+.vacuum-forming-wide-warm-content{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    @include l-xl{
+        width: 100%;
+    }
+    @include l-md{
+        display: grid;
+        justify-content: center;
+        justify-items: stretch;
     }
 }
 

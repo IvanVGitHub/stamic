@@ -16,7 +16,7 @@
                         <li>Пневматическая система укомплектована о борудованием фирм « PNEUMAX» и «CAMOZZI», электронное управление циклами компонентами фирмы «OMRON», что в свою очередь гарантирует высокое качество аппарата, а также стабильность его работы.</li>
                     </ul>
                 </div>
-                <div class="minor-text text-size-17 pt-px-50">
+                <div class="minor-text flag-vacuum-forming">
                     <div class="d-flex flex-column align-items-center gray-triangle-boll flag-vacuum-forming pr-px-30">
                         <div class="vertical-triangle"></div>
                         <div class="orange-ball"></div>
@@ -36,8 +36,8 @@
                 </div>
             </div>
         </div>
-        <div class="vacuum-forming-wide-warm mr-px-40">
-            <div class="position-relative">
+        <div class="vacuum-forming-wide-warm">
+            <div class="vacuum-forming-wide-warm-content">
                 <img class="vacuum-forming-wide-warm-img" src="{{asset('img/box.webp')}}" alt="">
                 <div class="card-thumbnails flag-vacuum-forming">
                     <div class="position-relative">

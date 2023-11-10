@@ -13,7 +13,7 @@
                 различных пластиков. Это могут быть различные полиамиды, полипропиллен, абс, резиноподобные пластики. Мы
                 поможем подобрать подходящий материал и по цвету и по характерристикам.
             </div>
-            <div class="w-100 d-flex justify-content-center">
+            <div class="card-thumbnails flag-injection">
                 <div class="card-thumbnails-content">
                     <div class="tehnologii-hover-image-scale">
                         <img src="{{asset('img/woman_and_text.webp')}}" alt="">
