@@ -1610,7 +1610,6 @@ $pentagonal-arrow: 40px;
     .modal-content{
         background-color: #FFFFFF;
         padding: 60px;
-        --bs-gutter-x: 0;
         @include l-lg{
             padding: 15px;
         }
@@ -1667,7 +1666,6 @@ $pentagonal-arrow: 40px;
     justify-content: space-evenly;
     flex-direction: column;
     flex-grow: 1;
-    --bs-gutter-x: 0;
 }
 
 .carousel-block{
@@ -1677,4 +1675,8 @@ $pentagonal-arrow: 40px;
         grid-template: unset;
         grid-template-rows: 20% 80%;
     }
+}
+
+.gutter-x-0{
+    --bs-gutter-x: 0;
 }

@@ -2,9 +2,8 @@
 $id="r-".\Str::random();
 @endphp
 
-<div class="row flex-column-reverse flex-lg-row w-100 flex-grow-1">
-{{--<div class="carousel-block w-100 flex-grow-1">--}}
-    <div class="col-lg-9 p-0 carousel-content-block">
+<div class="row flex-column-reverse flex-lg-row w-100 flex-grow-1 gy-2 gx-0">
+    <div class="col-lg-9 p-0 gx-0 carousel-content-block">
         <div id="{{$id}}" class="carousel-image-content-block carousel carousel-dark slide carousel-fade"
              keyboard="true"
              data-bs-keyboard="true"
