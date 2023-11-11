@@ -247,6 +247,9 @@ body{
     &:hover{
         border: solid 2px white;
     }
+    @include l-md{
+        margin: 0;
+    }
 }
 
 .ui-default-link{
