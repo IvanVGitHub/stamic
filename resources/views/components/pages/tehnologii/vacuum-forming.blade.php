@@ -4,9 +4,9 @@
     </div>
 
     <div class="vacuum-forming-block pt-px-20">
-        <div class="d-flex flex-column">
-            <div class="flex-grow-1 list-with-title">
-                <div>
+        <div class="vacuum-forming-block-left">
+            <div class="flex-grow-1">
+                <div class="text-responsive-18">
                     Наша автоматическая вакуум-формовочная машина:
                 </div>
                 <div class="py-px-15">
@@ -17,7 +17,7 @@
                     </ul>
                 </div>
                 <div class="minor-text flag-vacuum-forming">
-                    <div class="d-flex flex-column align-items-center gray-triangle-boll flag-vacuum-forming pr-px-30">
+                    <div class="gray-triangle-boll flag-vacuum-forming">
                         <div class="vertical-triangle"></div>
                         <div class="orange-ball"></div>
                     </div>

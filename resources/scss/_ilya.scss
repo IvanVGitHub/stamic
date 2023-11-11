@@ -460,28 +460,10 @@ $block-3d-printing-description-background-color: #F2F1F2;
     &.flag-vacuum-forming{
         padding-top: 50px;
         @include l-xl{
-            padding: 0 20px 20px;
+            justify-content: center;
+            padding: 0;
         }
     }
-}
-
-.minor-text-small{
-    position: relative;
-    display: flex;
-    font-family: 'Proxima Nova Regular', serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #414141;
-    line-height: 1.4em;
-}
-
-.img-minor-text{
-    width: 17px;
-    height: 42px;
-}
-
-.scaning-cameras-phone{
-    width: 100%;
 }
 
 .gray-triangle-boll{
@@ -498,7 +480,11 @@ $block-3d-printing-description-background-color: #F2F1F2;
         width: 0.8em;
     }
     &.flag-vacuum-forming{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         position: relative;
+        padding-right: 30px;
         right: 0;
     }
     @include l-xxxl{
@@ -581,7 +567,7 @@ $wide-to-right-darkgray-translucent: #383A3C;
     }
     .injection-wide-darkgray-content-text{
         font-family: 'Proxima Nova', serif;
-        font-size: 18px;
+        @extend .text-responsive-18;
         font-weight: 400;
         color: #CCC9C4;
         line-height: 1.4em;
@@ -608,25 +594,25 @@ $wide-to-right-darkgray-translucent: #383A3C;
     align-items: center;
 }
 
-.tehnologii-text-white{
-    font-family: 'Proxima Nova', serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #CCC9C4;
-    line-height: 1.4em;
-}
-
 .vacuum-forming-block{
     display:grid;
     grid-template-columns: 37% 63%;
     font-family: 'Proxima Nova Regular', serif;
-    font-size: 16px;
+    @extend .text-responsive-16;
     font-weight: 400;
     color: #414141;
     line-height: 1.4em;
     @include l-xl{
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+.vacuum-forming-block-left{
+    display: flex;
+    flex-direction: column;
+    @include l-xxl{
+        padding: 0 15px;
     }
 }
 
@@ -639,6 +625,7 @@ $wide-to-right-darkgray-translucent: #383A3C;
     margin-right: 40px;
     @include l-xl{
         margin-right: 0;
+        margin-top: 20px;
         width: 100%;
     }
     @include l-md{

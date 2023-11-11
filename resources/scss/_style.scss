@@ -540,6 +540,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 20px;
     }
 }
 
@@ -1034,7 +1035,7 @@ $indexTriangleHeight:62px;
 .uslugi-text-img-block-1{
     .text-left{
         position: relative;
-        &:after {
+        &:after{
             content: '';
             height: 100%;
             position: absolute;
@@ -1180,7 +1181,7 @@ $indexTriangleHeight:62px;
         padding: 12px 50px;
         @include l-lg{
             font-size: 19px;
-            padding: 10px 0px 10px 0px;
+            padding: 10px 0 10px 0;
         }
     }
 }
