@@ -1,4 +1,4 @@
-<div class="d-md-block d-none uslugi-text-img-block-4 pt-px-180">
+<div class="d-md-block d-none uslugi-text-img-block-4 pt-px-180" id="prototypes">
     <div class="title-first-letter wrapper-1314">
         Прототипы
     </div>
@@ -62,7 +62,7 @@
 {{--мобильная--}}
 
 
-<div class="d-md-none d-block uslugi-text-img-block-4 pt-px-40">
+<div class="d-md-none d-block uslugi-text-img-block-4 pt-px-40" id="m-prototypes">
     <div class="title-first-letter wrapper-1314">
         Прототипы
     </div>

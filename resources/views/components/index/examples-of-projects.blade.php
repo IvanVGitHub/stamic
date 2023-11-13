@@ -1,6 +1,6 @@
 <div class="container">
     <div class="examples-of-projects">
-        <div class="index-block-title">
+        <div class="index-block-title flag-examples">
             Примеры проектов
         </div>
         <div class="index-block3">
@@ -72,7 +72,9 @@
             </div>
         </div>
         <div class="p-md-0 pt-px-20 text-md-start text-center">
-            <button class="button-detailed">Подробнее</button>
+            <a href="{{route('proekty')}}">
+                <button class="button-detailed">Подробнее</button>
+            </a>
         </div>
     </div>
 </div>

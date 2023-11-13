@@ -1,4 +1,4 @@
-<div class="wrapper-1314 d-md-block d-none">
+<div class="wrapper-1314 d-md-block d-none" id="silicone">
     <div class="uslugi-text-img-block-2 mt-px-185">
         <div class="title-first-letter">
             Формы для силикона
@@ -51,7 +51,7 @@
 {{--мобильная--}}
 
 
-<div class="wrapper-1314 d-block d-md-none">
+<div class="wrapper-1314 d-block d-md-none" id="m-silicone">
     <div class="uslugi-text-img-block-2 mt-px-20">
         <div class="title-first-letter pt-px-20">
             Формы для силикона

@@ -1,4 +1,4 @@
-<div class="wrapper-1314 d-none d-md-block">
+<div class="wrapper-1314 d-none d-md-block" id="vacuum">
     <div class="title-first-letter pt-px-90">
         Формы для вакуумной формовки
     </div>
@@ -99,7 +99,7 @@
 {{--мобильная--}}
 
 
-<div class="d-md-none d-block">
+<div class="d-md-none d-block" id="vacuum">
     <div class="title-first-letter pt-px-30">
         Формы для вакуумной формовки
     </div>

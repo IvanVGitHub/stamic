@@ -1,4 +1,4 @@
-<div class="wrapper-700">
+<div class="wrapper-700" id="about">
     <div class="index-block4">
         <div class="index-block-title flag-about-us">
             О нас

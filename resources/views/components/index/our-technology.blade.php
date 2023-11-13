@@ -21,7 +21,9 @@
                         Все наши технологии мы используем в той или иной степени в изготовлении форм . Вы можете
                         воспользоваться любой из них как отдельной услугой или как частью вашего проекта. С
                         помощью этих технологий можно реализовать самые смелые проекты вашего бизнеса
-                        <button class="button-detailed float-end mt-3">Подробнее</button>
+                        <a href="{{route('tehnologii')}}">
+                            <button class="button-detailed float-end mt-3">Подробнее</button>
+                        </a>
                     </div>
                     <div class="index-block2-triangle-container" id="movetriangle">
                         <div class="index-block2-triangle"></div>

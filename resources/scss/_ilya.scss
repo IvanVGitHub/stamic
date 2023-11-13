@@ -68,8 +68,10 @@
     font-size: 17px;
     font-weight: 400;
     color: #CCC9C4;
+    text-decoration: none;
     @include l-md{
         &.foot-align-right{
+            display: flex;
             text-align: end;
             justify-content: flex-end;
         }
@@ -139,6 +141,7 @@
     font-size: 22px;
     font-weight: 400;
     color: #A0A09F;
+    text-decoration: none;
 }
 
 .wrapper-footer{

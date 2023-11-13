@@ -40,7 +40,9 @@
                         <div>
                             Для них нужны &nbsp&nbsp<strong>ФОРМЫ.</strong>
                         </div>
-                        <button class="button-detailed">Подробнее</button>
+                        <a href="{{route('uslugi')}}">
+                            <button class="button-detailed">Подробнее</button>
+                        </a>
                     </div>
                 </div>
                 <div class="index-block1-img" id="parent-wide-gray">

@@ -559,9 +559,15 @@ body{
         }
     }
     &.flag-about-us{
-        text-align: center;
+        @include l-md{
+            text-align: center;
+        }
     }
-;
+    &.flag-examples{
+        @include l-md{
+            text-align: center;
+        }
+    }
 }
 
 .index-block-subtitle{
@@ -879,6 +885,7 @@ $indexTriangleHeight:62px;
     .index-block3-group-img{
         display: flex;
         @include l-md{
+            justify-content: center;
             img{
                 width: 200px;
                 height: 200px;
@@ -1014,7 +1021,7 @@ $indexTriangleHeight:62px;
         color: #CCCCCC;
         line-height: 1.4em;
         max-width: 500px;
-        margin-left: 205px;
+        margin-left: 180px;
         @include l-md{
             margin: 0;
             padding: 20px;
@@ -1027,7 +1034,7 @@ $indexTriangleHeight:62px;
         padding: 40px 25px 0 0;
         font: 300 20px "Roboto";
         @extend .text-responsive-20;
-        color: #CCCCCC;
+        color: #A9A9A9;
         @include l-md{
             padding: 30px 0 0 0;
         }
@@ -1036,9 +1043,12 @@ $indexTriangleHeight:62px;
 
 .examples-of-projects{
     padding: 148px 0 0 115px;
-    @include l-sm{
-        padding: 80px 0 0 0;
+    @include l-md{
+        padding: 0;
     }
+    /*@include l-sm{
+        padding: 80px 0 0 0;
+    }*/
 }
 
 .wide-block-description{

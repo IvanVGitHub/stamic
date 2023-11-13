@@ -1,4 +1,4 @@
-<div class="wrapper-1314 d-md-block d-none">
+<div class="wrapper-1314 d-md-block d-none" id="matrixes">
     <div class="uslugi-text-img-block-3 mt-px-175">
         <div class="title-first-letter">
             Матрицы
@@ -36,7 +36,7 @@
 
 {{--мобильная--}}
 
-<div class="wrapper-1314 d-block d-md-none">
+<div class="wrapper-1314 d-block d-md-none" id="m-matrixes">
 
         <div class="title-first-letter mt-px-40">
             Матрицы

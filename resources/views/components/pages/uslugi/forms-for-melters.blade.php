@@ -1,4 +1,4 @@
-<div class="wrapper-1314 d-none d-md-block">
+<div class="wrapper-1314 d-none d-md-block" id="melters">
     <div class="uslugi-text-img-block-1 d-flex mt-px-150">
         <div class="text-left">
             <div class="flex-grow-1">
@@ -51,7 +51,7 @@
 {{--мобильная--}}
 
 
-<div class="wrapper-1314 d-md-none d-block">
+<div class="wrapper-1314 d-md-none d-block" id="m-melters">
     <div class="title-first-letter pt-px-40">
         Формы для литья
     </div>

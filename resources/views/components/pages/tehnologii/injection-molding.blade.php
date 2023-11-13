@@ -1,4 +1,4 @@
-<div class="wrapper-1314 pb-px-20">
+<div class="wrapper-1314 pb-px-20" id="injection">
     <div class="title-first-letter">
         Литье под давлением
     </div>
