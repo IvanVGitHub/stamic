@@ -1,7 +1,8 @@
 <div class="container">
-    <div class="d-flex justify-content-center w-100 pt-px-25 pt-px-md-40">
+    <div class="our-technology" id="our-technology">
         <div>
             <div class="index-block2">
+                <div class="v-line vl-ot-1" id="vl-ot-1"></div>
                 <div class="index-block2-list">
                     <ul>
                         <li>Вакуумная формовка</li>
@@ -13,7 +14,7 @@
                         <li>Литье под давлением</li>
                     </ul>
                 </div>
-                <div class="index-block2-content" id="index-block2">
+                <div class="index-block2-content">
                     <div class="index-block-title flag-our-technology">
                         Наши технологии
                     </div>
@@ -28,16 +29,18 @@
                     <div class="index-block2-triangle-container" id="movetriangle">
                         <div class="index-block2-triangle"></div>
                     </div>
-                    @push('custom_scripts')
-                        <script>
-                            registerForAnimation('index-block2',[
-                                {id:'movetriangle', addedClass:'moved', delay:300},
-                                {id:'movetext', addedClass:'moved', delay:500},
-                            ]);
-                        </script>
-                    @endpush
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('our-technology',[
+            {id:'movetriangle', addedClass:'moved', delay:300},
+            {id:'movetext', addedClass:'moved', delay:500},
+            {id:'vl-ot-1', addedClass:'moved', delay:0},
+        ]);
+    </script>
+@endpush

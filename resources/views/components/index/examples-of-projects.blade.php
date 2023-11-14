@@ -1,7 +1,10 @@
 <div class="container">
-    <div class="examples-of-projects">
+    <div class="examples-of-projects" id="examples-of-projects">
         <div class="index-block-title flag-examples">
-            Примеры проектов
+            <div class="d-inline-block position-relative pr-px-20">
+                Примеры проектов
+                <div class="h-line hl-eop-1" id="hl-eop-1"></div>
+            </div>
         </div>
         <div class="index-block3">
             <div class="index-block3-list">
@@ -60,6 +63,7 @@
                 </div>
             </div>
             <div class="index-block3-group-img" id="parent-scroll">
+                <div class="v-line vl-eop-1" id="vl-eop-1"></div>
                 <div class="index-img-left" id="index-img-left">
                     <img src="{{asset('img/form1.webp')}}" alt="">
                 </div>
@@ -78,6 +82,15 @@
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('examples-of-projects',[
+            {id:'vl-eop-1', addedClass:'moved', delay:1500},
+            {id:'hl-eop-1', addedClass:'moved', delay:500},
+        ]);
+    </script>
+@endpush
 
 <script>
     {{--устанавливаем скролл посередине--}}

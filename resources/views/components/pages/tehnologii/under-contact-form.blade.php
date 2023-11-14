@@ -4,8 +4,8 @@
             Наша компания может взять Ваши заботы по 3Д сканированию, 3Д моделированию, литью, 3Д печати, фрезеровке и формовке.
             Пожалуйста, посмотрите "<a href="{{route('uslugi')}}">Наши формы</a>"
         </div>
-        <div class="w-100 pt-px-50">
-            <hr class="contact-form-block-hr">
+        <div class="pt-px-50">
+            <hr class="horizontal-line-short">
         </div>
     </div>
 </div>

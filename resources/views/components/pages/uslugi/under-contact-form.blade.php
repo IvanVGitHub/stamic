@@ -5,8 +5,8 @@
             Наша компания может взять Ваши заботы по формовке пластика, литью, сканированию, моделированию и фрезеровке.
             Пожалуйста, посмотрите "<a href="{{route('tehnologii')}}">Наши технологии</a>"
         </div>
-        <div class="w-100 pt-px-50">
-            <hr class="contact-form-block-hr">
+        <div class="pt-px-50">
+            <hr class="horizontal-line-short">
         </div>
     </div>
 </div>
