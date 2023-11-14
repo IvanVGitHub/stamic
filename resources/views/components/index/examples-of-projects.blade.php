@@ -95,13 +95,11 @@
 <script>
     {{--устанавливаем скролл посередине--}}
     function scrollCenter() {
-        if(document.documentElement.getBoundingClientRect().width < 767){
-            let doc = document.getElementById('parent-scroll'),
-                scroll = (doc.scrollWidth - $(window).width()) / 2;
-            console.log(doc, scroll, doc.scrollWidth);
-            if (doc.scrollWidth > $(window).width()) {
-                $(doc).scrollLeft(scroll);
-            }
+        let doc = document.getElementById('parent-scroll'),
+            scroll = (doc.scrollWidth - $(window).width()) / 2;
+        console.log(doc, scroll, doc.scrollWidth);
+        if (doc.scrollWidth > $(window).width()) {
+            $(doc).scrollLeft(scroll);
         }
     }
     {{--устанавливаем скролл на центральном элементе--}}
