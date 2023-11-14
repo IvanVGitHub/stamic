@@ -6,10 +6,10 @@
         <div class="index-block3">
             <div class="index-block3-list">
                 <div class="d-md-block d-flex justify-content-between">
-                    <div class="index-block3-list-item"
-                         onmouseenter="$('#index-img-left').addClass('index-block3-z-4')"
-                         onmouseleave="$('#index-img-left').removeClass('index-block3-z-4')"
-                    >
+                    <a class="index-block3-list-item"
+                       onmouseenter="$('#index-img-left').addClass('index-block3-z-4')"
+                       onmouseleave="$('#index-img-left').removeClass('index-block3-z-4')"
+                       href="#index-img-left">
                         3Д
                         <div class="svg-arrow">
                             <svg preserveAspectRatio="none" data-bbox="19.5 47.5 161 105.001"
@@ -22,11 +22,11 @@
                                 </g>
                             </svg>
                         </div>
-                    </div>
-                    <div class="index-block3-list-item"
-                         onmouseenter="$('#index-img-center').addClass('index-block3-z-4')"
-                         onmouseleave="$('#index-img-center').removeClass('index-block3-z-4')"
-                    >
+                    </a>
+                    <a class="index-block3-list-item"
+                       onmouseenter="$('#index-img-center').addClass('index-block3-z-4')"
+                       onmouseleave="$('#index-img-center').removeClass('index-block3-z-4')"
+                       href="#index-img-center">
                         МДФ
                         <div class="svg-arrow">
                             <svg preserveAspectRatio="none" data-bbox="19.5 47.5 161 105.001"
@@ -39,11 +39,11 @@
                                 </g>
                             </svg>
                         </div>
-                    </div>
-                    <div class="index-block3-list-item"
-                         onmouseenter="$('#index-img-right').addClass('index-block3-z-4')"
-                         onmouseleave="$('#index-img-right').removeClass('index-block3-z-4')"
-                    >
+                    </a>
+                    <a class="index-block3-list-item"
+                       onmouseenter="$('#index-img-right').addClass('index-block3-z-4')"
+                       onmouseleave="$('#index-img-right').removeClass('index-block3-z-4')"
+                       href="#index-img-right">
                         Д16Т
                         <div class="svg-arrow">
                             <svg preserveAspectRatio="none" data-bbox="19.5 47.5 161 105.001"
@@ -56,10 +56,10 @@
                                 </g>
                             </svg>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
-            <div class="index-block3-group-img">
+            <div class="index-block3-group-img" id="parent-scroll">
                 <div class="index-img-left" id="index-img-left">
                     <img src="{{asset('img/form1.webp')}}" alt="">
                 </div>
@@ -78,3 +78,22 @@
         </div>
     </div>
 </div>
+
+<script>
+    {{--устанавливаем скролл посередине--}}
+    function scrollCenter() {
+        let doc = document.getElementById('parent-scroll'),
+            scroll = (doc.scrollWidth - $(window).width()) / 2;
+        console.log(doc, scroll, doc.scrollWidth);
+        if (doc.scrollWidth > $(window).width()) {
+            $(doc).scrollLeft(scroll);
+        }
+    }
+    {{--устанавливаем скролл на центральном элементе--}}
+    // function scrollCenter(){
+    //     let hiddenElement = document.getElementById("index-img-center");
+    //     hiddenElement.scrollIntoView({ block: "center", behavior: "smooth" });
+    // }
+    window.addEventListener("load", scrollCenter);
+    window.addEventListener('resize', scrollCenter);
+</script>
