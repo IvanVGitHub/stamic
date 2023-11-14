@@ -772,18 +772,24 @@ $indexTriangleHeight:62px;
         box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.2);
         min-width: 387px;
         z-index: 0;
+        @include l-xl{
+            min-width: unset;
+            padding-right: 100px;
+        }
+        @include l-md{
+            padding: 30px;
+        }
         ul{
             font: 300 18px "Roboto";
             @extend .text-responsive-18;
             color: #E8E6E6;
+            line-height: 1.34em;
             li{
                 list-style-type: none;
+                @include l-xl{
+                    min-width: 169px;
+                }
             }
-            line-height: 1.34em;
-        }
-        @include l-md{
-            padding: 30px;
-            min-width: unset;
         }
     }
     .index-block2-content{
@@ -802,8 +808,12 @@ $indexTriangleHeight:62px;
             min-width: 915px;
             &.moved{
                 transform: translateX(0);
-                @include l-md{
+                @include l-xl{
+                    transform: translateX(80px);
                 }
+            }
+            @include l-xl{
+                min-width: 600px;
             }
             @include l-md{
                 min-width: 100%;
@@ -900,6 +910,12 @@ $indexTriangleHeight:62px;
     .index-block3-group-img{
         position: relative;
         display: flex;
+        @include l-xl{
+            img{
+                max-width: 300px;
+                max-height: 300px;
+            }
+        }
         @include l-md{
             /* ===== Scrollbar CSS ===== */
             /* Firefox */
@@ -940,6 +956,10 @@ $indexTriangleHeight:62px;
             width: 434px;
             height: 434px;
             z-index: 1;
+            @include l-xl{
+                height: 100%;
+                right: 0;
+            }
             @include l-md{
                 height: 100%;
                 right: 0;
@@ -957,6 +977,9 @@ $indexTriangleHeight:62px;
                 bottom: -26px;
                 left: -7%;
                 z-index: 5;
+                @include l-xl{
+                    display: none;
+                }
                 @include l-md{
                     display: none;
                 }
@@ -970,6 +993,9 @@ $indexTriangleHeight:62px;
                 left: 0;
                 z-index: 5;
                 background:rgba(#999997, 0.22);
+                @include l-xl{
+                    width: 300px;
+                }
             }
         }
         .index-img-center{
@@ -978,6 +1004,10 @@ $indexTriangleHeight:62px;
             height: 408px;
             right: 105px;
             z-index: 2;
+            @include l-xl{
+                height: 100%;
+                right: 200px;
+            }
             @include l-md{
                 height: 100%;
                 right: 0;
@@ -995,6 +1025,9 @@ $indexTriangleHeight:62px;
                 bottom: -26px;
                 left: -7%;
                 z-index: 5;
+                @include l-xl{
+                    display: none;
+                }
                 @include l-md{
                     display: none;
                 }
@@ -1008,6 +1041,9 @@ $indexTriangleHeight:62px;
                 left: 0;
                 z-index: 5;
                 background:rgba(#999997, 0.35);
+                @include l-xl{
+                    width: 300px;
+                }
             }
         }
         .index-img-right{
@@ -1017,6 +1053,10 @@ $indexTriangleHeight:62px;
             right: 265px;
             bottom: 2px;
             z-index: 1;
+            @include l-xl{
+                height: 100%;
+                right: 400px;
+            }
             @include l-md{
                 height: 100%;
                 right: 0;
@@ -1034,6 +1074,9 @@ $indexTriangleHeight:62px;
                 bottom: -26px;
                 left: -7%;
                 z-index: 5;
+                @include l-xl{
+                    display: none;
+                }
                 @include l-md{
                     display: none;
                 }
@@ -1047,6 +1090,9 @@ $indexTriangleHeight:62px;
                 left: 0;
                 z-index: 5;
                 background:rgba(#999997, 0.5);
+                @include l-xl{
+                    width: 300px;
+                }
             }
         }
     }
@@ -1085,6 +1131,12 @@ $indexTriangleHeight:62px;
 
 .examples-of-projects{
     padding: 148px 0 0 115px;
+    @include l-xxl{
+        padding: 148px 0 0 0;
+    }
+    @include l-xl{
+        padding: 148px 0 0 0;
+    }
     @include l-md{
         padding: 80px 0 0 0;
     }
