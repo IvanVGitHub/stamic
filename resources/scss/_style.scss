@@ -811,6 +811,9 @@ $indexTriangleHeight:62px;
                 @include l-xl{
                     transform: translateX(80px);
                 }
+                @include l-md{
+                    transform: translateX(0);
+                }
             }
             @include l-xl{
                 min-width: 600px;
