@@ -1700,8 +1700,8 @@ $pentagonal-arrow: 40px;
 }
 
 .proekty-block{
-    display: block;
     position: relative;
+    display: block;
     margin: 50px;
     &:first-child{
         margin-top: 0;
@@ -1769,6 +1769,7 @@ $pentagonal-arrow: 40px;
 
 .h-line{
     position: absolute;
+    transition-timing-function: ease-in-out;
     border-top: 1px solid #575754;
     margin: 0;
     &.hl-au-1{
@@ -1802,21 +1803,39 @@ $pentagonal-arrow: 40px;
         }
     }
     &.hl1{
-        width: 85%;
+        width: 0;
+        transition: all 2s;
+        &.moved{
+            width: 85%;
+        }
     }
     &.hl2{
-        width: 85%;
+        width: 0;
+        right: 200px;
         margin-left: 5%;
+        transition: all 2s;
+        @include l-md{
+            right: 0;
+        }
+        &.moved{
+            width: 85%;
+        }
     }
     &.hl3{
-        width: 85%;
+        width: 0;
+        right: 100px;
         margin-left: 10%;
+        transition: all 2s;
+        &.moved{
+            width: 85%;
+        }
     }
 }
 
 .v-line{
     content: '';
     position: absolute;
+    transition-timing-function: ease-in-out;
     vertical-align: center !important;
     border: 0;
     border-left: 1px solid #575754;
@@ -1877,39 +1896,90 @@ $pentagonal-arrow: 40px;
         }
     }
     &.vl1{
-        height: 120%;
+        height: 0;
         top: -14%;
         left: 5%;
+        transition: all 1s;
         @include l-xxxl{
             left: 2%;
         }
         @include l-lg{
             display: none;
         }
+        &.moved{
+            height: 120%;
+            @include l-xxxl{
+                left: 2%;
+            }
+            @include l-lg{
+                display: none;
+            }
+        }
     }
     &.vl2{
-        height: 80%;
+        height: 0;
         top: -25%;
         left: 14%;
+        transition: all 1s;
         @include l-xxxl{
             left: 5%;
         }
         @include l-lg{
             display: none;
         }
+        &.moved{
+            height: 80%;
+            top: -25%;
+            left: 14%;
+            @include l-xxxl{
+                left: 5%;
+            }
+            @include l-lg{
+                display: none;
+            }
+        }
     }
     &.vl3{
-        height: 115%;
-        top: -25%;
-        left: 2%;
+        height: 0;
+        top: -20%;
+        right:  300px;
+        transition: all 1.5s;
+        @include l-xxxl{
+            right: 2%;
+        }
         @include l-lg{
             display: none;
         }
+        &.moved{
+            height: 125%;
+            @include l-xxxl{
+                right: 2%;
+            }
+            @include l-lg{
+                display: none;
+            }
+        }
     }
     &.vl4{
-        height: 120%;
+        height: 0;
+        top: -25%;
+        left: 2%;
+        transition: all 1s;
+        @include l-lg{
+            display: none;
+        }
+        &.moved{
+            height: 115%;
+            @include l-lg{
+                display: none;
+            }
+        }
+    }
+    &.vl5{
+        height: 0;
         top: -55%;
         right: 21%;
+        transition: all 1s;
         @include l-hd{
             right: 10%;
         }
@@ -1918,6 +1988,18 @@ $pentagonal-arrow: 40px;
         }
         @include l-lg{
             display: none;
+        }
+        &.moved{
+            height: 120%;
+            @include l-hd{
+                right: 10%;
+            }
+            @include l-xxl{
+                right: 5%;
+            }
+            @include l-lg{
+                display: none;
+            }
         }
     }
 }
