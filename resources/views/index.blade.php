@@ -4,6 +4,7 @@
 @endsection
 
 @section('content')
+    <x-index.animations />
     <x-index.our-forms />
     <x-index.wide-gray-block />
     <x-index.our-technology />
