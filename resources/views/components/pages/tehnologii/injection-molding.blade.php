@@ -1,7 +1,9 @@
 <div class="wrapper-1314 pb-px-20" id="injection">
-    <div class="title-first-letter">
-        Литье под давлением
-        <div class="to-right-arrow" id="arrow-injection"></div>
+    <div class="d-block text-center text-md-start">
+        <div class="title-first-letter">
+            Литье под давлением
+            <div class="to-right-arrow" id="arrow-injection"></div>
+        </div>
     </div>
 
     <div class="injection-wide-darkgray mt-px-20">

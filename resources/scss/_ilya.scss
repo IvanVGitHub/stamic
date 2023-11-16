@@ -197,6 +197,7 @@
         padding-left: 25px;
     }
     @include l-md{
+        display: inline-block;
         padding-left: 5px;
         padding-right: 5px;
         text-align: center;
@@ -759,15 +760,18 @@ $wide-to-right-darkgray-translucent: #383A3C;
     margin-right: 30px;
     width: 158px; /*размер должны в точности повторять размер .svg элемента*/
     height: 9px; /*размер должны в точности повторять размер .svg элемента*/
-    right: calc(100% + 200px);
+    right: calc(100% + 400px);
     opacity: 0;
     transition: right 1.5s, opacity 2.5s;
+    @include l-md{
+        margin-right: 10px;
+        right: 500px;
+    }
     &.moved{
         right: 100%;
         opacity: 1;
-        @include l-xxxl{
-        }
-        @include l-lg{
+        @include l-xs{
+            display: none;
         }
     }
 }

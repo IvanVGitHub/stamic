@@ -1,8 +1,11 @@
 <div class="wrapper-1314" id="scaning">
-    <div class="title-first-letter">
-        <span>3D</span> сканирование
-        <div class="to-right-arrow" id="arrow-scaning"></div>
+    <div class="d-block text-center text-md-start">
+        <div class="title-first-letter">
+            <span>3D</span> сканирование
+            <div class="to-right-arrow" id="arrow-scaning"></div>
+        </div>
     </div>
+
     <div class="wrapper-1218">
         <div class="d-flex tehnologii-3d-scaning">
             <div class="pt-px-20 z-1">

@@ -1,7 +1,9 @@
 <div class="wrapper-1314" id="milling">
-    <div class="title-first-letter">
-        Фрезеровка
-        <div class="to-right-arrow" id="arrow-milling"></div>
+    <div class="d-block text-center text-md-start">
+        <div class="title-first-letter">
+            Фрезеровка
+            <div class="to-right-arrow" id="arrow-milling"></div>
+        </div>
     </div>
 
     <div class="position-relative pt-px-20">

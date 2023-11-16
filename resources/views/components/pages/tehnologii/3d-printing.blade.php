@@ -1,7 +1,9 @@
 <div class="wrapper-1314 pb-px-20" id="printing">
-    <div class="title-first-letter">
-        <span>3D</span> печать
-        <div class="to-right-arrow" id="arrow-printing"></div>
+    <div class="d-block text-center text-md-start">
+        <div class="title-first-letter">
+            <span>3D</span> печать
+            <div class="to-right-arrow" id="arrow-printing"></div>
+        </div>
     </div>
 
     <div class="wrapper-1218 pt-px-20">
