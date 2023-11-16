@@ -1,6 +1,7 @@
 <div class="wrapper-1314 pb-px-20" id="printing">
     <div class="title-first-letter">
         <span>3D</span> печать
+        <div class="to-right-arrow" id="arrow-printing"></div>
     </div>
 
     <div class="wrapper-1218 pt-px-20">
@@ -33,6 +34,14 @@
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('printing',[
+            {id:'arrow-printing', addedClass:'moved', delay:1000},
+        ]);
+    </script>
+@endpush
 
 <script>
     {{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}

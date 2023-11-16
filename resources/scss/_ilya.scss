@@ -183,6 +183,7 @@
 }
 
 .title-first-letter{
+    position: relative;
     font-family: 'Impact Regular', serif;
     @extend .text-responsive-43;
     &::first-letter{
@@ -747,5 +748,26 @@ $wide-to-right-darkgray-translucent: #383A3C;
         flex-direction: column;
         padding: 25px;
         row-gap: 50px;
+    }
+}
+
+.to-right-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-image: url("/img/to-right-arrow.svg");
+    margin-right: 30px;
+    width: 158px; /*размер должны в точности повторять размер .svg элемента*/
+    height: 9px; /*размер должны в точности повторять размер .svg элемента*/
+    right: calc(100% + 200px);
+    opacity: 0;
+    transition: right 1.5s, opacity 2.5s;
+    &.moved{
+        right: 100%;
+        opacity: 1;
+        @include l-xxxl{
+        }
+        @include l-lg{
+        }
     }
 }

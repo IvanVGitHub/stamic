@@ -1,6 +1,7 @@
 <div class="wrapper-1314" id="milling">
     <div class="title-first-letter">
         Фрезеровка
+        <div class="to-right-arrow" id="arrow-milling"></div>
     </div>
 
     <div class="position-relative pt-px-20">
@@ -35,3 +36,11 @@
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('milling',[
+            {id:'arrow-milling', addedClass:'moved', delay:1000},
+        ]);
+    </script>
+@endpush

@@ -1,6 +1,7 @@
 <div class="wrapper-1314" id="modeling">
     <div class="title-first-letter">
         <span>3D</span> моделирование
+        <div class="to-right-arrow" id="arrow-modeling"></div>
     </div>
 
     <div class="wrapper-1218">
@@ -43,3 +44,11 @@
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('modeling',[
+            {id:'arrow-modeling', addedClass:'moved', delay:1000},
+        ]);
+    </script>
+@endpush

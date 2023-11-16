@@ -1,6 +1,7 @@
 <div class="wrapper-1314 pb-px-20" id="injection">
     <div class="title-first-letter">
         Литье под давлением
+        <div class="to-right-arrow" id="arrow-injection"></div>
     </div>
 
     <div class="injection-wide-darkgray mt-px-20">
@@ -33,6 +34,14 @@
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('injection',[
+            {id:'arrow-injection', addedClass:'moved', delay:1000},
+        ]);
+    </script>
+@endpush
 
 <script>
     {{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}

@@ -1,6 +1,7 @@
 <div class="wrapper-1314 pb-px-20" id="vacuum">
     <div class="title-first-letter">
         Вакуумная формовка
+        <div class="to-right-arrow" id="arrow-vacuum"></div>
     </div>
 
     <div class="vacuum-forming-block pt-px-20">
@@ -61,3 +62,11 @@
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('vacuum',[
+            {id:'arrow-vacuum', addedClass:'moved', delay:1000},
+        ]);
+    </script>
+@endpush
