@@ -1165,7 +1165,6 @@ $indexTriangleHeight:62px;
     width: 100%;
     display: block;
     background-color: #E2E2D7;
-
     @include l-md{
         padding-left: 15px;
         padding-right: 15px;
@@ -1174,81 +1173,117 @@ $indexTriangleHeight:62px;
 
 .img-with-stripe{
     position: relative;
+    float: left;
+    width: 30%;
+    padding: 0 15px 15px 0;
+    @include l-xl{
+        padding: 0 15px 15px;
+    }
+    @include l-sm{
+        width: 50%;
+    }
     img{
         width: 100%;
-        height: 587px;
-        @include l-lg{
-            width: 100%;
-            height: auto;
-        }
+        aspect-ratio: 3 / 4;
     }
     .text-on-img{
         position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 10px 0;
         width: 100%;
-        height: 65px;
         bottom: 80px;
         left: 0;
         z-index: 5;
         background: rgba(#FFFFFF, 0.8);
+        @include l-lg{
+            padding: 0;
+        }
         .text-on-img-text{
             align-items: center;
             display: flex;
+            gap: 8px;
             font-family: 'Proxima Nova Regular', serif;
             @extend .text-responsive-24;
             color: #414141;
+            @include l-xl{
+                font-size: 19px;
+            }
+            @include l-lg{
+                flex-direction: column;
+                gap: 0;
+            }
             .bold{
                 font-family: 'Impact Regular', serif;
                 @extend .text-responsive-30;
+                @include l-xl{
+                    font-size: 25px !important;
+                }
             }
         }
     }
 }
 
-.uslugi-grid-block-3{
-    @extend .grid-block-3;
-    .central-block{
-        display: flex;
-        flex-direction: column;
+.img-with-stripe ~ .img-with-stripe{
+    float: right;
+    padding: 0 0 15px 15px;
+    @include l-xl{
+        padding: 0 15px 15px;
     }
-    .list-with-title{
-        height: 100%;
+}
+
+.uslugi-grid-block-3{
+    .central-block{
         font-family: 'Proxima Nova Regular', serif;
-        h3{
-            color: #414141;
-            margin: 0;
-            text-align: center;
-            @extend .text-responsive-22;
+        @include l-xl{
+            padding: 0 15px 0 15px;
         }
-        ul{
-            line-height: 2em;
-        }
-        li{
-            font-family: 'Proxima Nova Bold', serif;
-            @extend .text-responsive-18;
-            color: #575754;
-        }
-        .text-under-list{
-            color: #414141;
-            @extend .text-responsive-18;
-            @include l-lg{
-                padding-left: 10px;
-                padding-right: 10px;
+        .list-with-title{
+            flex-grow: 1;
+            height: 100%;
+            @include l-sm{
+                display: inline-block;
+            }
+            .list-with-title-list{
+                display: flex;
+                justify-content: space-between;
+                @include l-xxl{
+                    padding-top: 15px;
+                }
+                @include l-md{
+                    padding: 0;
+                }
+                @include l-sm{
+                    justify-content: space-around;
+                }
+            }
+            h3{
+                color: #414141;
+                margin: 0;
+                text-align: center;
+                @extend .text-responsive-22;
+            }
+            li{
+                font-family: 'Proxima Nova Bold', serif;
+                @extend .text-responsive-18;
+                color: #575754;
+                margin: 15px 0;
+                line-height: 1em;
+            }
+            .text-under-list{
+                color: #414141;
+                @extend .text-responsive-18;
             }
         }
-    }
-    .bottom-text{
-        width: 100%;
-        @extend .text-responsive-16;
-        bottom: 0;
-        @include l-lg{
-            padding-right: 10px;
-            padding-left: 10px;
+        .bottom-text{
+            padding-top: 35px;
+            width: 100%;
+            @extend .text-responsive-16;
         }
     }
     .text-under-img{
+        position: relative;
         font-family: 'Proxima Nova Regular', serif;
         @extend .text-responsive-16;
         color: #858581;
@@ -1263,8 +1298,8 @@ $indexTriangleHeight:62px;
         color: #3B3939;
         text-align: center;
         @include l-lg{
-            padding-right: 5px;
-            padding-left: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
         }
     }
     .wide-block-left-block{
@@ -1273,6 +1308,11 @@ $indexTriangleHeight:62px;
         min-width: 256px;
         @include l-lg{
             width: 100%;
+        }
+        @include l-md{
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
         }
         li{
             font-family: 'Proxima Nova Regular', serif;
@@ -1296,6 +1336,7 @@ $indexTriangleHeight:62px;
 }
 
 .uslugi-text-img-block-1{
+    display: flex;
     .text-left{
         position: relative;
         &:after{

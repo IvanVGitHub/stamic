@@ -6,15 +6,27 @@
 
 @section('content')
     <div class="wide-bg-oliva w-100 py-px-25">
-        <x-pages.uslugi.wide-oliva-block-top />
+        <x-pages.uslugi.wide-oliva-block-top/>
     </div>
     <div class="wide-bg-white w-100">
-        <x-pages.uslugi.forms-for-vacuum />
-        <x-pages.uslugi.forms-for-melters />
-        <x-pages.uslugi.forms-for-silicone />
-        <x-pages.uslugi.matrixes />
-        <x-pages.uslugi.prototypes />
-        <x-pages.uslugi.example-of-work />
+        <div class="pt-px-50">
+            <x-pages.uslugi.forms-for-vacuum/>
+        </div>
+        <div class="pt-px-50">
+            <x-pages.uslugi.forms-for-melters/>
+        </div>
+        <div class="pt-px-50">
+            <x-pages.uslugi.forms-for-silicone/>
+        </div>
+        <div class="pt-px-50">
+            <x-pages.uslugi.matrixes/>
+        </div>
+        <div class="pt-px-50">
+            <x-pages.uslugi.prototypes/>
+        </div>
+        <div class="pt-px-50">
+            <x-pages.uslugi.example-of-work/>
+        </div>
         <div class="mt-px-50">
             <x-pages.uslugi.contact-form/>
         </div>

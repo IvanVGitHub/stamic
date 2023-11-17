@@ -1,6 +1,7 @@
 <div class="uslugi-wide-description-work mt-px-50">
     Как идет работа над изделием на примере пластиковой упаковки
 </div>
+
 <div class="uslugi-example-of-work-sequence pt-md-px-45 pt-px-20">
     <div class="uslugi-example-of-work-sequence-item">
         <img class="" src="{{asset('img/sequence1of5.webp')}}" alt="">
@@ -47,5 +48,3 @@
         </div>
     </div>
 </div>
-
-
