@@ -6,9 +6,9 @@
         </div>
     </div>
 
-    <div class="wrapper-1218">
-        <div class="d-flex tehnologii-3d-scaning">
-            <div class="pt-px-20 z-1">
+    <div class="wrapper-1218 pt-px-20">
+        <div class="tehnologii-3d-scaning">
+            <div class="z-1">
                 <div class="tehnologii-text">
                     Мы используем оптический 3D сканер с разрешением до <strong>0.01мм</strong>.
                     <br>

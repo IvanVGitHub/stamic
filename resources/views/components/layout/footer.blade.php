@@ -128,11 +128,11 @@
                             <div class="foot-hr-line foot-hr-low"></div>
                         </a>
                         <div class="">
-                            <a href="{{route('uslugi')}}#m-vacuum" class="footer-linko ">Вакуум</a>
-                            <a href="{{route('uslugi')}}#m-melters" class="footer-linko">Литье</a>
-                            <a href="{{route('uslugi')}}#m-silicone" class="footer-linko ">Силикон</a>
-                            <a href="{{route('uslugi')}}#m-matrixes" class="footer-linko ">Матрицы</a>
-                            <a href="{{route('uslugi')}}#m-prototypes" class="footer-linko ">Прототипы</a>
+                            <a href="{{route('uslugi')}}#vacuum" class="footer-linko ">Вакуум</a>
+                            <a href="{{route('uslugi')}}#melters" class="footer-linko">Литье</a>
+                            <a href="{{route('uslugi')}}#silicone" class="footer-linko ">Силикон</a>
+                            <a href="{{route('uslugi')}}#matrixes" class="footer-linko ">Матрицы</a>
+                            <a href="{{route('uslugi')}}#prototypes" class="footer-linko ">Прототипы</a>
                         </div>
                     </div>
                 </div>

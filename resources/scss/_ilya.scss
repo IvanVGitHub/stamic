@@ -232,15 +232,10 @@
     max-width: 1314px;
     width: 100%;
     margin: 0 auto !important;
-    @include l-xxl{
-        .wrapper-1314{
+    &.padding-x{
+        @include l-xxl{
             padding-left: 10px;
             padding-right: 10px;
-        }
-    }
-    @include l-lg{
-        .wrapper-1314{
-            max-width: 100%;
         }
     }
 }
@@ -422,6 +417,7 @@ $block-3d-printing-description-background-color: #F2F1F2;
 }
 
 .tehnologii-3d-scaning{
+    display: flex;
     position: relative;
     .tehnologii-hover-image-scale{
         z-index: 5;

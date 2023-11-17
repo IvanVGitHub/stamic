@@ -1,6 +1,8 @@
 <div class="wrapper-1314" id="vacuum">
-    <div class="title-first-letter">
-        Формы для вакуумной формовки
+    <div class="d-block text-center text-md-start">
+        <div class="title-first-letter">
+            Формы для вакуумной формовки
+        </div>
     </div>
 
     <div class="d-flex flex-column pt-px-20">
@@ -65,13 +67,13 @@
                 </div>
             </div>
         </div>
-        <div class="uslugi-gray-wide-block pt-px-35">
+        <div class="uslugi-gray-wide-block pt-px-20">
             <div class="title">
                 Для качественной вакуумной формовки пластика, нужно соблюдать несколько условий
             </div>
             <div class="d-md-flex">
                 <div class="wide-block-left-block">
-                    <ul class="m-0">
+                    <ul>
                         <li>наличие уклонов</li>
                         <li>вытяжные отверстия</li>
                         <li>растяжение пластика</li>
