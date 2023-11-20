@@ -1393,13 +1393,14 @@ $indexTriangleHeight:62px;
             @include l-md{
                 display: flex;
                 flex-direction: row-reverse;
-                padding-left: 70px;
+                padding: 0 20px;
             }
             @include l-sm{
-                padding-left: 20px;
+                padding: 0 5px;
             }
             img{
                 width: 100%;
+                max-height: 500px;
                 object-fit: contain;
             }
             .text-top{
