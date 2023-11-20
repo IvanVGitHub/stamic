@@ -1448,8 +1448,8 @@ $indexTriangleHeight:62px;
         gap: 0;
         grid-template-columns: 25% 45% 30%;
         @include l-xxl{
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
         }
         @include l-lg{
             grid-template-columns: 35% 30% 35%;
@@ -1573,24 +1573,67 @@ $indexTriangleHeight:62px;
 
 .uslugi-text-img-block-3{
     font-family: 'Proxima Nova Regular', serif;
-    .block-3-title{
-        font-family: 'Proxima Nova Bold', serif;
-        @extend .text-responsive-24;
-        color: #575754;
+    @include l-xxl{
+        padding: 0 15px;
     }
-    .block-3-text{
-        @extend .text-responsive-18;
-        color: #414141;
-        line-height: 1.4em;
-    }
-    .block-3-subtext{
-        @extend .text-responsive-22;
-        color: #FFFFFF;
-        align-items: center;
-        background-color: #414141;
-        padding: 12px 50px;
-        @include l-lg{
-            padding: 10px 0 10px 0;
+    .uslugi-text-img-block-3-content{
+        padding-top: 20px;
+        .matrixes-image-block{
+            float: left;
+            padding: 0 20px 5px 0;
+            @include l-lg{
+                width: 40%;
+                @include l-sm{
+                    width: 70%;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                @include l-xs{
+                    width: 100%;
+                }
+                img{
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+        @include l-sm{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .matrixes-right-block{
+            padding-left: 130px;
+            @include l-xl{
+                padding: 0;
+            }
+            .block-3-title{
+                font-family: 'Proxima Nova Bold', serif;
+                @extend .text-responsive-24;
+                color: #575754;
+            }
+            .block-3-text{
+                padding: 15px 120px 15px 0;
+                @extend .text-responsive-18;
+                color: #414141;
+                line-height: 1.4em;
+                @include l-xl{
+                    padding-right: 0;
+                }
+            }
+            .block-3-subtext{
+                display: flex;
+                gap: 32px;
+                padding: 12px 50px;
+                @extend .text-responsive-22;
+                color: #FFFFFF;
+                align-items: center;
+                background-color: #414141;
+                @include l-lg{
+                    padding: 0;
+                    justify-content: center;
+                }
+            }
         }
     }
 }
