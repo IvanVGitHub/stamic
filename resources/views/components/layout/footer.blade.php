@@ -1,12 +1,13 @@
 <footer class="footer">
     <div class="wrapper-footer">
         <div class="flex-column flex-md-row flex-wrap justify-content-between d-none d-md-flex"
-             style="padding-top: 80px">
+             style="padding-top: 80px;">
             <div class=" " style="margin-right: 65px;">
                 <div class="w-100 d-flex justify-content-center justify-content-md-start">
                 </div>
-                <div style="max-width: 172px; ">
-                    <div class="footer-txt mb-2 text-center text-md-start">
+                <div style="max-width: 172px;">
+                    <img src="{{asset('img/logo-light.webp')}}" class="footer-logo" alt="">
+                    <div class="footer-txt mb-2 text-center text-md-start mt-px-30">
                         Компания <b>Стамик</b> - это разработка и производство пресс-форм,
                         прототипов, мастер моделей. Для литья и вакуумной формовки.
                     </div>
