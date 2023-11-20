@@ -1577,6 +1577,10 @@ $indexTriangleHeight:62px;
         padding: 0 15px;
     }
     .uslugi-text-img-block-3-content{
+        display: flex;
+        @include l-lg{
+            display: block;
+        }
         padding-top: 20px;
         .matrixes-image-block{
             float: left;
@@ -1639,17 +1643,27 @@ $indexTriangleHeight:62px;
 }
 
 $triangleBlockHeight: 413px;
+$triangleBlockMAXHeight: 300px;
 $triangleBlockVerticalOffset: -45px;
 $triangleBlockWidth: 235px;
 $imageHeight: 500px;
 .uslugi-text-img-block-4{
-    .block-4-img-left{
-        position: relative;
-        img{
-            height: $imageHeight;
+    .prototypes-block{
+        display: flex;
+        margin-top: 20px;
+        @include l-lg{
+            display: block;
+        }
+        .prototypes-images{
+            img{
+                min-width: 300px;
+                @include l-lg{
+                    min-width: 50%;
+                }
+            }
         }
     }
-    .block-4-img-right{
+    .block-4-img-left, .block-4-img-right{
         position: relative;
         img{
             height: $imageHeight;
@@ -1661,7 +1675,11 @@ $imageHeight: 500px;
         overflow: hidden;
         transition: all 2s ease-in-out;
         height: 0;
-        width: $triangleBlockWidth;
+        width: 100%;
+        max-width: $triangleBlockWidth;
+        @include l-lg{
+            top: 0;
+        }
         .block-4-triangle{
             display: flex;
             flex-direction: column;
@@ -1670,15 +1688,26 @@ $imageHeight: 500px;
             @extend .text-responsive-21;
             color: #FFFFFF;
             padding: 65px 30px 190px 30px;
+            @include l-sm{
+                padding-top: 15px;
+                padding-bottom: 160px;
+            }
         }
         &.btc-show{
             height: $triangleBlockHeight;
+            @include l-lg{
+                //height: 100%;
+            }
         }
         &.left{
             text-align: end;
             right: 0;
             .block-4-triangle{
                 clip-path: polygon(0 0, 100% 0, 100% 100%);
+                @include l-sm{
+                    padding-right: 15px;
+                    max-height: $triangleBlockMAXHeight;
+                }
             }
         }
         &.right{
@@ -1692,10 +1721,17 @@ $imageHeight: 500px;
                 .block-4-triangle{
                     transform: translateY(0);
                 }
+                @include l-lg{
+                    top: 0;
+                }
             }
             left: 0;
             .block-4-triangle{
                 clip-path: polygon(0 0, 100% 0, 0 100%);
+                @include l-sm{
+                    max-height: $triangleBlockMAXHeight;
+                    padding-left: 15px;
+                }
             }
         }
     }
@@ -1706,18 +1742,8 @@ $imageHeight: 500px;
         color: white;
         height: $triangleBlockHeight;
         width: $triangleBlockWidth;
-    }
-    .block-4-grid-block-3-left-text{
-        font-family: 'Proxima Nova Regular', serif;
-        @extend .text-responsive-18;
-        color: #414141;
-        line-height: 1.4em;
-        padding: 10px 10px 10px 295px;
-        max-width: 650px;
-        width: 100%;
-        @include l-xxxl{
-            padding-left: 28px;
-            max-width: 700px;
+        @include l-xxl{
+            width: 100%;
         }
     }
     .block-4-grid-block-3-left-title{
@@ -1728,15 +1754,44 @@ $imageHeight: 500px;
         padding: 28px 70px 28px 295px;
         max-width: 650px;
         width: 100%;
+        @include l-hd{
+            padding-left: 30%;
+        }
         @include l-xxxl{
-            padding-left: 28px;
-            max-width: 700px;
+            padding-left: 57px;
+            max-width: unset;
+        }
+        @include l-xxl{
+            padding-left: 30px;
         }
         @include l-lg{
-            width: 100%;
-            padding: 15px 70px 15px 70px;
-            text-align: center;
             display: flex;
+            justify-content: center;
+            max-width: unset;
+            padding: 15px;
+            text-align: center;
+        }
+    }
+    .block-4-grid-block-3-left-text{
+        font-family: 'Proxima Nova Regular', serif;
+        @extend .text-responsive-18;
+        color: #414141;
+        line-height: 1.4em;
+        padding: 55px 30px 10px 295px;
+        max-width: 650px;
+        width: 100%;
+        @include l-hd{
+            padding-left: 30%;
+        }
+        @include l-xxxl{
+            padding-left: 57px;
+            max-width: 100%;
+        }
+        @include l-xxl{
+            padding-left: 30px;
+        }
+        @include l-lg{
+            padding: 15px;
         }
     }
 }

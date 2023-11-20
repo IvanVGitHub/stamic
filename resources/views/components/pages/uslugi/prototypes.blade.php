@@ -1,21 +1,25 @@
-<div class="uslugi-text-img-block-4 pt-px-180" id="prototypes">
-    <div class="title-first-letter wrapper-1314">
-        Прототипы
+<div class="uslugi-text-img-block-4" id="prototypes">
+    <div class="wrapper-1314">
+        <div class="d-block text-center text-md-start">
+            <div class="title-first-letter">
+                Прототипы
+            </div>
+        </div>
     </div>
 
-    <div class="d-flex mt-px-20">
-        <div class="block-4-grid-block-3-wrapper-left">
+    <div class="prototypes-block">
+        <div>
             <div class="block-4-grid-block-3-left-title">
-                Прототип- это образец будущего изделия.
+                Прототип - это образец будущего изделия.
             </div>
-            <div class="block-4-grid-block-3-left-text pt-px-55 pr-px-30">
+            <div class="block-4-grid-block-3-left-text">
                 Его делают, чтобы оценить дизайн, функционал. Прототип можно изготовить и в ручную. Мы предпочитаем более технологичный подход. Это Фрезерование на станке с ЧПУ или послойная 3D печать.
                 <br>
                 Выбор способа изготовления прототипа зависит от сложности и размера. Как правило, большие вещи, например, корпус робота проще и дешевле отфрезеровать. Небольшие вещи, например, прототип пластиковой коробки, будет проще напечатать на 3D принтере.
             </div>
         </div>
-        <div class="d-flex flex-grow-1" id="triangles-block">
-            <div class="">
+        <div class="d-flex flex-grow-1 prototypes-images" id="triangles-block">
+            <div class="prototypes-images-left">
                 <div class="block-4-img-left">
                     <img class="object-fit-cover w-100" src="{{asset('img/pistol grip.webp')}}" alt="">
                     <div class="block-triangle-container left" id="triangle-left">
