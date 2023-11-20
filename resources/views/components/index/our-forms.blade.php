@@ -1,4 +1,4 @@
-<div class="container pt-px-50 pt-px-md-100">
+<div class="container">
     <div class="index-title-block" id="index-block-title">
         <div class="index-block-subtitle">
             Лучшая реклама любой работы - её качество!

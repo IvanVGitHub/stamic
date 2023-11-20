@@ -2338,6 +2338,7 @@ $pentagonal-arrow: 40px;
 }
 
 .animations{
+    margin-top: -60px;
     h5{
         color: #F5AF5F;
     }
@@ -2348,10 +2349,11 @@ $pentagonal-arrow: 40px;
         }
     }
     .carousel-item{
-        display: flex;
-        justify-content: center;
     }
     .carousel-caption{
-        padding: 0;
+        padding: 13px 0;
+        position: relative;
+        right: unset;
+        left: unset;
     }
 }

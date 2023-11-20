@@ -5,10 +5,11 @@
          data-bs-keyboard="true"
          touch="true"
          data-bs-touch="true">
-        <div class="carousel-inner flag-index-animations">
-            <div class="carousel-item active" data-bs-interval="10000">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="11000">
                 <video autoplay=""
-                       loop muted
+{{--                       loop--}}
+                       muted
                        preload="metadata"
                        playsinline>
                     <source src="video/m1.mp4" type="video/mp4">
@@ -17,9 +18,10 @@
                     <div class="index-title">Вакуумная формовка</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="9000">
+            <div class="carousel-item" data-bs-interval="10000">
                 <video autoplay=""
-                       loop muted
+{{--                       loop--}}
+                       muted
                        preload="metadata"
                        playsinline>
                     <source src="video/m2-1.mp4" type="video/mp4">
@@ -28,9 +30,10 @@
                     <div class="index-title">Литье под давлением</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="13000">
+            <div class="carousel-item" data-bs-interval="14000">
                 <video autoplay=""
-                       loop muted
+{{--                       loop--}}
+                       muted
                        preload="metadata"
                        playsinline>
                     <source src="video/m3.mp4" type="video/mp4">
@@ -39,9 +42,10 @@
                     <div class="index-title">3D печать</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="7000">
+            <div class="carousel-item" data-bs-interval="8000">
                 <video autoplay=""
-                       loop muted
+{{--                       loop--}}
+                       muted
                        preload="metadata"
                        playsinline>
                     <source src="video/m4-3.mp4" type="video/mp4">
@@ -50,9 +54,10 @@
                     <div class="index-title">Фрезерование ЧПУ</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="7000">
+            <div class="carousel-item" data-bs-interval="8000">
                 <video autoplay=""
-                       loop muted
+{{--                       loop--}}
+                       muted
                        preload="metadata"
                        playsinline>
                     <source src="video/m5-1.mp4" type="video/mp4">

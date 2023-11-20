@@ -26,12 +26,12 @@
                             </svg>
                         </div>
                     </a>
-                    <a class="index-block3-list-item"
+                    <a class="index-block3-list-item this-arrow-hover"
                        onmouseenter="$('#index-img-center').addClass('index-block3-z-4')"
                        onmouseleave="$('#index-img-center').removeClass('index-block3-z-4')"
                        href="#index-img-center">
                         МДФ
-                        <div class="svg-arrow">
+                        <div class="svg-arrow" >
                             <svg preserveAspectRatio="none" data-bbox="19.5 47.5 161 105.001"
                                  viewBox="19.5 47.5 161 105.001" height="200" width="200"
                                  xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation"
@@ -85,6 +85,7 @@
 
 @push('custom_scripts')
     <script>
+        //анимации
         registerForAnimation('examples-of-projects',[
             {id:'vl-eop-1', addedClass:'moved', delay:1500},
             {id:'hl-eop-1', addedClass:'moved', delay:500},
