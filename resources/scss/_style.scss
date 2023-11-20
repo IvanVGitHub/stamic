@@ -1443,30 +1443,60 @@ $indexTriangleHeight:62px;
 .uslugi-text-img-block-2{
     .uslugi-text-img-block-2-grid-block-3{
         @extend .grid-block-3;
+        padding-top: 20px;
         overflow-x: unset;
         gap: 0;
         grid-template-columns: 25% 45% 30%;
+        @include l-xxl{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        @include l-lg{
+            grid-template-columns: 35% 30% 35%;
+        }
+        @include l-md{
+            display: block;
+        }
     }
-    .wide-gray-block{
+    .silicone-wide-gray-block{
+        display: flex;
+        justify-content: space-between;
+        background-color: #858581;
+        padding: 30px 20px;
+        width: 100%;
+        font-family: 'Proxima Nova Regular', serif;
+        @extend .text-responsive-20;
+        color: #FFFFFF;
+        @include l-lg{
+            padding: 20px 5px;
+            justify-content: space-around;
+        }
+        @include l-xs{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
         img{
             max-width: 122px;
             object-fit: contain;
         }
-        .right-block{
-            font: 300 20px "Roboto";
-            @extend .text-responsive-20;
-            color: #FFFFFF;
-            line-height: 2em;
-        }
-        background-color: #858581;
-        width: 100%;
-        justify-content: space-between;
-        color: #FFFFFF;
-        font-family: 'Proxima Nova Regular', serif;
-        @extend .text-responsive-20;
-        padding: 30px 20px;
-        @include l-lg{
-            padding: 20px 20px;
+        .silicone-wide-gray-block-right-block{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding-right: 80px;
+            @include l-xl{
+                padding-right: 50px;
+            }
+            @include l-lg{
+                padding: 0;
+            }
+            .right-block-text{
+                font: 300 20px "Roboto";
+                @extend .text-responsive-20;
+                color: #FFFFFF;
+                line-height: 2em;
+            }
         }
     }
     .block-2-left-block{
@@ -1478,12 +1508,41 @@ $indexTriangleHeight:62px;
     .block-2-central-block{
         position: relative;
         flex-grow: 1;
+        @include l-md{
+            margin: 20px 0;
+        }
+        @include l-sm{
+            display: flex;
+            justify-content: center;
+        }
         .block-2-central-block-content{
             position: absolute;
             top: -230px;
             left:0;
+            @include l-xxl{
+                left: 50%;
+                transform: translateX(-50%);
+                top: -200px;
+            }
+            @include l-lg{
+                top: 0;
+            }
+            @include l-md{
+                left: unset;
+                right: 0;
+                transform: unset;
+            }
+            @include l-sm{
+                position: relative;
+            }
             img{
-                max-width: 750px;
+                width: 705px;
+                @include l-xxl{
+                    width: 500px;
+                }
+                @include l-lg{
+                    width: 234px;
+                }
             }
         }
     }
@@ -1491,6 +1550,19 @@ $indexTriangleHeight:62px;
         font-family: 'Proxima Nova Regular', serif;
         @extend .text-responsive-24;
         color: #575754;
+        padding-top: 70px;
+        @include l-xxl{
+            padding: 0;
+        }
+        @include l-md{
+            width: 50%;
+        }
+        @include l-sm{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         li{
             @extend .text-responsive-18;
             color: #414141;

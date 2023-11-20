@@ -8,7 +8,7 @@
     <div class="uslugi-text-img-block-1">
         <div class="text-left">
             <div class="flex-grow-1">
-                <div class="pt-px-20 pt-px-md-40 pr-px-30">
+                <div class="pt-px-20 pt-px-md-40 pr-px-md-30">
                     Мы фрезеруем формы для литья из <strong>Д16Т</strong>. Почему дюраль, а не сталь?
                     <br>
                     Наши заказчики ищут мелкосерейное литье и недорогие пресс формы. Формы из стали такими не
