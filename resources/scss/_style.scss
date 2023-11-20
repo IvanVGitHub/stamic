@@ -2137,7 +2137,7 @@ $pentagonal-arrow: 40px;
         }
         &.moved{
             height: 580px;
-            top: -220px;
+            top: -200px;
             @include l-md{
                 left: unset;
                 right: -5px;
@@ -2152,7 +2152,7 @@ $pentagonal-arrow: 40px;
         right: 475px;
         transition: top 2.5s, height 4s;
         &.moved{
-            top: -295px;
+            top: -287px;
             height: 200%;
             @include l-md{
                 display: none;
@@ -2342,7 +2342,7 @@ $pentagonal-arrow: 40px;
         color: #F5AF5F;
     }
     video{
-        width: 960px;
+        width: 100%;
         @include l-xs{
             width: 600px;
         }

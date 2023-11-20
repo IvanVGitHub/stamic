@@ -1,8 +1,5 @@
 <div class="container pt-px-50 pt-px-md-100">
     <div class="index-title-block" id="index-block-title">
-        <div class="index-title pb-3">
-            Формы для литья
-        </div>
         <div class="index-block-subtitle">
             Лучшая реклама любой работы - её качество!
             <div class="index-under-subtitle-line left" id="movelineleft"></div>
