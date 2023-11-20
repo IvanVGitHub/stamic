@@ -804,7 +804,7 @@ $indexTriangleHeight:62px;
             background-color: #FFFFFF;
             color: #000000;
             padding: 20px 100px 40px 50px;
-            margin-top: 52px;
+            margin-top: 34px;
             min-width: 915px;
             &.moved{
                 transform: translateX(0);
@@ -2152,7 +2152,7 @@ $pentagonal-arrow: 40px;
         right: 475px;
         transition: top 2.5s, height 4s;
         &.moved{
-            top: -287px;
+            top: -306px;
             height: 200%;
             @include l-md{
                 display: none;
