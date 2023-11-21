@@ -10,7 +10,7 @@
             <div class="index-block3-list">
                 <div class="d-md-block d-flex justify-content-between">
                     <a class="index-block3-list-item"
-                       onmouseenter="$('#index-img-left').addClass('index-block3-z-4')"
+                       onmouseenter="$('#index-img-left').addClass('index-block3-z-4');$('#index-block3-start-item').removeClass('hovered');"
                        onmouseleave="$('#index-img-left').removeClass('index-block3-z-4')"
                        href="#index-img-left">
                         3Д
@@ -26,8 +26,8 @@
                             </svg>
                         </div>
                     </a>
-                    <a class="index-block3-list-item this-arrow-hover"
-                       onmouseenter="$('#index-img-center').addClass('index-block3-z-4')"
+                    <a class="index-block3-list-item this-arrow-hover hovered" id="index-block3-start-item"
+                       onmouseenter="$('#index-img-center').addClass('index-block3-z-4');$('#index-block3-start-item').removeClass('hovered');"
                        onmouseleave="$('#index-img-center').removeClass('index-block3-z-4')"
                        href="#index-img-center">
                         МДФ
@@ -44,7 +44,7 @@
                         </div>
                     </a>
                     <a class="index-block3-list-item"
-                       onmouseenter="$('#index-img-right').addClass('index-block3-z-4')"
+                       onmouseenter="$('#index-img-right').addClass('index-block3-z-4');$('#index-block3-start-item').removeClass('hovered');"
                        onmouseleave="$('#index-img-right').removeClass('index-block3-z-4')"
                        href="#index-img-right">
                         Д16Т
@@ -67,7 +67,7 @@
                 <div class="index-img-left" id="index-img-left">
                     <img src="{{asset('img/form1.webp')}}" alt="">
                 </div>
-                <div class="index-img-center" id="index-img-center">
+                <div class="index-img-center index-block3-z-4" id="index-img-center">
                     <img src="{{asset('img/form2.webp')}}" alt="">
                 </div>
                 <div class="index-img-right" id="index-img-right">
