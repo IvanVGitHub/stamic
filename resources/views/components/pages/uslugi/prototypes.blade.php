@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="d-flex flex-grow-1 prototypes-images" id="triangles-block">
-            <div class="prototypes-images-left">
+            <div class="">
                 <div class="block-4-img-left">
                     <img class="object-fit-cover w-100" src="{{asset('img/pistol grip.webp')}}" alt="">
                     <div class="block-triangle-container left" id="triangle-left">
@@ -32,9 +32,9 @@
                                 <br>
                                 PLA
                             </div>
-                            <div class="v-line vl-p" id="vl-p"></div>
                         </div>
                     </div>
+                    <div class="v-line vl-p" id="vl-p"></div>
                 </div>
                 <div class="text-under-img">
                     пистолетная рукоятка

@@ -1726,7 +1726,6 @@ $imageHeight: 500px;
             top: 0;
         }
         .block-4-triangle{
-            position: relative;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -2177,16 +2176,17 @@ $pentagonal-arrow: 40px;
         }
     }
     &.vl-p{
+        z-index: 0;
         border-left: 1px solid #858581;
         height: 0;
-        right: -1px;
-        top: -100px;
+        right: 0;
+        top: -200px;
         transition: all 1s;
         @include l-md{
             display: none;
         }
         &.moved{
-            height: calc(100% + 100px);
+            height: calc(100% + 200px);
         }
     }
     &.vl-au-1{
