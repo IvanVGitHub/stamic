@@ -66,7 +66,7 @@
         registerForAnimation('examples-of-projects',[
             {id:'vl-eop-1', addedClass:'moved', delay:1500},
             {id:'hl-eop-1', addedClass:'moved', delay:500},
-            {id:'arrow-center', addedClass:'moved', delay:100},
+            {id:'arrow-center', addedClass:'moved', delay:1000},
         ]);
     </script>
 @endpush
