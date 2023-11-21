@@ -22,7 +22,7 @@
                     выезд для сканирования.
                     <div class="d-flex flex-column align-items-center gray-triangle-boll pr-px-md-30 pr-px-10">
                         <div class="vertical-triangle"></div>
-                        <div class="orange-ball"></div>
+                        <div class="orange-ball flag-gray-triangle-boll"></div>
                     </div>
                 </div>
                 <div class="tehnologii-3d-scaning-cards">

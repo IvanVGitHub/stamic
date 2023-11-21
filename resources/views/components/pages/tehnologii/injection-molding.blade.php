@@ -32,7 +32,7 @@
                     примеры 3Д печати
                 </div>
             </div>
-            <div class="shred-right" id="wide-darkgray"></div>
+            <div class="shred-right flag-injection-wide-darkgray" id="wide-darkgray"></div>
         </div>
     </div>
 </div>

@@ -22,7 +22,7 @@
                 <div class="minor-text flag-vacuum-forming">
                     <div class="gray-triangle-boll flag-vacuum-forming">
                         <div class="vertical-triangle"></div>
-                        <div class="orange-ball"></div>
+                        <div class="orange-ball flag-gray-triangle-boll"></div>
                     </div>
                     <div class="d-flex gap-3">
                         <div>

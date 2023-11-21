@@ -1,7 +1,7 @@
 <div class="uslugi-text-img-block-4" id="prototypes">
     <div class="wrapper-1314">
         <div class="d-block text-center text-md-start">
-            <div class="title-first-letter">
+            <div class="title-first-letter flag-forms" id="p-title">
                 Прототипы
             </div>
         </div>
@@ -32,6 +32,7 @@
                                 <br>
                                 PLA
                             </div>
+                            <div class="v-line vl-p" id="vl-p"></div>
                         </div>
                     </div>
                 </div>
@@ -65,9 +66,13 @@
 
 @push('custom_scripts')
     <script>
+        registerForAnimation('p-title',[
+            {id:'p-title', addedClass:'moved', delay:1000},
+        ]);
         registerForAnimation("triangles-block", [
-            {id:"triangle-left", delay:300, addedClass:"btc-show"},
-            {id:"triangle-right", delay:700, addedClass:"btc-show"},
+            {id:"triangle-left", addedClass:"btc-show", delay:1500},
+            {id:"triangle-right", addedClass:"btc-show", delay:3000},
+            {id:"vl-p", addedClass:"moved", delay:500},
         ])
     </script>
 @endpush

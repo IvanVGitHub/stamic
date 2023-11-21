@@ -8,15 +8,6 @@
         <div class="index-under-subtitle-container">
             <div class="index-under-subtitle-container-triangle" id="transparenttriangle"></div>
         </div>
-        @push('custom_scripts')
-            <script>
-                registerForAnimation('index-block-title',[
-                    {id:'movelineleft', addedClass:'moved', delay:300},
-                    {id:'movelineright', addedClass:'moved', delay:300},
-                    {id:'transparenttriangle', addedClass:'moved', delay:1500},
-                ]);
-            </script>
-        @endpush
     </div>
     <div class="d-flex justify-content-center w-100">
         <div>
@@ -49,6 +40,16 @@
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('index-block-title',[
+            {id:'movelineleft', addedClass:'moved', delay:300},
+            {id:'movelineright', addedClass:'moved', delay:300},
+            {id:'transparenttriangle', addedClass:'moved', delay:1500},
+        ]);
+    </script>
+@endpush
 
 <script>
     {{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}

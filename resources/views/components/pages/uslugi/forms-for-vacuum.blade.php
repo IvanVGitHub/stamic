@@ -1,6 +1,6 @@
 <div class="wrapper-1314" id="vacuum">
     <div class="d-block text-center text-md-start">
-        <div class="title-first-letter">
+        <div class="title-first-letter flag-forms" id="f-f-v-title">
             Формы для вакуумной формовки
         </div>
     </div>
@@ -14,7 +14,7 @@
                     <div class="text-on-img">
                         <div class="text-on-img-text">
                             <div>ДЮРАЛЬ&nbsp<strong>Д16Т</strong></div>
-                            <div class="orange-ball"></div>
+                            <div class="orange-ball flag-animate" id="orange-ball-1"></div>
                             <div class="bold">PS и PET</div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                     <div class="text-on-img">
                         <div class="text-on-img-text">
                             <div>МДФ</div>
-                            <div class="orange-ball"></div>
+                            <div class="orange-ball flag-animate" id="orange-ball-2"></div>
                             <div class="bold">ABS</div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                 Для качественной вакуумной формовки пластика, нужно соблюдать несколько условий
             </div>
             <div class="d-md-flex">
-                <div class="wide-block-left-block">
+                <div class="wide-block-left-block" id="wide-block-left-block">
                     <ul>
                         <li>наличие уклонов</li>
                         <li>вытяжные отверстия</li>
@@ -80,7 +80,7 @@
                         <li>отсутствие поднутрений</li>
                     </ul>
                 </div>
-                <div class="wide-block-right-block">
+                <div class="wide-block-right-block" id="parent-wide-gray">
                     Уклоны необходимы для легкого съема отформованного пластика с формы.
                     <br>
                     Поднутрения (отрицательные углы) будут препятствовать этому. Пластик вытягивается по разному в
@@ -91,8 +91,39 @@
                     позволяет избежать следов вытяжки на пластике.
                     <br>
                     Форма полируется и доставляется Вам.Чертежи вырубных ножей (штанц-форм) идут в комплекте.
+                    <div class="shred-right flag-f-f-v" id="wide-gray"></div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('f-f-v-title',[
+            {id:'f-f-v-title', addedClass:'moved', delay:1000},
+        ]);
+        registerForAnimation('orange-ball-1',[
+            {id:'orange-ball-1', addedClass:'moved', delay:500},
+            {id:'orange-ball-2', addedClass:'moved', delay:500},
+        ]);
+        registerForAnimation('wide-block-left-block',[
+            {id:'wide-block-left-block', addedClass:'moved', delay:500},
+        ]);
+    </script>
+@endpush
+
+<script>
+    {{--вычисляем расстояние от родительского блока до правого края страницы и ставим справа дочерний блок с вычисленной величиной--}}
+    function calculateGrayBlock(){
+        let div = document.getElementById('parent-wide-gray'),
+            rect = div.getBoundingClientRect(),
+            d = document.documentElement,
+            rectD = d.getBoundingClientRect(),
+            result = rectD.right - rect.right,
+            wideGray = document.getElementById("wide-gray");
+        wideGray.style.width = result - 60 + "px"; //60 - это отступ от края страницы, т. к. margin в данном случае не работает
+    }
+    window.addEventListener("load", calculateGrayBlock);
+    window.addEventListener('resize', calculateGrayBlock);
+</script>

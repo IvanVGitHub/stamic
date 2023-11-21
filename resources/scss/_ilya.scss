@@ -186,13 +186,6 @@
     position: relative;
     font-family: 'Impact Regular', serif;
     @extend .text-responsive-43;
-    &::first-letter{
-        color: #FFA15E;
-    }
-    span{
-        color: #FFA15E;
-    }
-    color: #414141;
     @include l-xxxl{
         padding-left: 25px;
     }
@@ -203,6 +196,22 @@
         text-align: center;
         margin-bottom: 10px;
     }
+    &.flag-forms{
+        top: 30px;
+        opacity: 0;
+        transition: top 1s, opacity 2s ease-in-out;
+        &.moved{
+            top: 0;
+            opacity: 1;
+        }
+    }
+    &::first-letter{
+        color: #FFA15E;
+    }
+    span{
+        color: #FFA15E;
+    }
+    color: #414141;
 }
 
 .img-form-with-orange-detail{
@@ -481,12 +490,6 @@ $block-3d-printing-description-background-color: #F2F1F2;
         border: 10px solid transparent;
         border-top: 25px solid #999997;
     }
-    .orange-ball{
-        text-align: center;
-        background-color: #999997;
-        height: 0.8em;
-        width: 0.8em;
-    }
     &.flag-vacuum-forming{
         display: flex;
         flex-direction: column;
@@ -535,6 +538,15 @@ $wide-to-right-gray-translucent: rgba(#CCC9C4, .37);
         height: 70%;
         background-color: #858581;
     }
+    &.flag-injection-wide-darkgray{
+        background-color: $wide-to-right-darkgray-translucent;
+    }
+    &.flag-matrix{
+        background-color: #414141;
+    }
+    &.flag-f-f-v{
+        background-color: #858581;
+    }
 }
 
 .milling-background{
@@ -562,7 +574,6 @@ $wide-to-right-gray-translucent: rgba(#CCC9C4, .37);
     }
 }
 
-$wide-to-right-darkgray-translucent: #383A3C;
 .injection-wide-darkgray{
     display:grid;
     grid-template-columns: 39% 61%;
@@ -591,9 +602,6 @@ $wide-to-right-darkgray-translucent: #383A3C;
         }
     }
     .wide-to-right-gray-translucent-background{
-        background-color: $wide-to-right-darkgray-translucent;
-    }
-    .shred-right{
         background-color: $wide-to-right-darkgray-translucent;
     }
     @include l-lg{

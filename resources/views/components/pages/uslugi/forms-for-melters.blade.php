@@ -1,6 +1,6 @@
 <div class="wrapper-1314 padding-x" id="melters">
     <div class="d-block text-center text-md-start">
-        <div class="title-first-letter">
+        <div class="title-first-letter flag-forms" id="f-f-m-title">
             Формы для литья
         </div>
     </div>
@@ -32,7 +32,7 @@
                     <li>Низкая стоимость</li>
                 </ul>
             </div>
-            <div class="v-line vl-ffm d-none d-md-block"></div>
+            <div class="v-line vl-ffm d-none d-md-block" id="vl-ffm"></div>
             <div class="h-line hl-ffm d-md-none"></div>
         </div>
         <div class="img-width-text pl-px-md-30">
@@ -44,7 +44,7 @@
                     ДЮРАЛЬ&nbsp&nbsp
                     <div class="d-flex flex-column align-items-center">
                         <div class="vertical-triangle"></div>
-                        <div class="orange-ball"></div>
+                        <div class="orange-ball flag-animate" id="orange-ball-3"></div>
                     </div>
                     &nbsp&nbsp<strong>Д16Т</strong>
                 </div>
@@ -55,3 +55,15 @@
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('f-f-m-title',[
+            {id:'f-f-m-title', addedClass:'moved', delay:1000},
+            {id:'vl-ffm', addedClass:'moved', delay:2000},
+        ]);
+        registerForAnimation('orange-ball-3',[
+            {id:'orange-ball-3', addedClass:'moved', delay:500},
+        ]);
+    </script>
+@endpush
