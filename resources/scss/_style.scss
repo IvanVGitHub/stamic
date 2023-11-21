@@ -596,7 +596,7 @@ body{
         background-image: url('/img/cutters.webp');
         background-position: bottom;
         background-repeat: no-repeat;
-        filter: grayscale(100%) brightness(130%);
+        filter: grayscale(100%) contrast(150%);
         @include l-sm{
             background-size: contain;
         }
