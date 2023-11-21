@@ -844,14 +844,17 @@ $indexTriangleHeight:62px;
     width: 213px;
     height: 185px;
     transform: translateY(0);
+    @include l-sm{
+        left: 25px;
+    }
+    &.moved{
+        transform: translateY(184px);
+    }
     .index-block2-triangle{
         clip-path: polygon(0 0, 100% 0, 50% 100%);
         width: 100%;
         height: 100%;
         background: #F5AF5F;
-    }
-    &.moved{
-        transform: translateY(184px);
     }
 }
 
@@ -1601,6 +1604,9 @@ $indexTriangleHeight:62px;
             margin-bottom: 40px;
         }
         @include l-sm{
+            margin-bottom: 0;
+        }
+        @include l-sm{
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -1659,6 +1665,9 @@ $indexTriangleHeight:62px;
                 font-family: 'Proxima Nova Bold', serif;
                 @extend .text-responsive-24;
                 color: #575754;
+                @include l-md{
+                    text-align: center;
+                }
             }
             .block-3-text{
                 padding: 15px 120px 15px 0;
@@ -2423,14 +2432,14 @@ $pentagonal-arrow: 40px;
 
 .animations{
     margin-top: -60px;
+    @include l-md{
+        margin-top: 0;
+    }
     h5{
         color: #F5AF5F;
     }
     video{
         width: 100%;
-        @include l-xs{
-            width: 600px;
-        }
     }
     .carousel-item{
     }

@@ -62,7 +62,7 @@
     <link href="{{asset("/css/jquery-ui.min.css")}}" rel="stylesheet" type="text/css" />
     @livewireStyles
 
-    <link href="{{asset("/css/main.css")}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset("/css/main1.css")}}" rel="stylesheet" type="text/css" />
     {{--    <link rel="manifest" href="{{asset('/manifest.json')}}" />--}}
 
     @stack('custom_styles')
