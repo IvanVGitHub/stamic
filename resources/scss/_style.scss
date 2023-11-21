@@ -859,6 +859,17 @@ $indexTriangleHeight:62px;
     text-indent: 35px;
 }
 
+.index-svg-arrow{
+    background-image: url("/img/index-svg-arrow.svg");
+    width: 40px;
+    height: 48px;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+    @include l-md{
+        transform: rotate(90deg);
+    }
+}
+
 .index-block3{
     display: flex;
     width: 100%;
@@ -885,16 +896,6 @@ $indexTriangleHeight:62px;
             .svg-arrow{
                 display: flex;
                 justify-content: flex-end;
-                svg{
-                    fill: #F5AF5F;
-                    width: 40px;
-                    height: 48px;
-                    opacity: 0;
-                    transition: opacity 0.15s ease-in-out;
-                    @include l-md{
-                        transform: rotate(90deg);
-                    }
-                }
                 .block-animated-start{
                     position: absolute;
                     background: $bg;
@@ -915,16 +916,14 @@ $indexTriangleHeight:62px;
             &:hover{
                 color: #F5AF5F;
                 cursor: pointer;
-                svg{
-                    display: block;
+                .index-svg-arrow{
                     opacity: 1;
                 }
             }
             &.hovered{
                 color: #F5AF5F;
                 cursor: pointer;
-                svg{
-                    display: block;
+                .index-svg-arrow{
                     opacity: 1;
                 }
             }
