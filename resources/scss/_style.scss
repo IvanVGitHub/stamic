@@ -2191,7 +2191,7 @@ $pentagonal-arrow: 40px;
         right: -1px;
         top: -200px;
         transition: all 1s;
-        @include l-md{
+        @include l-lg{
             display: none;
         }
         &.moved{
