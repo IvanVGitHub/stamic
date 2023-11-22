@@ -6,7 +6,7 @@
                 <div class="h-line hl-eop-1" id="hl-eop-1"></div>
             </div>
         </div>
-        <div class="index-block3">
+        <div class="index-block3" id="index-block3">
             <div class="index-block3-list">
                 <div class="d-md-block d-flex justify-content-between">
                     <a class="index-block3-list-item"
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="p-md-0 pt-px-20 text-md-start text-center" id="examples-button-detailed">
+        <div class="p-md-0 pt-px-20 text-md-start text-center">
             <a href="{{route('proekty')}}">
                 <button class="button-detailed">Подробнее</button>
             </a>
@@ -63,15 +63,12 @@
 @push('custom_scripts')
     <script>
         registerForAnimation('examples-of-projects',[
-            {id:'vl-eop-1', addedClass:'moved', delay:1500},
+            {id:'vl-eop-1', addedClass:'moved', delay:1000},
             {id:'movetriangle', addedClass:'moved', delay:0},
             {id:'movetext', addedClass:'moved', delay:500},
         ]);
-        registerForAnimation('heading-examples-of-projects',[
-            {id:'vl-ot-1', addedClass:'moved', delay:0},
-        ]);
-        registerForAnimation('examples-button-detailed',[
-            {id:'hl-eop-1', addedClass:'moved', delay:500},
+        registerForAnimation('index-block3',[
+            {id:'hl-eop-1', addedClass:'moved', delay:0},
         ]);
         registerForAnimation('arrow-center',[
             {id:'arrow-center', addedClass:'moved', delay:1000},

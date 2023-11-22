@@ -18,9 +18,9 @@
 
 @push('custom_scripts')
     <script>
-        registerForAnimation('index-block4-subtext',[
-            {id:'vl-au-1', addedClass:'moved', delay:1000},
-            {id:'hl-au-1', addedClass:'moved', delay:2000},
+        registerForAnimation('about',[
+            {id:'vl-au-1', addedClass:'moved', delay:0},
+            {id:'hl-au-1', addedClass:'moved', delay:1000},
         ]);
     </script>
 @endpush

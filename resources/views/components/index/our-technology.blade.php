@@ -34,3 +34,11 @@
         </div>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script>
+        registerForAnimation('index-wide-gray',[
+            {id:'vl-ot-1', addedClass:'moved', delay:0},
+        ]);
+    </script>
+@endpush
