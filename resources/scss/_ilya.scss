@@ -45,7 +45,7 @@
     background-color: #A9A9A9;
     color: #FFFFFF;
     opacity: 0;
-    transition: all 2s, transform 2s ease-in-out;
+    transition: opacity 2s, width 2s, height 2s, transform 2s, background-color 300ms, color 300ms ease-in-out;
     @include l-hd{
         right: -100px;
     }
@@ -60,6 +60,11 @@
         width: 70px;
         height: 70px;
         transform: rotate(720deg);
+    }
+    &:hover{
+        cursor: pointer;
+        background-color: #F5AF5F;
+        color: $bg;
     }
 }
 

@@ -100,7 +100,7 @@
                     </div>
                 </div>
             </div>
-            <a href="{{route('main')}}#carouselExampleCaptions" class="only-up" id="only-up"></a>
+            <a onclick="topFunction()" class="only-up" id="only-up"></a>
         </div>
 
 
@@ -222,3 +222,11 @@
         ]);
     </script>
 @endpush
+
+<script>
+    // прокрутка страницы в самый верх
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
