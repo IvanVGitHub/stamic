@@ -584,6 +584,8 @@ body{
 }
 
 .index-block1{
+    position: relative;
+    z-index: 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #FFFFFF;
@@ -877,7 +879,7 @@ $indexTriangleHeight:62px;
     display: flex;
     width: 100%;
     padding-top: 40px;
-    gap: 5px;
+    gap: 15px;
     @include l-md{
         flex-direction: column;
         padding: 0;
@@ -2238,10 +2240,10 @@ $pentagonal-arrow: 40px;
         }
     }
     &.vl-eop-1{
-        z-index: 1;
+        z-index: 0;
         border-color: #F5AF5F;
         height: 330px;
-        top: -610px;
+        top: -601px;
         right: 475px;
         transition: top 2.5s, height 4s;
         &.moved{

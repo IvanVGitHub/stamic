@@ -30,6 +30,33 @@
     height: 26px;
 }
 
+.only-up{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    margin-top: -35px;
+    right: -200px;
+    border-radius: 50%;
+    text-decoration: none;
+    width: 0;
+    height: 0;
+    background-color: #A9A9A9;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: all 2s, transform 2s ease-in-out;
+    &:before{
+        content: '\039B';
+    }
+    &.moved{
+        opacity: 1;
+        width: 70px;
+        height: 70px;
+        transform: rotate(720deg);
+    }
+}
+
 .basement-stam{
     margin-top: 0;
     margin-bottom: 13px;

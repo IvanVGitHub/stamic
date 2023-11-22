@@ -38,8 +38,8 @@
 @push('custom_scripts')
     <script>
         registerForAnimation('our-technology',[
-            {id:'movetriangle', addedClass:'moved', delay:300},
-            {id:'movetext', addedClass:'moved', delay:500},
+            {id:'movetriangle', addedClass:'moved', delay:1600},
+            {id:'movetext', addedClass:'moved', delay:2000},
             {id:'vl-ot-1', addedClass:'moved', delay:0},
         ]);
     </script>
