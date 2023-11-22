@@ -1494,9 +1494,11 @@ $indexTriangleHeight:62px;
         overflow-x: unset;
         gap: 0;
         grid-template-columns: 25% 45% 30%;
+        margin-bottom: 40px;
         @include l-xxl{
             padding-left: 15px;
             padding-right: 15px;
+            margin-bottom: 0;
         }
         @include l-lg{
             grid-template-columns: 35% 30% 35%;
@@ -1603,7 +1605,7 @@ $indexTriangleHeight:62px;
         }
         @include l-md{
             width: 50%;
-            margin-bottom: 40px;
+            margin-bottom: 60px;
         }
         @include l-sm{
             margin-bottom: 0;
