@@ -1869,13 +1869,21 @@ $pentagonal-arrow: 40px;
     display: flex;
     gap: 15px;
     justify-content: center;
+    @include l-md{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .uslugi-example-of-work-sequence-item{
         img{
             height: 235px;
-            @include l-lg{
+            @include l-xl{
                 width: 100%;
                 height: auto;
                 padding: 10px 25px 10px 25px;
+            }
+            @include l-xs{
+                padding: 0 0 10px 0;
             }
         }
         .uslugi-example-of-work-sequence-item-under{
@@ -1893,11 +1901,6 @@ $pentagonal-arrow: 40px;
             }
         }
     }
-    @include l-md{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 }
 
 .pentagonal-arrow{
@@ -1906,6 +1909,9 @@ $pentagonal-arrow: 40px;
     width: 50px;
     height: $pentagonal-arrow;
     clip-path: polygon(0% 0%, 60% 0%, 100% 50%, 60% 100%, 0% 100%);
+    @include l-xs{
+        transform: rotate(90deg);
+    }
 }
 
 .uslugi-contact-form-block{
