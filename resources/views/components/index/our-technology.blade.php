@@ -34,13 +34,3 @@
         </div>
     </div>
 </div>
-
-@push('custom_scripts')
-    <script>
-        registerForAnimation('our-technology',[
-            {id:'movetriangle', addedClass:'moved', delay:1600},
-            {id:'movetext', addedClass:'moved', delay:2000},
-            {id:'vl-ot-1', addedClass:'moved', delay:0},
-        ]);
-    </script>
-@endpush

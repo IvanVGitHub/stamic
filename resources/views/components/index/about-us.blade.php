@@ -9,7 +9,7 @@
             С 2009 года и по сей день, мы занимаемся 3д моделированием и изготовлением форм. Более 500 форм для мыла и шоколада.
             <br>
             Более 100 форм для литья. Десятки форм для блистеров и корексов, прототипов и матриц.
-            <div class="index-block4-subtext">
+            <div class="index-block4-subtext" id="index-block4-subtext">
                 Мы делаем формы. Пресс-формы.
             </div>
         </div>
@@ -18,7 +18,7 @@
 
 @push('custom_scripts')
     <script>
-        registerForAnimation('about',[
+        registerForAnimation('index-block4-subtext',[
             {id:'vl-au-1', addedClass:'moved', delay:1000},
             {id:'hl-au-1', addedClass:'moved', delay:2000},
         ]);

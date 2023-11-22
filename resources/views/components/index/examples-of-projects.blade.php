@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="p-md-0 pt-px-20 text-md-start text-center">
+        <div class="p-md-0 pt-px-20 text-md-start text-center" id="examples-button-detailed">
             <a href="{{route('proekty')}}">
                 <button class="button-detailed">Подробнее</button>
             </a>
@@ -64,6 +64,11 @@
     <script>
         registerForAnimation('examples-of-projects',[
             {id:'vl-eop-1', addedClass:'moved', delay:1500},
+            {id:'movetriangle', addedClass:'moved', delay:1600},
+            {id:'movetext', addedClass:'moved', delay:2000},
+            {id:'vl-ot-1', addedClass:'moved', delay:0},
+        ]);
+        registerForAnimation('examples-button-detailed',[
             {id:'hl-eop-1', addedClass:'moved', delay:500},
         ]);
         registerForAnimation('arrow-center',[
