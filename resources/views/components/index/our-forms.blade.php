@@ -44,9 +44,9 @@
 @push('custom_scripts')
     <script>
         registerForAnimation('index-block-title',[
-            {id:'movelineleft', addedClass:'moved', delay:300},
-            {id:'movelineright', addedClass:'moved', delay:300},
-            {id:'transparenttriangle', addedClass:'moved', delay:1500},
+            {id:'movelineleft', addedClass:'moved', delay:1800},
+            {id:'movelineright', addedClass:'moved', delay:1800},
+            {id:'transparenttriangle', addedClass:'moved', delay:3000},
         ]);
     </script>
 @endpush
