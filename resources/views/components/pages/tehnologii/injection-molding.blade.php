@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="card-thumbnails-description">
-                    примеры 3Д печати
+                    примеры литья
                 </div>
             </div>
             <div class="shred-right flag-injection-wide-darkgray" id="wide-darkgray"></div>
