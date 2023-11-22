@@ -62,10 +62,11 @@
 
 @push('custom_scripts')
     <script>
-        //анимации
         registerForAnimation('examples-of-projects',[
             {id:'vl-eop-1', addedClass:'moved', delay:1500},
             {id:'hl-eop-1', addedClass:'moved', delay:500},
+        ]);
+        registerForAnimation('arrow-center',[
             {id:'arrow-center', addedClass:'moved', delay:1000},
         ]);
     </script>
