@@ -2006,6 +2006,13 @@ $pentagonal-arrow: 40px;
     position: relative;
     display: block;
     margin: 50px;
+    &.flag-animate{
+        opacity: 0;
+        transition: all 1s ease-in-out;
+        &.moved{
+            opacity: 1;
+        }
+    }
     &:first-child{
         margin-top: 0;
     }
@@ -2017,6 +2024,16 @@ $pentagonal-arrow: 40px;
         display: flex;
         justify-content: space-evenly;
         row-gap: 30px;
+        @include l-sm{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 30px;}
+        @include l-xs{
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
         .proekty-grid{
             cursor: pointer;
             .proekty-grid-image{
@@ -2056,16 +2073,6 @@ $pentagonal-arrow: 40px;
                 color: #FFFFFF;
                 padding: 13px 0;
             }
-        }
-        @include l-sm{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            column-gap: 30px;}
-        @include l-xs{
-            display: flex;
-            align-content: center;
-            flex-wrap: wrap;
-            flex-direction: column;
         }
     }
 }
