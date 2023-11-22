@@ -6,7 +6,7 @@
          touch="true"
          data-bs-touch="true">
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10500">
+            <div class="carousel-item active" data-bs-interval="10800">
                 <video autoplay=""
                        loop
                        muted
@@ -18,7 +18,7 @@
                     <div class="index-title">Вакуумная формовка</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="9500">
+            <div class="carousel-item" data-bs-interval="9000">
                 <video autoplay=""
                        loop
                        muted
@@ -30,7 +30,7 @@
                     <div class="index-title">Литье под давлением</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="13500">
+            <div class="carousel-item" data-bs-interval="13467">
                 <video autoplay=""
                        loop
                        muted
@@ -42,7 +42,7 @@
                     <div class="index-title">3D печать</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="7500">
+            <div class="carousel-item" data-bs-interval="7000">
                 <video autoplay=""
                        loop
                        muted
@@ -54,7 +54,7 @@
                     <div class="index-title">Фрезерование ЧПУ</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="7500">
+            <div class="carousel-item" data-bs-interval="7000">
                 <video autoplay=""
                        loop
                        muted
