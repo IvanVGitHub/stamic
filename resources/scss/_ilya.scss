@@ -46,6 +46,12 @@
     color: #FFFFFF;
     opacity: 0;
     transition: all 2s, transform 2s ease-in-out;
+    @include l-hd{
+        right: -100px;
+    }
+    @include l-xxl{
+        right: 0;
+    }
     &:before{
         content: '\039B';
     }
