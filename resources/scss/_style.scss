@@ -2203,9 +2203,9 @@ $pentagonal-arrow: 40px;
     &.vl-au-1{
         z-index: 0;
         border-color: #F5AF5F;
-        height: 21px;
+        height: 0;
         top: -140px;
-        left: 260px;
+        left: -100px;
         transition: top 2s, height 3s;
         @include l-md{
             left: 10px;
@@ -2213,10 +2213,6 @@ $pentagonal-arrow: 40px;
         &.moved{
             height: 500px;
             top: -140px;
-            left: -100px;
-            @include l-md{
-                left: 10px;
-            }
         }
     }
     &.vl-ot-1{
@@ -2233,10 +2229,6 @@ $pentagonal-arrow: 40px;
         &.moved{
             height: 580px;
             top: -200px;
-            @include l-md{
-                left: unset;
-                right: -5px;
-            }
         }
     }
     &.vl-eop-1{
@@ -2267,9 +2259,6 @@ $pentagonal-arrow: 40px;
         }
         &.moved{
             height: 120%;
-            @include l-xxxl{
-                left: 2%;
-            }
             @include l-lg{
                 display: none;
             }
@@ -2290,9 +2279,6 @@ $pentagonal-arrow: 40px;
             height: 80%;
             top: -25%;
             left: 14%;
-            @include l-xxxl{
-                left: 5%;
-            }
             @include l-lg{
                 display: none;
             }
@@ -2311,9 +2297,6 @@ $pentagonal-arrow: 40px;
         }
         &.moved{
             height: 125%;
-            @include l-xxxl{
-                right: 2%;
-            }
             @include l-lg{
                 display: none;
             }
@@ -2350,12 +2333,6 @@ $pentagonal-arrow: 40px;
         }
         &.moved{
             height: 120%;
-            @include l-hd{
-                right: 10%;
-            }
-            @include l-xxl{
-                right: 5%;
-            }
             @include l-lg{
                 display: none;
             }
