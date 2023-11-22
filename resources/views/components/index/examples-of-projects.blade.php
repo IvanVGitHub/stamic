@@ -1,6 +1,6 @@
 <div class="container">
     <div class="examples-of-projects" id="examples-of-projects">
-        <div class="index-block-title flag-examples">
+        <div class="index-block-title flag-examples" id="heading-examples-of-projects">
             <div class="d-inline-block position-relative pr-px-20">
                 Примеры проектов
                 <div class="h-line hl-eop-1" id="hl-eop-1"></div>
@@ -64,8 +64,10 @@
     <script>
         registerForAnimation('examples-of-projects',[
             {id:'vl-eop-1', addedClass:'moved', delay:1500},
-            {id:'movetriangle', addedClass:'moved', delay:1600},
-            {id:'movetext', addedClass:'moved', delay:2000},
+            {id:'movetriangle', addedClass:'moved', delay:0},
+            {id:'movetext', addedClass:'moved', delay:500},
+        ]);
+        registerForAnimation('heading-examples-of-projects',[
             {id:'vl-ot-1', addedClass:'moved', delay:0},
         ]);
         registerForAnimation('examples-button-detailed',[
