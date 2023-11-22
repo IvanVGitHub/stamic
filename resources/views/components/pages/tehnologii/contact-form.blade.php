@@ -47,11 +47,12 @@
                 <div class="col-12">
                     <select class="default-form-input" id="cars" name="variables">
                         <option hidden placeholder="Выберите вариант" selected>Выберите вариант</option>
-                        <option value="redesign">Вакуум</option>
-                        <option value="copywriting">Литье</option>
-                        <option value="translate">Силикон</option>
-                        <option value="illustration">Матрицы</option>
-                        <option value="illustration">Прототипы</option>
+                        <option value="redesign">3D моделирование</option>
+                        <option value="copywriting">3D печать</option>
+                        <option value="translate">3D сканирование</option>
+                        <option value="illustration">Фрезеровка</option>
+                        <option value="illustration">Литье под давлением</option>
+                        <option value="illustration">Вакуумная формовка</option>
                     </select>
                 </div>
                 <div class="col-12">

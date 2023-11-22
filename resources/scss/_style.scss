@@ -1973,7 +1973,7 @@ $pentagonal-arrow: 40px;
             background-color: #FAFFBD;
             color: #F5AF5F;
         }
-        &:invalid{
+        &.invalid{
             background-color: #B45AD426; //прозрачность 15% - это параметр 26
             border: 1px solid #FF4040;
         }
