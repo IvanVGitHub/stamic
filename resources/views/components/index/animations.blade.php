@@ -6,9 +6,9 @@
          touch="true"
          data-bs-touch="true">
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="11000">
+            <div class="carousel-item active" data-bs-interval="10500">
                 <video autoplay=""
-{{--                       loop--}}
+                       loop
                        muted
                        preload="metadata"
                        playsinline>
@@ -18,9 +18,9 @@
                     <div class="index-title">Вакуумная формовка</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="10000">
+            <div class="carousel-item" data-bs-interval="9500">
                 <video autoplay=""
-{{--                       loop--}}
+                       loop
                        muted
                        preload="metadata"
                        playsinline>
@@ -30,9 +30,9 @@
                     <div class="index-title">Литье под давлением</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="14000">
+            <div class="carousel-item" data-bs-interval="13500">
                 <video autoplay=""
-{{--                       loop--}}
+                       loop
                        muted
                        preload="metadata"
                        playsinline>
@@ -42,9 +42,9 @@
                     <div class="index-title">3D печать</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="8000">
+            <div class="carousel-item" data-bs-interval="7500">
                 <video autoplay=""
-{{--                       loop--}}
+                       loop
                        muted
                        preload="metadata"
                        playsinline>
@@ -54,9 +54,9 @@
                     <div class="index-title">Фрезерование ЧПУ</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="8000">
+            <div class="carousel-item" data-bs-interval="7500">
                 <video autoplay=""
-{{--                       loop--}}
+                       loop
                        muted
                        preload="metadata"
                        playsinline>
