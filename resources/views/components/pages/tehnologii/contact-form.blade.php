@@ -1,7 +1,8 @@
 <div class="uslugi-contact-form-block">
     <div>
         <div class="uslugi-contact-form-block-form">
-            <form class="row gy-2 g-md-4 w-100 mx-0" action="asset{{'index.php'}}">
+            <form class="row gy-2 g-md-4 w-100 mx-0" action="{{route('form')}}" method="post">
+                @csrf
                 <div class="uslugi-contact-form-block-form-title">
                     Узнайте стоимость
                 </div>
@@ -9,7 +10,7 @@
                     <input class="default-form-input"
                            type="text"
                            id="fname"
-                           name="fname"
+                           name="name"
                            placeholder="Имя"
                            maxlength="100"
                            aria-required="false">
@@ -18,7 +19,7 @@
                     <input class="default-form-input"
                            type="text"
                            id="lname"
-                           name="lname"
+                           name="lastname"
                            placeholder="Фамилия"
                            maxlength="100"
                            aria-required="false">
@@ -42,21 +43,22 @@
                            placeholder="Телефон"
                            maxlength="50"
                            aria-required="false"
-                           pattern="[7,8]{0,1}[0-9]{3}[0-9]{3}[0-9]{4}">
+{{--                           pattern="\+?[7,8]{0,1}[0-9]{3}[0-9]{3}[0-9]{4}"--}}
+                    >
                 </div>
                 <div class="col-12">
-                    <select class="default-form-input" id="cars" name="variables">
+                    <select class="default-form-input" id="cars" name="data">
                         <option hidden placeholder="Выберите вариант" selected>Выберите вариант</option>
-                        <option value="redesign">3D моделирование</option>
-                        <option value="copywriting">3D печать</option>
-                        <option value="translate">3D сканирование</option>
-                        <option value="illustration">Фрезеровка</option>
-                        <option value="illustration">Литье под давлением</option>
-                        <option value="illustration">Вакуумная формовка</option>
+                        <option value="3D моделирование">3D моделирование</option>
+                        <option value="3D печать">3D печать</option>
+                        <option value="3D сканирование">3D сканирование</option>
+                        <option value="Фрезеровка">Фрезеровка</option>
+                        <option value="Литье под давлением">Литье под давлением</option>
+                        <option value="Вакуумная формовка">Вакуумная формовка</option>
                     </select>
                 </div>
                 <div class="col-12">
-                    <textarea class="default-form-input" name="message" placeholder="Комментарии" aria-required="false"></textarea>
+                    <textarea class="default-form-input" name="comment" placeholder="Комментарии" aria-required="false"></textarea>
                 </div>
                 <div class="col-12">
                     <button class="w-100 default-form-btn" onclick="validateFunction()" type="submit">Запросить цену</button>

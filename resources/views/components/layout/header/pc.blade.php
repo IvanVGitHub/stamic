@@ -31,8 +31,8 @@
                         Контакты
                     </a>
                     <div class="d-flex flex-column gap-3">
-                        <a class="header-navigation-phone" href="tel:+79509120591">+7 950 912 05 91</a>
-                        <a class="header-navigation-phone" href="tel:+79520183346">+7 952 018 33 46</a>
+                        <a class="header-navigation-phone" href="tel:{{config('utility.phone')}}">{{config('utility.phone-show')}}</a>
+                        <a class="header-navigation-phone" href="tel:{{config('utility.phone2')}}">{{config('utility.phone2-show')}}</a>
                     </div>
                 </div>
             </div>

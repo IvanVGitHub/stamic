@@ -39,10 +39,10 @@
                 </div>
                 <div class="col-12 col-md-3 kontakty-content-phone">
                     <div class="text-responsive-16">
-                        <a href="tel:+79509120591">+7 950 912 05 91</a>
+                        <a href="tel:{{config('utility.phone')}}">{{config('utility.phone-show')}}</a>
                     </div>
                     <div class="text-responsive-16">
-                        <a href="tel:+79520183346">+7 952 018 33 46</a>
+                        <a href="tel:{{config('utility.phone2')}}">{{config('utility.phone2-show')}}</a>
                     </div>
                     <br>
                     <div class="text-responsive-15">

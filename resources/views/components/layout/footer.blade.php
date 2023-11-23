@@ -61,8 +61,8 @@
                     <div class="">
                         <a href="{{route('kontakty')}}" class="footer-linko d-flex"><span class="text-small">Тульская обл. г.
                                 Кимовск <br> ул. Октябрьская, 19</span></a>
-                        <a href="tel:+79509120591" class="footer-linko"><span class="text-orange">+7 950 912 05 91</span></a>
-                        <a href="tel:+79520183346" class="footer-linko"><span class="text-orange">+7 952 018 33 46</span></a>
+                        <a href="tel:{{config('utility.phone')}}" class="footer-linko"><span class="text-orange">{{config('utility.phone-show')}}</span></a>
+                        <a href="tel:{{config('utility.phone2')}}" class="footer-linko"><span class="text-orange">{{config('utility.phone2-show')}}</span></a>
                         <div href="" class="footer-linko"><span class="text-small">с 9.00-18.00 Пн-Пт</span></div>
                         <a href="mailto:info@stamic.ru" class="footer-linko"><span class="text-orange">info@stamic.ru</span></a>
                     </div>
@@ -174,8 +174,8 @@
             </div>
             <div class="container" style="padding: 0 20px; margin-bottom: 26px">
                 <a href="" class="footer-linko d-flex"><span class="text-small">Тульская обл. г. Кимовск ул. Октябрьская, 19</span></a>
-                <a href="tel:+79509120591" class="footer-linko"><span class="text-orange">+7 950 912 05 91</span></a>
-                <a href="tel:+79520183346" class="footer-linko"><span class="text-orange">+7 952 018 33 46</span></a>
+                <a href="tel:{{config('utility.phone')}}" class="footer-linko"><span class="text-orange">{{config('utility.phone-show')}}</span></a>
+                <a href="tel:{{config('utility.phone2')}}" class="footer-linko"><span class="text-orange">{{config('utility.phone2-show')}}</span></a>
                 <div href="" class="footer-linko"><span class="text-small">с 9.00-18.00 Пн-Пт</span></div>
                 <a href="mailto:info@stamic.ru" class="footer-linko"><span class="text-orange">info@stamic.ru</span></a>
 

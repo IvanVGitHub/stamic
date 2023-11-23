@@ -9,6 +9,20 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="cea22923-9492-4556-9f3f-430e46d15d2c" name="all.bedivierre.com" url="http://stamic.bedivierre.com">
+        <fileTransfer rootFolder="/bedivierre.com/htdocs/stamic" host="ftp.bedivierre.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="bb170cda-adda-4728-8092-3aec9e0d0430" name="stamic.ru" url="http://stamic.ru">
+        <fileTransfer rootFolder="/public_html" host="e84023zt.beget.tech" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

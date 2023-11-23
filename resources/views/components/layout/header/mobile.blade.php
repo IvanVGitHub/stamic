@@ -10,7 +10,7 @@
         </div>
 
         <div class="d-flex gap-2">
-            <a href="tel:+79509120591" class="header-mobile-button">
+            <a href="tel:{{config('utility.phone')}}" class="header-mobile-button">
                 <i class="fa-solid fa-phone fa-lg"></i>
             </a>
             <button class="header-mobile-button" onclick="toggleMobileMenu()">

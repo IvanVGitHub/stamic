@@ -26,8 +26,8 @@
 
             <div class="mt-4">
                 <div class="header-link">Связаться с нами</div>
-                <a href="tel:+79509120591" class="header-link ms-3">+7 950 912 05 91</a>
-                <a href="tel:+79520183346" class="header-link ms-3">+7 952 018 33 46</a>
+                <a href="tel:{{config('utility.phone')}}" class="header-link ms-3">{{config('utility.phone-show')}}</a>
+                <a href="tel:{{config('utility.phone2')}}" class="header-link ms-3">{{config('utility.phone2-show')}}</a>
             </div>
 
             <a href="https://t.me/AndreMatro" class="header-link mt-px-20">

@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\CallRequest;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/test', function () {
+
+})->name('test');
+
 
 Route::get('/', function () {
     return view('index');
@@ -28,6 +34,20 @@ Route::get('/proekty', function () {
 Route::get('/kontakty', function () {
     return view('components.pages.landings.kontakty');
 })->name('kontakty');
+Route::get('/testmail', function () {
+    $cr = CallRequest::first();
+    if($cr == null){
+        abort(404);
+    }
+    $c = new \App\Mail\CallRequestRecieved($cr);
+    return $c;
+})->name('testmail');
+Route::post('/callForm', function (\Illuminate\Http\Request $request) {
+    $m = new \App\Actions\Mail\MailActions();
+    $request->validate($m->getCallRequestValidationRules());
+    $m->onCallRequest($request->input());
+    return back();
+})->name('form');
 
 Route::middleware([
     'auth:sanctum',
