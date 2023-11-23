@@ -7,7 +7,7 @@
 {{--    <meta name="keywords" content="{{config('seo.defaultTitle').','.trim(View::getSection('meta-keywords'))}}" />--}}
 {{--    <meta name="csrf-token" content="{{ csrf_token() }}">--}}
 
-    <meta name="author"  content="Bedivierre"/>
+    <meta name="author"  content="NetMakerLab"/>
     <meta name="MobileOptimized" content="380" />
 
     <meta property="og:locale" content="ru_RU">

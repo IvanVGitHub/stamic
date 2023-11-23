@@ -1,65 +1,83 @@
 <div class="container animations">
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade position-relative"
          data-bs-ride="carousel"
-         keyboard="true"
+         data-bs-wrap="true"
+{{--         keyboard="true"--}}
          data-bs-keyboard="true"
-         touch="true"
+{{--         touch="true"--}}
          data-bs-touch="true">
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10800">
-                <video autoplay=""
-                       loop
-                       muted
-                       preload="metadata"
-                       playsinline>
+            <div class="carousel-item active"
+                 data-bs-interval="10800"
+            >
+                <video
+{{--                    autoplay--}}
+{{--                    loop--}}
+                    muted
+                    preload="metadata"
+                    playsinline
+                >
                     <source src="video/m1.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption">
                     <div class="index-title">Вакуумная формовка</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="9000">
-                <video autoplay=""
-                       loop
-                       muted
-                       preload="metadata"
-                       playsinline>
+            <div class="carousel-item"
+                 data-bs-interval="8000"
+            >
+                <video
+{{--                    autoplay--}}
+{{--                    loop--}}
+                    muted
+                    preload="metadata"
+                    playsinline
+                >
                     <source src="video/m2-1.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption">
                     <div class="index-title">Литье под давлением</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="13467">
-                <video autoplay=""
-                       loop
-                       muted
-                       preload="metadata"
-                       playsinline>
+            <div class="carousel-item"
+                 data-bs-interval="13467"
+            >
+                <video
+{{--                    autoplay--}}
+{{--                    loop--}}
+                    muted
+                    preload="metadata"
+                    playsinline>
                     <source src="video/m3.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption">
                     <div class="index-title">3D печать</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="7000">
-                <video autoplay=""
-                       loop
-                       muted
-                       preload="metadata"
-                       playsinline>
+            <div class="carousel-item"
+                 data-bs-interval="7000"
+            >
+                <video
+{{--                    autoplay--}}
+{{--                    loop--}}
+                    muted
+                    preload="metadata"
+                    playsinline>
                     <source src="video/m4-3.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption">
                     <div class="index-title">Фрезерование ЧПУ</div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="7000">
-                <video autoplay=""
-                       loop
-                       muted
-                       preload="metadata"
-                       playsinline>
+            <div class="carousel-item"
+                 data-bs-interval="7000"
+            >
+                <video
+{{--                    autoplay--}}
+{{--                    loop--}}
+                    muted
+                    preload="metadata"
+                    playsinline>
                     <source src="video/m5-1.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption">
@@ -79,3 +97,19 @@
         </button>
     </div>
 </div>
+
+@push('custom_scripts')
+    <script type="text/javascript">
+        let indexCarousel = $("#carouselExampleCaptions");
+        function indexCarouselRunVideo(){
+            var vids = $(this).find(".active video");
+            if(vids.length > 0){
+                vids[0].pause();
+                vids[0].currentTime = 0;
+                vids[0].play();
+            }
+        }
+        $(window).ready(indexCarouselRunVideo);
+        indexCarousel.on('slid.bs.carousel', indexCarouselRunVideo);
+    </script>
+@endpush
