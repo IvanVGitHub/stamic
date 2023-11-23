@@ -44,7 +44,7 @@
                 <div class="index-img-left" id="index-img-left">
                     <img src="{{asset('img/form1.webp')}}" alt="">
                 </div>
-                <div class="index-img-center index-block3-z-4" id="index-img-center">
+                <div class="index-img-center" id="index-img-center">
                     <img src="{{asset('img/form2.webp')}}" alt="">
                 </div>
                 <div class="index-img-right" id="index-img-right">
