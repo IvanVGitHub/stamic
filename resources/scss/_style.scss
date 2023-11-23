@@ -1309,13 +1309,6 @@ $indexTriangleHeight:62px;
             }
         }
     }
-    .text-under-img{
-        position: relative;
-        font-family: 'Proxima Nova Regular', serif;
-        @extend .text-responsive-16;
-        color: #858581;
-        text-align: center;
-    }
 }
 
 .uslugi-gray-wide-block{
@@ -1457,6 +1450,10 @@ $indexTriangleHeight:62px;
     @extend .text-responsive-16;
     color: #858581;
     text-align: center;
+    &.flag-forms{
+        position: relative;
+        font-family: 'Proxima Nova Regular', serif;
+    }
     &.flag-prototypes{
         text-align: start;
         padding-left: 30px;

@@ -10036,11 +10036,11 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.text-responsive-16, .vacuum-forming-block, .minor-text, .uslugi-example-of-work-sequence .uslugi-example-of-work-sequence-item .uslugi-example-of-work-sequence-item-under .uslugi-example-of-work-sequence-item-under-text, .text-under-img, .uslugi-text-img-block-1 .img-width-text .text-bottom, .uslugi-gray-wide-block .wide-block-right-block, .uslugi-gray-wide-block .title, .uslugi-grid-block-3 .text-under-img, .uslugi-grid-block-3 .central-block .bottom-text, .header-navigation-link, body, .calculator .calculator-btn {
+.text-responsive-16, .vacuum-forming-block, .minor-text, .uslugi-example-of-work-sequence .uslugi-example-of-work-sequence-item .uslugi-example-of-work-sequence-item-under .uslugi-example-of-work-sequence-item-under-text, .text-under-img, .uslugi-text-img-block-1 .img-width-text .text-bottom, .uslugi-gray-wide-block .wide-block-right-block, .uslugi-gray-wide-block .title, .uslugi-grid-block-3 .central-block .bottom-text, .header-navigation-link, body, .calculator .calculator-btn {
   font-size: 16px;
 }
 @media only screen and (max-width: 767px) {
-  .text-responsive-16, .vacuum-forming-block, .minor-text, .uslugi-example-of-work-sequence .uslugi-example-of-work-sequence-item .uslugi-example-of-work-sequence-item-under .uslugi-example-of-work-sequence-item-under-text, .text-under-img, .uslugi-text-img-block-1 .img-width-text .text-bottom, .uslugi-gray-wide-block .wide-block-right-block, .uslugi-gray-wide-block .title, .uslugi-grid-block-3 .text-under-img, .uslugi-grid-block-3 .central-block .bottom-text, .header-navigation-link, body, .calculator .calculator-btn {
+  .text-responsive-16, .vacuum-forming-block, .minor-text, .uslugi-example-of-work-sequence .uslugi-example-of-work-sequence-item .uslugi-example-of-work-sequence-item-under .uslugi-example-of-work-sequence-item-under-text, .text-under-img, .uslugi-text-img-block-1 .img-width-text .text-bottom, .uslugi-gray-wide-block .wide-block-right-block, .uslugi-gray-wide-block .title, .uslugi-grid-block-3 .central-block .bottom-text, .header-navigation-link, body, .calculator .calculator-btn {
     font-size: 14px !important;
   }
 }
@@ -15591,12 +15591,6 @@ body::-webkit-scrollbar-thumb {
     padding-top: 20px;
   }
 }
-.uslugi-grid-block-3 .text-under-img {
-  position: relative;
-  font-family: "Proxima Nova Regular", serif;
-  color: #858581;
-  text-align: center;
-}
 
 .uslugi-gray-wide-block .title {
   font-family: "Proxima Nova Regular", serif;
@@ -15747,6 +15741,10 @@ body::-webkit-scrollbar-thumb {
 .text-under-img {
   color: #858581;
   text-align: center;
+}
+.text-under-img.flag-forms {
+  position: relative;
+  font-family: "Proxima Nova Regular", serif;
 }
 .text-under-img.flag-prototypes {
   text-align: start;

@@ -9,7 +9,7 @@
         <div class="uslugi-grid-block-3">
             <div class="img-with-stripe">
                 <img src="{{asset('img/box.webp')}}" alt="">
-                <div class="text-under-img">
+                <div class="text-under-img flag-forms">
                     упаковка из PET
                     <div class="text-on-img">
                         <div class="text-on-img-text">
@@ -22,7 +22,7 @@
             </div>
             <div class="img-with-stripe">
                 <img src="{{asset('img/armor.webp')}}" alt="">
-                <div class="text-under-img">
+                <div class="text-under-img flag-forms">
                     щитки из ABS
                     <div class="text-on-img">
                         <div class="text-on-img-text">

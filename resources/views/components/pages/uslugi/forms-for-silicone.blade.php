@@ -36,7 +36,7 @@
                 <div class="block-2-central-block">
                     <div class="block-2-central-block-content">
                         <img src="{{asset('img/silicone form.webp')}}" alt="">
-                        <div class="text-under-img p-px-10">
+                        <div class="text-under-img flag-uslugi-grid-block-3 p-px-10">
                             силиконовая форма для выпечки
                         </div>
                     </div>
