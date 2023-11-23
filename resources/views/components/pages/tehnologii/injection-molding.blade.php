@@ -19,13 +19,13 @@
             <div class="card-thumbnails flag-injection">
                 <div class="card-thumbnails-content">
                     <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/woman_and_text.webp')}}" alt="">
+                        <img src="{{asset('img/casting-example-1.jpg')}}" alt="">
                     </div>
                     <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/flowers.webp')}}" alt="">
+                        <img src="{{asset('img/casting-example-2.jpg')}}" alt="">
                     </div>
                     <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/yellow_door.webp')}}" alt="">
+                        <img src="{{asset('img/casting-example-3.jpg')}}" alt="">
                     </div>
                 </div>
                 <div class="card-thumbnails-description">
