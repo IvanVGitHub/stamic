@@ -839,17 +839,19 @@ $indexTriangleHeight:62px;
 
 .index-block2-triangle-container{
     position: absolute;
-    transition: all 1.3s ease-in-out;
     z-index: 2;
     top: 0;
     left: 84px;
     width: 213px;
     height: 185px;
     transform: translateY(0);
+    opacity: 0;
+    transition: opacity 1s, transform 1.3s ease-in-out;
     @include l-sm{
         left: 25px;
     }
     &.moved{
+        opacity: 1;
         transform: translateY(184px);
     }
     .index-block2-triangle{
