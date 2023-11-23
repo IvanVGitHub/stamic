@@ -19,13 +19,13 @@
                 <div class="card-thumbnails flag-3d-printing">
                     <div class="card-thumbnails-content">
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/woman_and_text.webp')}}" alt="">
+                            <img src="{{asset('img/examples-3d-printing-1.webp')}}" alt="">
                         </div>
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/flowers.webp')}}" alt="">
+                            <img src="{{asset('img/examples-3d-printing-2.webp')}}" alt="">
                         </div>
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/yellow_door.webp')}}" alt="">
+                            <img src="{{asset('img/examples-3d-printing-3.webp')}}" alt="">
                         </div>
                     </div>
                     <div class="card-thumbnails-description">
