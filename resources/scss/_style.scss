@@ -2091,12 +2091,13 @@ $pentagonal-arrow: 40px;
     border-top: 1px solid #575754;
     margin: 0;
     &.hl-ffm{
+        display: none;
         border-left: 1px solid #858581;
         width: 60%;
         right: 20%;
-        bottom: 0;
+        bottom: -15px;
         @include l-md{
-            bottom: -15px;
+            display: block;
         }
     }
     &.hl-au-1{
@@ -2174,6 +2175,9 @@ $pentagonal-arrow: 40px;
         right: 0;
         top: 0;
         transition: all 2s;
+        @include l-md{
+            display: none;
+        }
         &.moved{
             height: 100%;
         }

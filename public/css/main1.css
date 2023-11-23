@@ -16482,14 +16482,15 @@ body::-webkit-scrollbar-thumb {
   margin: 0;
 }
 .h-line.hl-ffm {
+  display: none;
   border-left: 1px solid #858581;
   width: 60%;
   right: 20%;
-  bottom: 0;
+  bottom: -15px;
 }
 @media only screen and (max-width: 767px) {
   .h-line.hl-ffm {
-    bottom: -15px;
+    display: block;
   }
 }
 .h-line.hl-au-1 {
@@ -16571,6 +16572,11 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   top: 0;
   transition: all 2s;
+}
+@media only screen and (max-width: 767px) {
+  .v-line.vl-ffm {
+    display: none;
+  }
 }
 .v-line.vl-ffm.moved {
   height: 100%;

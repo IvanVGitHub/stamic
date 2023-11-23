@@ -32,8 +32,8 @@
                     <li>Низкая стоимость</li>
                 </ul>
             </div>
-            <div class="v-line vl-ffm d-none d-md-block" id="vl-ffm"></div>
-            <div class="h-line hl-ffm d-md-none"></div>
+            <div class="v-line vl-ffm" id="vl-ffm"></div>
+            <div class="h-line hl-ffm"></div>
         </div>
         <div class="img-width-text pl-px-md-30">
             <div class="img-width-text-img">
@@ -60,7 +60,7 @@
     <script>
         registerForAnimation('f-f-m-title',[
             {id:'f-f-m-title', addedClass:'moved', delay:1000},
-            {id:'vl-ffm', addedClass:'moved', delay:2000},
+            {id:'vl-ffm', addedClass:'moved', delay:2500},
         ]);
         registerForAnimation('orange-ball-3',[
             {id:'orange-ball-3', addedClass:'moved', delay:500},
