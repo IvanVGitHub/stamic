@@ -107,8 +107,8 @@
             {id:'orange-ball-1', addedClass:'moved', delay:500},
             {id:'orange-ball-2', addedClass:'moved', delay:500},
         ]);
-        registerForAnimation('wide-block-left-block',[
-            {id:'wide-block-left-block', addedClass:'moved', delay:500},
+        registerForAnimation('melters',[
+            {id:'wide-block-left-block', addedClass:'moved', delay:0},
         ]);
     </script>
 @endpush
