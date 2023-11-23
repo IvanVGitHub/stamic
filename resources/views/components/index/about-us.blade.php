@@ -5,7 +5,7 @@
             <div class="v-line vl-au-1" id="vl-au-1"></div>
             <div class="h-line hl-au-1" id="hl-au-1"></div>
         </div>
-        <div class="index-block4-text">
+        <div class="index-block4-text" id="index-block4-text">
             С 2009 года и по сей день, мы занимаемся 3д моделированием и изготовлением форм. Более 500 форм для мыла и шоколада.
             <br>
             Более 100 форм для литья. Десятки форм для блистеров и корексов, прототипов и матриц.
@@ -18,9 +18,9 @@
 
 @push('custom_scripts')
     <script>
-        registerForAnimation('about',[
-            {id:'vl-au-1', addedClass:'moved', delay:0},
-            {id:'hl-au-1', addedClass:'moved', delay:1000},
+        registerForAnimation('index-block4-text',[
+            {id:'vl-au-1', addedClass:'moved', delay:1000},
+            {id:'hl-au-1', addedClass:'moved', delay:2000},
         ]);
     </script>
 @endpush
