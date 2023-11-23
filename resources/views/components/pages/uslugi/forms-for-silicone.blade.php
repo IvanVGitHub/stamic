@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="block-2-right-block">
+                <div class="block-2-right-block" id="block-2-right-block">
                     <strong class="pl-px-md-30">Для чего формы</strong>
                     <ul class="pt-px-md-20">
                         <li>Формы для выпечки, мыла, шоколада.</li>
@@ -60,6 +60,8 @@
     <script>
         registerForAnimation('f-f-s-title',[
             {id:'f-f-s-title', addedClass:'moved', delay:1000},
+        ]);
+        registerForAnimation('block-2-right-block',[
             {id:'vl-ffs', addedClass:'moved', delay:500},
         ]);
         registerForAnimation('orange-ball-4',[

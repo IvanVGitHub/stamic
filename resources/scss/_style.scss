@@ -1809,9 +1809,6 @@ $imageHeight: 500px;
         padding: 28px 70px 28px 295px;
         max-width: 650px;
         width: 100%;
-        @include l-hd{
-            padding-left: 30%;
-        }
         @include l-xxxl{
             padding-left: 57px;
             max-width: unset;
@@ -1835,9 +1832,6 @@ $imageHeight: 500px;
         padding: 55px 30px 10px 295px;
         max-width: 650px;
         width: 100%;
-        @include l-hd{
-            padding-left: 30%;
-        }
         @include l-xxxl{
             padding-left: 57px;
             max-width: 100%;

@@ -48,7 +48,9 @@
     <script>
         registerForAnimation('m-title',[
             {id:'m-title', addedClass:'moved', delay:1000},
-            {id:'vl-m', addedClass:'moved', delay:500},
+        ]);
+        registerForAnimation('vl-m',[
+            {id:'vl-m', addedClass:'moved', delay:2500},
         ]);
         registerForAnimation('orange-ball-5',[
             {id:'orange-ball-5', addedClass:'moved', delay:500},

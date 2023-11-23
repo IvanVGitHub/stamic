@@ -16155,11 +16155,6 @@ body::-webkit-scrollbar-thumb {
   max-width: 650px;
   width: 100%;
 }
-@media only screen and (max-width: 1919px) {
-  .uslugi-text-img-block-4 .block-4-grid-block-3-left-title {
-    padding-left: 30%;
-  }
-}
 @media only screen and (max-width: 1599px) {
   .uslugi-text-img-block-4 .block-4-grid-block-3-left-title {
     padding-left: 57px;
@@ -16187,11 +16182,6 @@ body::-webkit-scrollbar-thumb {
   padding: 55px 30px 10px 295px;
   max-width: 650px;
   width: 100%;
-}
-@media only screen and (max-width: 1919px) {
-  .uslugi-text-img-block-4 .block-4-grid-block-3-left-text {
-    padding-left: 30%;
-  }
 }
 @media only screen and (max-width: 1599px) {
   .uslugi-text-img-block-4 .block-4-grid-block-3-left-text {
