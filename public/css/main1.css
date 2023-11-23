@@ -15748,6 +15748,16 @@ body::-webkit-scrollbar-thumb {
   color: #858581;
   text-align: center;
 }
+.text-under-img.flag-prototypes {
+  text-align: start;
+  padding-left: 30px;
+}
+@media only screen and (max-width: 1599px) {
+  .text-under-img.flag-prototypes {
+    padding-left: 0;
+    text-align: center;
+  }
+}
 
 .orange-ball {
   background-color: #F5AF5F;

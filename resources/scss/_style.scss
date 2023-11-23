@@ -1457,6 +1457,14 @@ $indexTriangleHeight:62px;
     @extend .text-responsive-16;
     color: #858581;
     text-align: center;
+    &.flag-prototypes{
+        text-align: start;
+        padding-left: 30px;
+        @include l-xxxl{
+            padding-left: 0;
+            text-align: center;
+        }
+    }
 }
 
 .orange-ball{

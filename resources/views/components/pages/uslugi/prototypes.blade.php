@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-under-img text-start pl-px-30">
+                <div class="text-under-img flag-prototypes">
                     прототип моноласты в масштабе 1:1
                 </div>
             </div>
