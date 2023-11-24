@@ -1817,11 +1817,7 @@ $imageHeight: 500px;
         max-width: 650px;
         width: 100%;
         @include l-xxxl{
-            padding-left: 57px;
             max-width: unset;
-        }
-        @include l-xxl{
-            padding-left: 30px;
         }
         @include l-lg{
             display: flex;
@@ -1829,6 +1825,11 @@ $imageHeight: 500px;
             max-width: unset;
             padding: 15px;
             text-align: center;
+        }
+        .block-4-grid-block-3-left-title-content{
+            @include l-xxl{
+                padding-left: 15px;
+            }
         }
     }
     .block-4-grid-block-3-left-text{
@@ -1840,14 +1841,15 @@ $imageHeight: 500px;
         max-width: 650px;
         width: 100%;
         @include l-xxxl{
-            padding-left: 57px;
             max-width: 100%;
-        }
-        @include l-xxl{
-            padding-left: 30px;
         }
         @include l-lg{
             padding: 15px;
+        }
+        .block-4-grid-block-3-left-text-content{
+            @include l-xxl{
+                padding-left: 15px;
+            }
         }
     }
 }

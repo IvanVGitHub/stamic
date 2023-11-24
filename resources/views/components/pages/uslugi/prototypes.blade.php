@@ -9,13 +9,20 @@
 
     <div class="prototypes-block">
         <div>
-            <div class="block-4-grid-block-3-left-title">
-                Прототип - это образец будущего изделия.
+            <div class="block-4-grid-block-3-left-title" id="prototypes-padding-left-title">
+                <div class="block-4-grid-block-3-left-title-content">
+                    Прототип - это образец будущего изделия.
+                </div>
             </div>
-            <div class="block-4-grid-block-3-left-text">
-                Его делают, чтобы оценить дизайн, функционал. Прототип можно изготовить и в ручную. Мы предпочитаем более технологичный подход. Это Фрезерование на станке с ЧПУ или послойная 3D печать.
-                <br>
-                Выбор способа изготовления прототипа зависит от сложности и размера. Как правило, большие вещи, например, корпус робота проще и дешевле отфрезеровать. Небольшие вещи, например, прототип пластиковой коробки, будет проще напечатать на 3D принтере.
+            <div class="block-4-grid-block-3-left-text" id="prototypes-padding-left-text">
+                <div class="block-4-grid-block-3-left-text-content">
+                    Его делают, чтобы оценить дизайн, функционал. Прототип можно изготовить и в ручную. Мы предпочитаем
+                    более технологичный подход. Это Фрезерование на станке с ЧПУ или послойная 3D печать.
+                    <br>
+                    Выбор способа изготовления прототипа зависит от сложности и размера. Как правило, большие вещи,
+                    например, корпус робота проще и дешевле отфрезеровать. Небольшие вещи, например, прототип
+                    пластиковой коробки, будет проще напечатать на 3D принтере.
+                </div>
             </div>
         </div>
         <div class="d-flex flex-grow-1 prototypes-images" id="triangles-block">
@@ -76,3 +83,17 @@
         ])
     </script>
 @endpush
+
+<script>
+    {{--вычисляем расстояние от родительского блока до левого края страницы и ставим справа дочерний блок с вычисленной величиной--}}
+    function calculateGrayBlock(){
+        let div = document.getElementById('matrixes'),
+            rect = div.getBoundingClientRect(),
+            title = document.getElementById("prototypes-padding-left-title"),
+            text = document.getElementById("prototypes-padding-left-text");
+        title.style.paddingLeft = rect.left + "px";
+        text.style.paddingLeft = rect.left + "px";
+    }
+    window.addEventListener("load", calculateGrayBlock);
+    window.addEventListener('resize', calculateGrayBlock);
+</script>
