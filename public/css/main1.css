@@ -17024,7 +17024,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .foot-hr-line {
-  margin-top: 32px;
+  margin-top: 25px;
   margin-bottom: 13px;
   padding: 0;
   height: 4px;
@@ -17147,7 +17147,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding-top: 80px;
+  padding-top: 95px;
   justify-content: center;
 }
 @media only screen and (max-width: 767px) {

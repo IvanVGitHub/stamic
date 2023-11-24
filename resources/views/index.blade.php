@@ -10,7 +10,7 @@
     <x-index.our-technology />
     <x-index.examples-of-projects />
     <x-index.about-us />
-    <div class="pt-px-50 pt-px-md-100">
+    <div class="pt-px-50 pt-px-md-120">
         <hr class="horizontal-line-short">
     </div>
 @endsection
