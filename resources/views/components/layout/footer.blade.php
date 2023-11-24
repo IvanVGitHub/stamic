@@ -1,12 +1,11 @@
 <footer class="footer">
     <div class="wrapper-footer">
-        <div class="flex-column flex-md-row flex-wrap justify-content-between d-none d-md-flex position-relative"
-             style="padding-top: 80px;">
-            <div class=" " style="margin-right: 65px;">
+        <div class="flex-column flex-md-row flex-wrap justify-content-between d-none d-md-flex position-relative pt-px-80">
+            <div class="mr-px-35">
                 <div class="w-100 d-flex justify-content-center justify-content-md-start">
                 </div>
                 <div style="max-width: 172px;">
-                    <a href="{{route('main')}}" class="">
+                    <a href="{{route('main')}}">
                         <img src="{{asset('img/logo-light.webp')}}" class="footer-logo" alt="">
                     </a>
                     <div class="footer-txt mb-2 text-center text-md-start mt-px-30">
@@ -14,7 +13,7 @@
                         прототипов, мастер моделей. Для литья и вакуумной формовки.
                     </div>
                 </div>
-                <div class="d-none d-md-block" style="padding-top: 195px;">
+                <div class="d-none d-md-block pt-px-195">
                     <x-footer.small-links/>
                 </div>
             </div>
@@ -73,8 +72,8 @@
                 </div>
             </div>
 
-            <div class="">
-                <div class="footer-block">
+            <div>
+                <div class="footer-block pl-px-40">
                     <a href="{{route('kontakty')}}" class="foot-title">
                         ИНФОРМАЦИЯ
                     </a>

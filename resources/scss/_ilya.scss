@@ -7,14 +7,14 @@
 }
 
 .footer-block{
-    padding: 0 20px;
+    padding: 0 10px;
     position: relative;
     @include md{
         &.with-line{
             &:after{
+                position: absolute;
                 display: block;
                 content: '';
-                position: absolute;
                 bottom: 0;
                 left: 0;
                 width: 2px;
@@ -183,7 +183,7 @@
 }
 
 .wrapper-footer{
-    @include wrapper($width: 1200px);
+    @include wrapper($width: 970px);
 }
 
 .basement-stam-text{

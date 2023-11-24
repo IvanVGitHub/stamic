@@ -16944,14 +16944,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer-block {
-  padding: 0 20px;
+  padding: 0 10px;
   position: relative;
 }
 @media only screen and (min-width: 768px) {
   .footer-block.with-line:after {
+    position: absolute;
     display: block;
     content: "";
-    position: absolute;
     bottom: 0;
     left: 0;
     width: 2px;
@@ -17120,7 +17120,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .wrapper-footer {
-  max-width: 1200px;
+  max-width: 970px;
   width: 100%;
   margin: 0 auto;
 }
