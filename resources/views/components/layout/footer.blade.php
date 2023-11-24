@@ -52,7 +52,7 @@
             </div>
 
             <div class="">
-                <div class="footer-block with-line">
+                <div class="footer-block with-line ml-px-15">
                     <a href="{{route('kontakty')}}" class="foot-title">
                         СВЯЖИТЕСЬ&nbsp;С&nbsp;НАМИ
                     </a>
