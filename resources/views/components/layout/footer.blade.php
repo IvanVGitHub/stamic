@@ -58,11 +58,10 @@
                     </a>
                     <div class="foot-hr-line"></div>
                     <div class="">
-                        <a href="{{route('kontakty')}}" class="footer-linko d-flex"><span class="text-small">Тульская обл. г.
-                                Кимовск <br> ул. Октябрьская, 19</span></a>
+                        <a href="{{route('kontakty')}}" class="footer-linko d-flex pb-px-10"><span class="text-small">Тульская обл. г. Кимовск <br> ул. Октябрьская, 19</span></a>
                         <a href="tel:{{config('utility.phone')}}" class="footer-linko"><span class="text-orange">{{config('utility.phone-show')}}</span></a>
                         <a href="tel:{{config('utility.phone2')}}" class="footer-linko"><span class="text-orange">{{config('utility.phone2-show')}}</span></a>
-                        <div href="" class="footer-linko"><span class="text-small">с 9.00-18.00 Пн-Пт</span></div>
+                        <div href="" class="footer-linko"><span class="text-small pb-px-10">с 9.00-18.00 Пн-Пт</span></div>
                         <a href="mailto:info@stamic.ru" class="footer-linko"><span class="text-orange">info@stamic.ru</span></a>
                     </div>
 
