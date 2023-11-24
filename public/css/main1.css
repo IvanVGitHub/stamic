@@ -16189,7 +16189,7 @@ body::-webkit-scrollbar-thumb {
   font-family: "Proxima Nova Regular", serif;
   color: #414141;
   line-height: 1.4em;
-  padding: 55px 30px 10px 295px;
+  padding: 30px 30px 10px 295px;
   max-width: 650px;
   width: 100%;
 }
