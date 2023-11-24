@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="wrapper-footer">
-        <div class="flex-column flex-md-row flex-wrap justify-content-between d-none d-md-flex position-relative pt-px-80">
+        <div class="wrapper-footer-pc">
             <div class="mr-px-35">
                 <div class="w-100 d-flex justify-content-center justify-content-md-start">
                 </div>
@@ -84,8 +84,11 @@
                         <a href="{{route('kontakty')}}" class="footer-linko">Контакты</a>
                     </div>
                 </div>
-                <div class="d-flex justify-content-end">
+                <div class="footer-pc">
                     <img src="{{asset('img/tipo-logo.png')}}" alt="">
+                </div>
+                <div class="footer-pc-l-lg">
+                    <img src="{{asset('img/tipo-logo(small).png')}}" alt="">
                 </div>
             </div>
 

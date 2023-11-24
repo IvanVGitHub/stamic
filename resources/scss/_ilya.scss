@@ -184,6 +184,37 @@
 
 .wrapper-footer{
     @include wrapper($width: 970px);
+    max-width: unset;
+    @include l-xxl{
+    }
+}
+
+.wrapper-footer-pc{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 80px;
+    justify-content: center;
+    @include l-md{
+        display: none;
+    }
+}
+
+.footer-pc{
+    display: flex;
+    justify-content: end;
+    @include l-lg{
+        display: none;
+    }
+}
+
+.footer-pc-l-lg{
+    display: none;
+    @include l-lg{
+        display: flex;
+        justify-content: end;
+    }
 }
 
 .basement-stam-text{
