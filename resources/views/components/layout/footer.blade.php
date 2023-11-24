@@ -4,7 +4,7 @@
             <div class="mr-px-35">
                 <div class="w-100 d-flex justify-content-center justify-content-md-start">
                 </div>
-                <div style="max-width: 172px;">
+                <div style="max-width: 228px; padding: 0 32px;">
                     <a href="{{route('main')}}">
                         <img src="{{asset('img/logo-light.webp')}}" class="footer-logo" alt="">
                     </a>
@@ -72,7 +72,7 @@
             </div>
 
             <div>
-                <div class="footer-block pl-px-40">
+                <div class="footer-block pl-px-50">
                     <a href="{{route('kontakty')}}" class="foot-title">
                         ИНФОРМАЦИЯ
                     </a>
