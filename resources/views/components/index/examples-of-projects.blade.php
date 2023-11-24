@@ -24,8 +24,9 @@
                        href="#index-img-center">
                         МДФ
                         <div class="svg-arrow position-relative">
-                            <div class="index-svg-arrow"></div>
-                            <div class="block-animated-start" id="arrow-center"></div>
+                            <div class="index-svg-arrow">
+                                <div class="block-animated-start" id="arrow-center"></div>
+                            </div>
                         </div>
                     </a>
                     <a class="index-block3-list-item"

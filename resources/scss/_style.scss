@@ -945,6 +945,12 @@ $indexTriangleHeight:62px;
                 max-height: 300px;
             }
         }
+        @include l-lg{
+            img{
+                max-width: 200px;
+                max-height: 200px;
+            }
+        }
         @include l-md{
             /* ===== Scrollbar CSS ===== */
             /* Firefox */
@@ -986,11 +992,11 @@ $indexTriangleHeight:62px;
             height: 434px;
             z-index: 1;
             @include l-xl{
+                width: auto;
                 height: 100%;
                 right: 0;
             }
             @include l-md{
-                height: 100%;
                 right: 0;
             }
             &:hover{
@@ -1022,13 +1028,6 @@ $indexTriangleHeight:62px;
                 left: 0;
                 z-index: 5;
                 background:rgba(#999997, 0.22);
-                @include l-xl{
-                    width: 300px;
-                }
-                @include l-md{
-                    width: 100%;
-                    height: 100%;
-                }
             }
         }
         .index-img-center{
@@ -1038,12 +1037,17 @@ $indexTriangleHeight:62px;
             right: 105px;
             z-index: 2;
             @include l-xl{
+                width: auto;
                 height: 100%;
-                right: 200px;
+                top: 10px;
+                right: 60px;
+            }
+            @include l-lg{
+                right: 40px;
             }
             @include l-md{
-                height: 100%;
                 right: 0;
+                top: 0;
             }
             &:hover{
                 z-index: 4;
@@ -1074,13 +1078,6 @@ $indexTriangleHeight:62px;
                 left: 0;
                 z-index: 5;
                 background:rgba(#999997, 0.35);
-                @include l-xl{
-                    width: 300px;
-                }
-                @include l-md{
-                    width: 100%;
-                    height: 100%;
-                }
             }
         }
         .index-img-right{
@@ -1091,11 +1088,14 @@ $indexTriangleHeight:62px;
             bottom: 2px;
             z-index: 1;
             @include l-xl{
+                width: auto;
                 height: 100%;
-                right: 400px;
+                right: 135px;
+            }
+            @include l-lg{
+                right: 80px;
             }
             @include l-md{
-                height: 100%;
                 right: 0;
             }
             &:hover{
@@ -1127,13 +1127,6 @@ $indexTriangleHeight:62px;
                 left: 0;
                 z-index: 5;
                 background:rgba(#999997, 0.5);
-                @include l-xl{
-                    width: 300px;
-                }
-                @include l-md{
-                    width: 100%;
-                    height: 100%;
-                }
             }
         }
     }
@@ -2260,6 +2253,12 @@ $pentagonal-arrow: 40px;
         top: -601px;
         right: 475px;
         transition: top 2.5s, height 4s;
+        @include l-xl{
+            right: 230px;
+        }
+        @include l-lg{
+            right: 140px;
+        }
         &.moved{
             top: -306px;
             height: 200%;
