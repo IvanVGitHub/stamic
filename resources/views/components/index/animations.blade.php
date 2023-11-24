@@ -20,7 +20,7 @@
                     <source src="video/m1.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption">
-                    <div class="index-title">Вакуумная формовка</div>
+                    <h1 class="index-title m-0">Вакуумная формовка</h1>
                 </div>
             </div>
             <div class="carousel-item"
@@ -36,7 +36,7 @@
                     <source src="video/m2-1.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption">
-                    <div class="index-title">Литье под давлением</div>
+                    <h1 class="index-title m-0">Литье под давлением</h1>
                 </div>
             </div>
             <div class="carousel-item"
@@ -51,7 +51,7 @@
                     <source src="video/m3.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption">
-                    <div class="index-title">3D печать</div>
+                    <h1 class="index-title m-0">3D печать</h1>
                 </div>
             </div>
             <div class="carousel-item"
@@ -66,7 +66,7 @@
                     <source src="video/m4-3.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption">
-                    <div class="index-title">Фрезерование ЧПУ</div>
+                    <h1 class="index-title m-0">Фрезерование ЧПУ</h1>
                 </div>
             </div>
             <div class="carousel-item"
@@ -81,7 +81,7 @@
                     <source src="video/m5-1.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption">
-                    <div class="index-title">3D моделирование</div>
+                    <h1 class="index-title m-0">3D моделирование</h1>
                 </div>
             </div>
         </div>

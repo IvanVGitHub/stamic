@@ -1,10 +1,10 @@
 <div class="align-items-center d-flex" >
-    <a href="https://t.me/+zfn4nGUGtaU0OTEy">
-        <img src="{{asset('img/telegram.png')}}" class="messenger" style="margin-right: 10px" alt="">
+    <a href="{{config('utility.tgOperator')}}">
+        <img src="{{asset('img/telegram.png')}}" class="messenger" style="margin-right: 10px" alt="Форма">
     </a>
 
-    <a href="https://www.instagram.com/stamic_ru/">
-        <img src="{{asset('img/instagram.png')}}" style="width: 19px; height: 19px;" alt="">
+    <a href="{{config('utility.instOperator')}}">
+        <img src="{{asset('img/instagram.png')}}" style="width: 19px; height: 19px;" alt="Форма">
     </a>
 
     <div class="messenger-hr-weight "></div>

@@ -2,7 +2,7 @@
     <div class="examples-of-projects" id="examples-of-projects">
         <div class="index-block-title flag-examples" id="heading-examples-of-projects">
             <div class="d-inline-block position-relative pr-px-20">
-                Примеры проектов
+                <h1>Примеры проектов</h1>
                 <div class="h-line hl-eop-1" id="hl-eop-1"></div>
             </div>
         </div>
@@ -43,13 +43,13 @@
             <div class="index-block3-group-img" id="parent-scroll">
                 <div class="v-line vl-eop-1" id="vl-eop-1"></div>
                 <div class="index-img-left" id="index-img-left">
-                    <img src="{{asset('img/form1.webp')}}" alt="">
+                    <img src="{{asset('img/form1.webp')}}" alt="3Д форма для человеческой маски из МДФ">
                 </div>
                 <div class="index-img-center" id="index-img-center">
-                    <img src="{{asset('img/form2.webp')}}" alt="">
+                    <img src="{{asset('img/form2.webp')}}" alt="3Д форма">
                 </div>
                 <div class="index-img-right" id="index-img-right">
-                    <img src="{{asset('img/form3.webp')}}" alt="">
+                    <img src="{{asset('img/form3.webp')}}" alt="3Д форма лицевой части женского туловища">
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <div class="wrapper-1314 pb-px-20" id="vacuum">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter">
-            Вакуумная формовка
+            <h1 class="m-0">Вакуумная формовка</h1>
             <div class="to-right-arrow" id="arrow-vacuum"></div>
         </div>
     </div>
@@ -41,18 +41,18 @@
         </div>
         <div class="vacuum-forming-wide-warm">
             <div class="vacuum-forming-wide-warm-content">
-                <img class="vacuum-forming-wide-warm-img" src="{{asset('img/box.webp')}}" alt="">
+                <img class="vacuum-forming-wide-warm-img" src="{{asset('img/box.webp')}}" alt="Одноразовый контейнер для холодных продуктов">
                 <div class="card-thumbnails flag-vacuum-forming">
                     <div class="position-relative">
                         <div class="card-thumbnails-content">
                             <div class="tehnologii-hover-image-scale">
-                                <img src="{{asset('img/armor.webp')}}" alt="">
+                                <img src="{{asset('img/armor.webp')}}" alt="Наружные защитные элементы костюма">
                             </div>
                             <div class="tehnologii-hover-image-scale">
-                                <img src="{{asset('img/proekty-3-2.webp')}}" alt="">
+                                <img src="{{asset('img/proekty-3-2.webp')}}" alt="3Д модель формы">
                             </div>
                             <div class="tehnologii-hover-image-scale">
-                                <img src="{{asset('img/proekty-2-2.webp')}}" alt="">
+                                <img src="{{asset('img/proekty-2-2.webp')}}" alt="3Д модель формы">
                             </div>
                         </div>
                         <div class="card-thumbnails-description">

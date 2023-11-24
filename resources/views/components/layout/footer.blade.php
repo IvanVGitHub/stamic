@@ -6,7 +6,7 @@
                 </div>
                 <div style="max-width: 228px; padding: 0 32px;">
                     <a href="{{route('main')}}">
-                        <img src="{{asset('img/logo-light.webp')}}" class="footer-logo" alt="">
+                        <img src="{{asset('img/logo-light.webp')}}" class="footer-logo" alt="Светлый логотип">
                     </a>
                     <div class="footer-txt mb-2 text-center text-md-start mt-px-30">
                         Компания <b>Стамик</b> - это разработка и производство пресс-форм,
@@ -84,10 +84,10 @@
                     </div>
                 </div>
                 <div class="footer-pc">
-                    <img src="{{asset('img/tipo-logo.png')}}" alt="">
+                    <img src="{{asset('img/tipo-logo.png')}}" alt="Формы. Пресс. Формы.">
                 </div>
                 <div class="footer-pc-l-lg">
-                    <img src="{{asset('img/tipo-logo(small).png')}}" alt="">
+                    <img src="{{asset('img/tipo-logo(small).png')}}" alt="Формы. Пресс. Формы.">
                 </div>
             </div>
 
@@ -112,7 +112,7 @@
         <div class="flex-md-row d-md-none" style="padding-top: 60px; ">
             <div class=" ">
                 <div class="w-100 d-flex justify-content-center justify-content-md-start" style="margin-bottom: 22px;">
-                    <img src="{{asset('img/logo-light.webp')}}" class="footer-logo" alt="">
+                    <img src="{{asset('img/logo-light.webp')}}" class="footer-logo" alt="Светлый логотип">
                 </div>
                 <div style="margin-bottom: 22px;">
                     <div class="footer-txt mb-2 text-center">
@@ -182,11 +182,11 @@
 
                 <div class="align-items-center d-flex">
                     <a href="">
-                        <img src="{{asset('img/telegram.png')}}" class="messenger" style="margin-right: 10px" alt="">
+                        <img src="{{asset('img/telegram.png')}}" class="messenger" style="margin-right: 10px" alt="Телеграм">
                     </a>
 
                     <a href="">
-                        <img src="{{asset('img/instagram.png')}}" style="width: 19px; height: 19px;" alt="">
+                        <img src="{{asset('img/instagram.png')}}" style="width: 19px; height: 19px;" alt="Инстраграм">
                     </a>
 
                     <div class="messenger-hr-weight "></div>
@@ -196,7 +196,7 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center ">
-                    <img src="{{asset('img/tipo-logo.png')}}" alt="">
+                    <img src="{{asset('img/tipo-logo.png')}}" alt="Формы. Пресс. Формы.">
                 </div>
             </div>
 

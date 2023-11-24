@@ -1,7 +1,7 @@
 <div class="wrapper-1314" id="milling">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter">
-            Фрезеровка
+            <h1 class="m-0">Фрезеровка</h1>
             <div class="to-right-arrow" id="arrow-milling"></div>
         </div>
     </div>
@@ -19,13 +19,13 @@
                         <div class="position-relative">
                             <div class="card-thumbnails-content">
                                 <div class="tehnologii-hover-image-scale">
-                                    <img src="{{asset('img/form-steel.webp')}}" alt="">
+                                    <img src="{{asset('img/form-steel.webp')}}" alt="Стальная форма">
                                 </div>
                                 <div class="tehnologii-hover-image-scale">
-                                    <img src="{{asset('img/proekty-4-2.webp')}}" alt="">
+                                    <img src="{{asset('img/proekty-4-2.webp')}}" alt="Колумбик">
                                 </div>
                                 <div class="tehnologii-hover-image-scale">
-                                    <img src="{{asset('img/proekty-1-2.webp')}}" alt="">
+                                    <img src="{{asset('img/proekty-1-2.webp')}}" alt="Пресс-форма">
                                 </div>
                             </div>
                             <div class="card-thumbnails-description">

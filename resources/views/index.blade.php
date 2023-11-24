@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('header-title')
+@section('title')
+    Stamic - Главная страница
 @endsection
 
 @section('content')

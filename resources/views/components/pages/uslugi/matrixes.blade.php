@@ -1,14 +1,14 @@
 <div class="wrapper-1314" id="matrixes">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter flag-forms" id="m-title">
-            Матрицы
+            <h1>Матрицы</h1>
         </div>
     </div>
 
     <div class="uslugi-text-img-block-3">
         <div class="uslugi-text-img-block-3-content">
             <div class="matrixes-image-block">
-                <img src="{{asset('img/form mdf.webp')}}" alt="">
+                <img src="{{asset('img/form mdf.webp')}}" alt="Форма для сиденья из МДФ">
                 <div class="text-under-img">
                     матрица спинки автокресла
                 </div>

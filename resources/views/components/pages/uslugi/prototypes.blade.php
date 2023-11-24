@@ -1,8 +1,8 @@
 <div class="uslugi-text-img-block-4" id="prototypes">
     <div class="wrapper-1314">
         <div class="d-block text-center text-md-start">
-            <div class="title-first-letter flag-forms" id="p-title">
-                Прототипы
+            <div class="title-first-letter flag-forms m-0" id="p-title">
+                <h1>Прототипы</h1>
             </div>
         </div>
     </div>
@@ -28,7 +28,7 @@
         <div class="d-flex flex-grow-1 prototypes-images" id="triangles-block">
             <div class="">
                 <div class="block-4-img-left">
-                    <img class="object-fit-cover w-100" src="{{asset('img/pistol grip.webp')}}" alt="">
+                    <img class="object-fit-cover w-100" src="{{asset('img/pistol grip.webp')}}" alt="Декоративная часть пистолетной рукояти">
                     <div class="block-triangle-container left" id="triangle-left">
                         <div class="block-4-triangle">
                             <div>
@@ -49,7 +49,7 @@
             </div>
             <div class="">
                 <div class="block-4-img-right">
-                    <img class="object-fit-cover w-100" src="{{asset('img/monolasts.webp')}}" alt="">
+                    <img class="object-fit-cover w-100" src="{{asset('img/monolasts.webp')}}" alt="Моноласты">
                     <div class="block-triangle-container right" id="triangle-right">
                         <div class="block-4-triangle">
                             <div>

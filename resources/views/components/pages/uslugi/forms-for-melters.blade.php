@@ -1,7 +1,7 @@
 <div class="wrapper-1314 padding-x" id="melters">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter flag-forms" id="f-f-m-title">
-            Формы для литья
+            <h1>Формы для литья</h1>
         </div>
     </div>
 
@@ -38,7 +38,7 @@
         <div class="img-width-text pl-px-md-30">
             <div class="img-width-text-img">
                 <div>
-                    <img src="{{asset('img/form with orange detail.webp')}}" alt="">
+                    <img src="{{asset('img/form with orange detail.webp')}}" alt="3Д модель детали и формы для отливки">
                 </div>
                 <div class="text-top">
                     ДЮРАЛЬ&nbsp&nbsp

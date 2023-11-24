@@ -1,14 +1,14 @@
 <div class="wrapper-1314" id="vacuum">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter flag-forms" id="f-f-v-title">
-            Формы для вакуумной формовки
+            <h1>Формы для вакуумной формовки</h1>
         </div>
     </div>
 
     <div class="d-flex flex-column pt-px-20">
         <div class="uslugi-grid-block-3">
             <div class="img-with-stripe">
-                <img src="{{asset('img/box.webp')}}" alt="">
+                <img src="{{asset('img/box.webp')}}" alt="Одноразовый контейнер для холодных продуктов">
                 <div class="text-under-img flag-forms">
                     упаковка из PET
                     <div class="text-on-img">
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="img-with-stripe">
-                <img src="{{asset('img/armor.webp')}}" alt="">
+                <img src="{{asset('img/armor.webp')}}" alt="Наружные защитные элементы костюма">
                 <div class="text-under-img flag-forms">
                     щитки из ABS
                     <div class="text-on-img">

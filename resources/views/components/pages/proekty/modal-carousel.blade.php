@@ -14,7 +14,7 @@ $id="r-".\Str::random();
             </button>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{asset($image ?? '')}}" alt="">
+                    <img src="{{asset($image ?? '')}}" alt="Элемент карусели">
                 </div>
                 {{$slot}}
             </div>

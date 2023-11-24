@@ -1,7 +1,7 @@
 <div class="wrapper-1314" id="scaning">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter">
-            <span>3D</span> сканирование
+            <h1 class="m-0"><span>3D</span> сканирование</h1>
             <div class="to-right-arrow" id="arrow-scaning"></div>
         </div>
     </div>
@@ -28,13 +28,13 @@
                 <div class="tehnologii-3d-scaning-cards">
                     <div class="card-thumbnails-content position-relative">
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/sea-star.webp')}}" alt="">
+                            <img src="{{asset('img/sea-star.webp')}}" alt="Форма">
                         </div>
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/scan-drill.webp')}}" alt="">
+                            <img src="{{asset('img/scan-drill.webp')}}" alt="Форма">
                         </div>
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/clothespin.webp')}}" alt="">
+                            <img src="{{asset('img/clothespin.webp')}}" alt="Форма">
                         </div>
                         <div class="wide-to-right-gray-translucent-background position-absolute" id="parent-wide-gray">
                             <div class="shred-right" id="wide-gray"></div>
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="tehnologii-3d-scaning-image">
-                <img src="{{asset('img/scaning-cameras.webp')}}" alt="">
+                <img src="{{asset('img/scaning-cameras.webp')}}" alt="Форма">
             </div>
         </div>
     </div>

@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Технологии
+@endsection
+
 @section('header-title')
     Наши технологии
 @endsection

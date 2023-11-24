@@ -30,10 +30,10 @@
                 <a href="tel:{{config('utility.phone2')}}" class="header-link ms-3">{{config('utility.phone2-show')}}</a>
             </div>
 
-            <a href="https://t.me/AndreMatro" class="header-link mt-px-20">
+            <a href="{{config('utility.tgOperator')}}" class="header-link mt-px-20">
                 <img class="messenger w-100" src="{{asset('img/telegram.png')}}" alt="stamic">&nbsp;&nbsp;Telegram
             </a>
-            <a href="https://www.instagram.com/stamic_ru/" class="header-link">
+            <a href="{{config('utility.instOperator')}}" class="header-link">
                 <img class="messenger w-100" src="{{asset('img/instagram.png')}}" alt="stamic">&nbsp;&nbsp;Фото
             </a>
         </div>

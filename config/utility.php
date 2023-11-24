@@ -6,4 +6,6 @@ return [
     'phone2'=>'+79520183346',
     'phone2-show'=>'+7 952 018 33 46',
     'emailOperator'=>'8402392@mail.ru',
+    'tgOperator'=>'https://t.me/+zfn4nGUGtaU0OTEy',
+    'instOperator'=>'https://www.instagram.com/stamic_ru/',
 ];

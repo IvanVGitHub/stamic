@@ -2,14 +2,14 @@
     <div class="uslugi-text-img-block-2">
         <div class="d-block text-center text-md-start">
             <div class="title-first-letter flag-forms" id="f-f-s-title">
-                Формы для силикона
+                <h1>Формы для силикона</h1>
             </div>
         </div>
 
         <div class="position-relative">
             <div class="silicone-wide-gray-block mt-px-20">
                 <div class="d-flex h-100 gap-4">
-                    <img src="{{asset('img/graphic form1.webp')}}" alt="">
+                    <img src="{{asset('img/graphic form1.webp')}}" alt="Линия">
                     <div class="d-flex flex-column justify-content-between">
                         <div>Пуансон</div>
                         <div>Матрица</div>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="block-2-central-block">
                     <div class="block-2-central-block-content">
-                        <img src="{{asset('img/silicone form.webp')}}" alt="">
+                        <img src="{{asset('img/silicone form.webp')}}" alt="Силиконовая форма для выпечки">
                         <div class="text-under-img flag-uslugi-grid-block-3 p-px-10">
                             силиконовая форма для выпечки
                         </div>

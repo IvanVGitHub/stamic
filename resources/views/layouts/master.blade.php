@@ -9,6 +9,7 @@
 
     <meta name="author"  content="NetMakerLab"/>
     <meta name="MobileOptimized" content="380" />
+    <meta property="description" content="{{trim(View::getSection('meta-description', config('seo.defaultDescription')))}}">
 
     <meta property="og:locale" content="ru_RU">
     <meta property="og:type" content="website">

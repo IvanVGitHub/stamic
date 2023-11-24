@@ -284,6 +284,12 @@
     &::first-letter{
         color: #FFA15E;
     }
+    h1{
+        display: unset;
+        font-size: unset;
+        margin: 0;
+        font-weight: unset;
+    }
     span{
         color: #FFA15E;
     }

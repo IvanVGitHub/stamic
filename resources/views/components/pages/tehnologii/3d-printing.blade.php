@@ -1,7 +1,7 @@
 <div class="wrapper-1314 pb-px-20" id="printing">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter">
-            <span>3D</span> печать
+            <h1 class="m-0"><span>3D</span> печать</h1>
             <div class="to-right-arrow" id="arrow-printing"></div>
         </div>
     </div>
@@ -19,13 +19,13 @@
                 <div class="card-thumbnails flag-3d-printing">
                     <div class="card-thumbnails-content">
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/examples-3d-printing-1.webp')}}" alt="">
+                            <img src="{{asset('img/examples-3d-printing-1.webp')}}" alt="Абстрактная статуэтка">
                         </div>
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/examples-3d-printing-2.webp')}}" alt="">
+                            <img src="{{asset('img/examples-3d-printing-2.webp')}}" alt="Макет здания">
                         </div>
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/examples-3d-printing-3.webp')}}" alt="">
+                            <img src="{{asset('img/examples-3d-printing-3.webp')}}" alt="Абстрактный механизм">
                         </div>
                     </div>
                     <div class="card-thumbnails-description">

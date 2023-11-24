@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Контакты
+@endsection
+
 @section('header-title')
     Наши контакты
 @endsection

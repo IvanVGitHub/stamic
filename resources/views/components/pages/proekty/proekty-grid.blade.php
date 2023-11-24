@@ -3,10 +3,10 @@
 @endphp
 
 <div class="proekty-grid" data-bs-toggle="modal" data-bs-target="#modal-{{$id}}">
-    <img class="proekty-grid-image" src="{{asset($image ?? '')}}" alt="">
-    <div class="proekty-grid-image-text">
+    <img class="proekty-grid-image" src="{{asset($image ?? '')}}" alt="Проект">
+    <h1 class="proekty-grid-image-text m-0">
         {{$name ?? ''}}
-    </div>
+    </h1>
 </div>
 
 @push('modals')

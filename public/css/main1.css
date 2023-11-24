@@ -14739,6 +14739,12 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
   }
 }
+.index-block-title h1 {
+  display: unset;
+  font-size: unset;
+  margin: 0;
+  font-weight: unset;
+}
 
 .index-block-subtitle {
   position: relative;
@@ -17241,6 +17247,12 @@ body::-webkit-scrollbar-thumb {
 }
 .title-first-letter::first-letter {
   color: #FFA15E;
+}
+.title-first-letter h1 {
+  display: unset;
+  font-size: unset;
+  margin: 0;
+  font-weight: unset;
 }
 .title-first-letter span {
   color: #FFA15E;

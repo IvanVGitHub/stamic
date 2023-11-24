@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Проекты
+@endsection
+
 @section('header-title')
     Наши проекты
 @endsection

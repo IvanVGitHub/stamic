@@ -1,14 +1,14 @@
 <div class="wrapper-1314" id="modeling">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter">
-            <span>3D</span> моделирование
+            <h1><span>3D</span> моделирование</h1>
             <div class="to-right-arrow" id="arrow-modeling"></div>
         </div>
     </div>
 
     <div class="wrapper-1218">
         <div class="d-flex justify-content-center">
-            <img src="{{asset('img/form half real.webp')}}" class="tehnologii-block1-img" alt="">
+            <img src="{{asset('img/form half real.webp')}}" class="tehnologii-block1-img" alt="Форма">
         </div>
         <div class="modeling-description-and-icons">
             <div class="tehnologii-text pt-px-20">
@@ -29,13 +29,13 @@
                 <div class="d-inline-block">
                     <div class="card-thumbnails-content">
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/form combined.webp')}}" alt="">
+                            <img src="{{asset('img/form combined.webp')}}" alt="Форма">
                         </div>
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/form steel.webp')}}" alt="">
+                            <img src="{{asset('img/form steel.webp')}}" alt="Форма">
                         </div>
                         <div class="tehnologii-hover-image-scale">
-                            <img src="{{asset('img/pistol grip.webp')}}" alt="">
+                            <img src="{{asset('img/pistol grip.webp')}}" alt="Форма">
                         </div>
                     </div>
                     <div class="text-center">

@@ -1,14 +1,14 @@
 <div class="wrapper-1314 pb-px-20" id="injection">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter">
-            Литье под давлением
+            <h1 class="m-0">Литье под давлением</h1>
             <div class="to-right-arrow" id="arrow-injection"></div>
         </div>
     </div>
 
     <div class="injection-wide-darkgray mt-px-20">
         <div class="injection-wide-darkgray-image">
-            <img src="{{asset('img/detail-plastic-white.webp')}}" alt="">
+            <img src="{{asset('img/detail-plastic-white.webp')}}" alt="Пластиковая деталь">
         </div>
         <div class="position-relative" id="parent-wide-darkgray">
             <div class="injection-wide-darkgray-content-text">
@@ -19,13 +19,13 @@
             <div class="card-thumbnails flag-injection">
                 <div class="card-thumbnails-content">
                     <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/casting-example-1.jpg')}}" alt="">
+                        <img src="{{asset('img/casting-example-1.jpg')}}" alt="Силиконовая деталь">
                     </div>
                     <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/casting-example-2.jpg')}}" alt="">
+                        <img src="{{asset('img/casting-example-2.jpg')}}" alt="Пластиковая фурнитура для ремня">
                     </div>
                     <div class="tehnologii-hover-image-scale">
-                        <img src="{{asset('img/casting-example-3.jpg')}}" alt="">
+                        <img src="{{asset('img/casting-example-3.jpg')}}" alt="Пластиковый замок для ремня">
                     </div>
                 </div>
                 <div class="card-thumbnails-description">

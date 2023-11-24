@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Формы
+@endsection
+
 @section('header-title')
     Наши формы
 @endsection
@@ -41,5 +45,5 @@
 @endsection
 
 @section('meta-keywords')
-    сканирование объектов, 3D-сканирование
+    сканирование объектов, 3D-сканирование,
 @endsection
