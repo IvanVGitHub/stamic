@@ -69,13 +69,17 @@
 }
 
 .basement-stam{
-    margin-top: 0;
+    margin-top: 1150px;
     margin-bottom: 13px;
     padding: 0;
+    width: 1140px;
     height: 1px;
-    width: 100%;
     border: none;
     background-color: #575754;
+    @include l-md{
+        margin-top: 0;
+        width: 100%;
+    }
 }
 
 .foot-hr-line{
