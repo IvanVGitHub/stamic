@@ -35,9 +35,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 50%;
+    bottom: 324px;
     margin-top: -35px;
-    right: -200px;
+    right: 204px;
     border-radius: 50%;
     text-decoration: none;
     width: 0;
@@ -47,10 +47,13 @@
     opacity: 0;
     transition: opacity 2s, width 2s, height 2s, transform 2s, background-color 300ms, color 300ms ease-in-out;
     @include l-hd{
-        right: -100px;
+        right: 100px;
     }
     @include l-xxl{
         right: 0;
+    }
+    @include l-lg{
+        bottom: 200px;
     }
     &:before{
         content: '\039B';
