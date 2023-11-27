@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-{{--    <meta name="description" content="{{trim(View::getSection('meta-description', config('seo.defaultDescription')))}}"/>--}}
+    <meta name="description" content="{{trim(View::getSection('meta-description', config('seo.defaultDescription')))}}"/>
 {{--    <meta name="keywords" content="{{config('seo.defaultTitle').','.trim(View::getSection('meta-keywords'))}}" />--}}
 {{--    <meta name="csrf-token" content="{{ csrf_token() }}">--}}
 
