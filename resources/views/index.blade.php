@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    Stamic - Главная страница
+    Stamic - разработка и производство пресс-форм, прототипов, мастер моделей.
 @endsection
 
 @section('content')
