@@ -2,7 +2,7 @@
     <div class="wrapper-1314">
         <div class="d-block text-center text-md-start">
             <div class="title-first-letter flag-forms m-0" id="p-title">
-                <h1>Прототипы</h1>
+                Прототипы
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <div class="wrapper-1314" id="matrixes">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter flag-forms" id="m-title">
-            <h1>Матрицы</h1>
+            Матрицы
         </div>
     </div>
 

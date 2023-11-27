@@ -2,7 +2,7 @@
     <div class="uslugi-text-img-block-2">
         <div class="d-block text-center text-md-start">
             <div class="title-first-letter flag-forms" id="f-f-s-title">
-                <h1>Формы для силикона</h1>
+                Формы для силикона
             </div>
         </div>
 

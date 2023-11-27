@@ -42,3 +42,10 @@ $headerHeightPC: 60px;
 $headerHeightMobile: 40px;
 
 $wide-to-right-darkgray-translucent: #383A3C;
+
+.h1-empty{
+    display: unset;
+    font-size: unset;
+    margin: 0;
+    font-weight: unset;
+}

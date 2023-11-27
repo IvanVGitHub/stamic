@@ -203,6 +203,7 @@
     flex-direction: row;
     padding-top: 95px;
     justify-content: center;
+    row-gap: 50px;
     @include l-md{
         display: none;
     }
@@ -283,12 +284,6 @@
     }
     &::first-letter{
         color: #FFA15E;
-    }
-    h1{
-        display: unset;
-        font-size: unset;
-        margin: 0;
-        font-weight: unset;
     }
     span{
         color: #FFA15E;

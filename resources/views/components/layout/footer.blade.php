@@ -1,9 +1,7 @@
 <footer class="footer">
     <div class="wrapper-footer">
         <div class="wrapper-footer-pc">
-            <div class="mr-px-35">
-                <div class="w-100 d-flex justify-content-center justify-content-md-start">
-                </div>
+            <div class="mr-px-35 d-flex flex-column justify-content-between">
                 <div style="max-width: 228px; padding: 0 32px;">
                     <a href="{{route('main')}}">
                         <img src="{{asset('img/logo-light.webp')}}" class="footer-logo" alt="Светлый логотип">
@@ -13,7 +11,7 @@
                         прототипов, мастер моделей. Для литья и вакуумной формовки.
                     </div>
                 </div>
-                <div class="d-none d-md-block pt-px-195">
+                <div class="d-none d-md-block" style="padding-left: 32px;">
                     <x-footer.small-links/>
                 </div>
             </div>

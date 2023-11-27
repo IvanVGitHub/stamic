@@ -1,7 +1,7 @@
 <div class="wrapper-1314" id="vacuum">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter flag-forms" id="f-f-v-title">
-            <h1>Формы для вакуумной формовки</h1>
+            Формы для вакуумной формовки
         </div>
     </div>
 

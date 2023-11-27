@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.h1-empty {
+  display: unset;
+  font-size: unset;
+  margin: 0;
+  font-weight: unset;
+}
+
 .ui-scrollable {
   overflow-y: scroll;
   scrollbar-gutter: stable;
@@ -17155,6 +17162,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   padding-top: 95px;
   justify-content: center;
+  row-gap: 50px;
 }
 @media only screen and (max-width: 767px) {
   .wrapper-footer-pc {
@@ -17247,12 +17255,6 @@ body::-webkit-scrollbar-thumb {
 }
 .title-first-letter::first-letter {
   color: #FFA15E;
-}
-.title-first-letter h1 {
-  display: unset;
-  font-size: unset;
-  margin: 0;
-  font-weight: unset;
 }
 .title-first-letter span {
   color: #FFA15E;
