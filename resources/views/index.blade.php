@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+    <h1 class="d-none">Пресс-формы</h1> {{--для оптимизации SEO--}}
     <x-index.animations />
     <x-index.our-forms />
     <x-index.wide-gray-block />

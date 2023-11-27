@@ -1,7 +1,7 @@
 <div class="wrapper-1314 padding-x" id="melters">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter flag-forms" id="f-f-m-title">
-            Формы для литья
+            <h2 class="h2-empty">Формы для литья</h2>
         </div>
     </div>
 

@@ -1,7 +1,7 @@
 <div class="wrapper-1314" id="scaning">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter">
-            <span>3D</span> сканирование
+            <h2 class="h2-empty"><span>3D</span> сканирование</h2>
             <div class="to-right-arrow" id="arrow-scaning"></div>
         </div>
     </div>

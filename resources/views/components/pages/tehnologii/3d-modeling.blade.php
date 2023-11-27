@@ -1,7 +1,7 @@
 <div class="wrapper-1314" id="modeling">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter">
-            <span>3D</span> моделирование
+            <h2 class="h2-empty"><span>3D</span> моделирование</h2>
             <div class="to-right-arrow" id="arrow-modeling"></div>
         </div>
     </div>

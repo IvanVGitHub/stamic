@@ -38,9 +38,9 @@
             </div>
         </div>
         <div class="container container-fluid">
-            <h3 class="section-title">
+            <h2 class="section-title">
                 @yield('header-title')
-            </h3>
+            </h2>
         </div>
         <hr class="header-hr"/>
     </div>

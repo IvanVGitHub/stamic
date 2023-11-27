@@ -1,7 +1,7 @@
 <div class="wrapper-1314" id="milling">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter">
-            Фрезеровка
+            <h2 class="h2-empty">Фрезеровка</h2>
             <div class="to-right-arrow" id="arrow-milling"></div>
         </div>
     </div>

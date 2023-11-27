@@ -4,9 +4,9 @@
             <a href="{{route('main')}}" class="header-mobile-logo">
                 <img src="{{asset('img/favicon(white).png')}}" alt="Stamic">
             </a>
-            <div class="text-size-18 h1-empty">
+            <h2 class="h2-empty text-size-18">
                 @yield('header-title')
-            </div>
+            </h2>
         </div>
 
         <div class="d-flex gap-2">

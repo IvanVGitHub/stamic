@@ -1,7 +1,7 @@
 <div class="wrapper-1314 pb-px-20" id="vacuum">
     <div class="d-block text-center text-md-start">
         <div class="title-first-letter">
-            Вакуумная формовка
+            <h2 class="h2-empty">Вакуумная формовка</h2>
             <div class="to-right-arrow" id="arrow-vacuum"></div>
         </div>
     </div>
