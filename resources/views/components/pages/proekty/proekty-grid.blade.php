@@ -4,9 +4,9 @@
 
 <div class="proekty-grid" data-bs-toggle="modal" data-bs-target="#modal-{{$id}}">
     <img class="proekty-grid-image" src="{{asset($image ?? '')}}" alt="Проект">
-    <h1 class="proekty-grid-image-text m-0">
+    <h2 class="h2-empty proekty-grid-image-text">
         {{$name ?? ''}}
-    </h1>
+    </h2>
 </div>
 
 @push('modals')

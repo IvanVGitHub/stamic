@@ -13,7 +13,7 @@
         <div>
             <div class="index-block1-title-and-box">
                 <div class="index-block-title flag-our-forms">
-                    <h1>Наши формы</h1>
+                    <h2 class="h2-empty">Наши формы</h2>
                 </div>
                 <div class="index-block1-empty-box"></div>
             </div>

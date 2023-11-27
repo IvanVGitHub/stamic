@@ -1,7 +1,7 @@
 <div class="wrapper-700" id="about">
     <div class="index-block4">
         <div class="index-block-title flag-about-us">
-            <h1>О нас</h1>
+            <h2 class="h2-empty">О нас</h2>
             <div class="v-line vl-au-1" id="vl-au-1"></div>
             <div class="h-line hl-au-1" id="hl-au-1"></div>
         </div>

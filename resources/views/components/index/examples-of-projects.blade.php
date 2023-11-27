@@ -2,7 +2,7 @@
     <div class="examples-of-projects" id="examples-of-projects">
         <div class="index-block-title flag-examples" id="heading-examples-of-projects">
             <div class="d-inline-block position-relative pr-px-20">
-                <h1>Примеры проектов</h1>
+                <h2 class="h2-empty">Примеры проектов</h2>
                 <div class="h-line hl-eop-1" id="hl-eop-1"></div>
             </div>
         </div>

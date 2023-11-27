@@ -16,7 +16,7 @@
                 </div>
                 <div class="index-block2-content">
                     <div class="index-block-title flag-our-technology">
-                        <h1>Наши технологии</h1>
+                        <h2 class="h2-empty">Наши технологии</h2>
                     </div>
                     <div class="index-block2-text" id="movetext">
                         Все наши технологии мы используем в той или иной степени в изготовлении форм . Вы можете
